@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  internalgateway.host:
+    image: ${DOCKER_REGISTRY-}internalgatewayhost
+    build:
+      context: .
+      dockerfile: InternalGateway.Host\Dockerfile
