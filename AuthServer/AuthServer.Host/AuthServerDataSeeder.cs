@@ -64,6 +64,7 @@ namespace AuthServer.Host
             await CreateApiResourceAsync("WebAppGateway", commonApiUserClaims);
             await CreateApiResourceAsync("TenantService", commonApiUserClaims);
             await CreateApiResourceAsync("BusinessService", commonApiUserClaims);
+            await CreateApiResourceAsync("ResourceService", commonApiUserClaims);
         }
 
         private async Task<ApiResource> CreateApiResourceAsync(string name, IEnumerable<string> claims)
@@ -114,6 +115,14 @@ namespace AuthServer.Host
             await CreateClientAsync(
                 "business-app",
                 new[] { "InternalGateway", "IdentityService" },
+                new[] { "client_credentials" },
+                "1q2w3e*".Sha256(),
+                permissions: new[] { IdentityPermissions.Users.Default }
+            );
+
+            await CreateClientAsync(
+                "resource-app",
+                new[] { "ResourceService", "ResourceService" },
                 new[] { "client_credentials" },
                 "1q2w3e*".Sha256(),
                 permissions: new[] { IdentityPermissions.Users.Default }
