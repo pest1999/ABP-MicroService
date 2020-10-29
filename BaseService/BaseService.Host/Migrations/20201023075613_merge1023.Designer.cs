@@ -11,8 +11,8 @@ using Volo.Abp.EntityFrameworkCore;
 namespace BaseService.Migrations
 {
     [DbContext(typeof(BaseServiceMigrationDbContext))]
-    [Migration("20200925090422_update_Identity")]
-    partial class update_Identity
+    [Migration("20201023075613_merge1023")]
+    partial class merge1023
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

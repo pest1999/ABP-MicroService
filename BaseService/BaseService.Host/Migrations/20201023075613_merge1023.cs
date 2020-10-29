@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace BaseService.Migrations
 {
-    public partial class init : Migration
+    public partial class merge1023 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -124,6 +124,31 @@ namespace BaseService.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "AbpSecurityLogs",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(nullable: false),
+                    ExtraProperties = table.Column<string>(nullable: true),
+                    ConcurrencyStamp = table.Column<string>(maxLength: 40, nullable: true),
+                    TenantId = table.Column<Guid>(nullable: true),
+                    ApplicationName = table.Column<string>(maxLength: 96, nullable: true),
+                    Identity = table.Column<string>(maxLength: 96, nullable: true),
+                    Action = table.Column<string>(maxLength: 96, nullable: true),
+                    UserId = table.Column<Guid>(nullable: true),
+                    UserName = table.Column<string>(maxLength: 256, nullable: true),
+                    TenantName = table.Column<string>(maxLength: 64, nullable: true),
+                    ClientId = table.Column<string>(maxLength: 64, nullable: true),
+                    CorrelationId = table.Column<string>(maxLength: 64, nullable: true),
+                    ClientIpAddress = table.Column<string>(maxLength: 64, nullable: true),
+                    BrowserInfo = table.Column<string>(maxLength: 512, nullable: true),
+                    CreationTime = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AbpSecurityLogs", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AbpSettings",
                 columns: table => new
                 {
@@ -174,7 +199,7 @@ namespace BaseService.Migrations
                     DeleterId = table.Column<Guid>(nullable: true),
                     DeletionTime = table.Column<DateTime>(nullable: true),
                     TenantId = table.Column<Guid>(nullable: true),
-                    OrgId = table.Column<Guid>(nullable: false),
+                    OrgId = table.Column<Guid>(nullable: false, defaultValue: new Guid("00000000-0000-0000-0000-000000000000")),
                     UserName = table.Column<string>(maxLength: 256, nullable: false),
                     NormalizedUserName = table.Column<string>(maxLength: 256, nullable: false),
                     Name = table.Column<string>(maxLength: 64, nullable: true),
@@ -184,6 +209,7 @@ namespace BaseService.Migrations
                     EmailConfirmed = table.Column<bool>(nullable: false, defaultValue: false),
                     PasswordHash = table.Column<string>(maxLength: 256, nullable: true),
                     SecurityStamp = table.Column<string>(maxLength: 256, nullable: false),
+                    IsExternal = table.Column<bool>(nullable: false, defaultValue: false),
                     PhoneNumber = table.Column<string>(maxLength: 16, nullable: true),
                     PhoneNumberConfirmed = table.Column<bool>(nullable: false, defaultValue: false),
                     TwoFactorEnabled = table.Column<bool>(nullable: false, defaultValue: false),
@@ -207,6 +233,7 @@ namespace BaseService.Migrations
                     CreatorId = table.Column<Guid>(nullable: true),
                     LastModificationTime = table.Column<DateTime>(nullable: true),
                     LastModifierId = table.Column<Guid>(nullable: true),
+                    TenantId = table.Column<Guid>(nullable: true),
                     Name = table.Column<string>(maxLength: 50, nullable: false),
                     Description = table.Column<string>(maxLength: 256, nullable: true),
                     IsDeleted = table.Column<bool>(nullable: false, defaultValue: false)
@@ -227,6 +254,7 @@ namespace BaseService.Migrations
                     CreatorId = table.Column<Guid>(nullable: true),
                     LastModificationTime = table.Column<DateTime>(nullable: true),
                     LastModifierId = table.Column<Guid>(nullable: true),
+                    TenantId = table.Column<Guid>(nullable: true),
                     Pid = table.Column<Guid>(nullable: false),
                     Label = table.Column<string>(maxLength: 50, nullable: false),
                     Value = table.Column<string>(maxLength: 256, nullable: false),
@@ -249,6 +277,7 @@ namespace BaseService.Migrations
                     CreatorId = table.Column<Guid>(nullable: true),
                     LastModificationTime = table.Column<DateTime>(nullable: true),
                     LastModifierId = table.Column<Guid>(nullable: true),
+                    TenantId = table.Column<Guid>(nullable: true),
                     Name = table.Column<string>(maxLength: 50, nullable: false),
                     Enabled = table.Column<bool>(nullable: false),
                     Sort = table.Column<int>(nullable: false),
@@ -271,6 +300,7 @@ namespace BaseService.Migrations
                     CreatorId = table.Column<Guid>(nullable: true),
                     LastModificationTime = table.Column<DateTime>(nullable: true),
                     LastModifierId = table.Column<Guid>(nullable: true),
+                    TenantId = table.Column<Guid>(nullable: true),
                     CategoryId = table.Column<short>(nullable: false),
                     Pid = table.Column<Guid>(nullable: true),
                     Name = table.Column<string>(maxLength: 50, nullable: false),
@@ -290,12 +320,13 @@ namespace BaseService.Migrations
                 name: "base_user_jobs",
                 columns: table => new
                 {
-                    EmployeeId = table.Column<Guid>(nullable: false),
-                    JobId = table.Column<Guid>(nullable: false)
+                    UserId = table.Column<Guid>(nullable: false),
+                    JobId = table.Column<Guid>(nullable: false),
+                    TenantId = table.Column<Guid>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_base_user_jobs", x => new { x.EmployeeId, x.JobId });
+                    table.PrimaryKey("PK_base_user_jobs", x => new { x.UserId, x.JobId });
                 });
 
             migrationBuilder.CreateTable(
@@ -619,6 +650,26 @@ namespace BaseService.Migrations
                 column: "NormalizedName");
 
             migrationBuilder.CreateIndex(
+                name: "IX_AbpSecurityLogs_TenantId_Action",
+                table: "AbpSecurityLogs",
+                columns: new[] { "TenantId", "Action" });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AbpSecurityLogs_TenantId_ApplicationName",
+                table: "AbpSecurityLogs",
+                columns: new[] { "TenantId", "ApplicationName" });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AbpSecurityLogs_TenantId_Identity",
+                table: "AbpSecurityLogs",
+                columns: new[] { "TenantId", "Identity" });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_AbpSecurityLogs_TenantId_UserId",
+                table: "AbpSecurityLogs",
+                columns: new[] { "TenantId", "UserId" });
+
+            migrationBuilder.CreateIndex(
                 name: "IX_AbpSettings_Name_ProviderName_ProviderKey",
                 table: "AbpSettings",
                 columns: new[] { "Name", "ProviderName", "ProviderKey" });
@@ -703,6 +754,9 @@ namespace BaseService.Migrations
 
             migrationBuilder.DropTable(
                 name: "AbpRoleClaims");
+
+            migrationBuilder.DropTable(
+                name: "AbpSecurityLogs");
 
             migrationBuilder.DropTable(
                 name: "AbpSettings");
