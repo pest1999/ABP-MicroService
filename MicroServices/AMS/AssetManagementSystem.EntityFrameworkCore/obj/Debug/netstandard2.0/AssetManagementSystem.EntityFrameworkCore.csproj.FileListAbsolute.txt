@@ -1,0 +1,12 @@
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\obj\Debug\netstandard2.0\AssetManagementSystem.EntityFrameworkCore.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\obj\Debug\netstandard2.0\AssetManagementSystem.EntityFrameworkCore.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\obj\Debug\netstandard2.0\AssetManagementSystem.EntityFrameworkCore.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\obj\Debug\netstandard2.0\AssetManagementSystem.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\bin\Debug\netstandard2.0\AssetManagementSystem.EntityFrameworkCore.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\bin\Debug\netstandard2.0\AssetManagementSystem.EntityFrameworkCore.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\bin\Debug\netstandard2.0\AssetManagementSystem.EntityFrameworkCore.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\bin\Debug\netstandard2.0\AssetManagementSystem.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\bin\Debug\netstandard2.0\AssetManagementSystem.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\obj\Debug\netstandard2.0\AssetManagementSystem.EntityFrameworkCore.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\obj\Debug\netstandard2.0\AssetManagementSystem.EntityFrameworkCore.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage - 副本\AssetManagementSystem.EntityFrameworkCore\obj\Debug\netstandard2.0\AssetManagementSystem.EntityFrameworkCore.pdb

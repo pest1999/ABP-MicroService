@@ -1,0 +1,12 @@
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\bin\Debug\netstandard2.0\FileStorage.EntityFrameworkCore.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\bin\Debug\netstandard2.0\FileStorage.EntityFrameworkCore.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\bin\Debug\netstandard2.0\FileStorage.EntityFrameworkCore.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\bin\Debug\netstandard2.0\FileStorage.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\bin\Debug\netstandard2.0\FileStorage.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\obj\Debug\netstandard2.0\FileStorage.EntityFrameworkCore.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\obj\Debug\netstandard2.0\FileStorage.EntityFrameworkCore.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\obj\Debug\netstandard2.0\FileStorage.EntityFrameworkCore.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\obj\Debug\netstandard2.0\FileStorage.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\obj\Debug\netstandard2.0\FileStorage.EntityFrameworkCore.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\obj\Debug\netstandard2.0\FileStorage.EntityFrameworkCore.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.EntityFrameworkCore\obj\Debug\netstandard2.0\FileStorage.EntityFrameworkCore.pdb

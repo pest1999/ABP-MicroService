@@ -1,0 +1,14 @@
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\bin\Debug\netstandard2.0\FileStorage.Application.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\bin\Debug\netstandard2.0\FileStorage.Application.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\bin\Debug\netstandard2.0\FileStorage.Application.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\bin\Debug\netstandard2.0\FileStorage.Application.Contracts.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\bin\Debug\netstandard2.0\FileStorage.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\bin\Debug\netstandard2.0\FileStorage.Application.Contracts.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\bin\Debug\netstandard2.0\FileStorage.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\obj\Debug\netstandard2.0\FileStorage.Application.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\obj\Debug\netstandard2.0\FileStorage.Application.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\obj\Debug\netstandard2.0\FileStorage.Application.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\obj\Debug\netstandard2.0\FileStorage.Application.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\obj\Debug\netstandard2.0\FileStorage.Application.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\obj\Debug\netstandard2.0\FileStorage.Application.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Application\obj\Debug\netstandard2.0\FileStorage.Application.pdb

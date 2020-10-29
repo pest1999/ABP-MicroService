@@ -1,0 +1,9 @@
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Domain\bin\Debug\netstandard2.0\FileStorage.Domain.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Domain\bin\Debug\netstandard2.0\FileStorage.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Domain\bin\Debug\netstandard2.0\FileStorage.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Domain\obj\Debug\netstandard2.0\FileStorage.Domain.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Domain\obj\Debug\netstandard2.0\FileStorage.Domain.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Domain\obj\Debug\netstandard2.0\FileStorage.Domain.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Domain\obj\Debug\netstandard2.0\FileStorage.Domain.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Domain\obj\Debug\netstandard2.0\FileStorage.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\FileStorage\FileStorage.Domain\obj\Debug\netstandard2.0\FileStorage.Domain.pdb
