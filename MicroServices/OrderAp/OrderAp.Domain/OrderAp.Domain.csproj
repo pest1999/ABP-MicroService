@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>OrderAp</RootNamespace>
+    <Version>1.1.7</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>WilliamXu</Authors>
+    <Company>WilliamXu</Company>
+    <Product>ABC</Product>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId>XCZ.OrderAp.Domain</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BaseData\**" />
+    <Compile Remove="Models\**" />
+    <EmbeddedResource Remove="BaseData\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <None Remove="BaseData\**" />
+    <None Remove="Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Localization\OrderAp\cs.json" />
+    <None Remove="Localization\OrderAp\en.json" />
+    <None Remove="Localization\OrderAp\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\OrderAp\cs.json" />
+    <EmbeddedResource Include="Localization\OrderAp\en.json" />
+    <EmbeddedResource Include="Localization\OrderAp\zh-Hans.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AuditLogging.Domain" Version="3.1.0" />
+    <PackageReference Include="Volo.Abp.Ddd.Domain" Version="3.1.0" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Volo.Abp.Localization" Version="3.1.0" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Domain" Version="3.1.0" />
+    <PackageReference Include="Volo.Abp.Validation" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>

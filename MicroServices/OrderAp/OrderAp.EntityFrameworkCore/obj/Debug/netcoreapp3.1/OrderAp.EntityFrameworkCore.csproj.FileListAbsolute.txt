@@ -1,0 +1,15 @@
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.runtimeconfig.json
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.runtimeconfig.dev.json
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\OrderAp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\OrderAp.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\OrderAp.EntityFrameworkCore.genruntimeconfig.cache

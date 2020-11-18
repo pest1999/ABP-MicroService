@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ProductAp</RootNamespace>
+    <Version>1.1.7</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>WilliamXu</Authors>
+    <Company>WilliamXu</Company>
+    <ProductAp>ABC</ProductAp>
+    <PackageId>XCZ.ProductAp.Application.Contracts</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>0</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="3.1.0" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application.Contracts" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProductAp.Domain\ProductAp.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

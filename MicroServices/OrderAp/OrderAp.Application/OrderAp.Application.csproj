@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>OrderAp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="3.1.0" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.HangFire" Version="3.1.0" />
+    <PackageReference Include="Volo.Abp.Http.Client.IdentityModel" Version="3.1.0" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi.Client" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderAp.Application.Contracts\OrderAp.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
