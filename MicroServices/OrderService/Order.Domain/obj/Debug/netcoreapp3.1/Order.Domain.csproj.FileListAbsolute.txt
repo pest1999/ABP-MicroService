@@ -1,0 +1,8 @@
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Domain\bin\Debug\netcoreapp3.1\Order.Domain.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Domain\bin\Debug\netcoreapp3.1\Order.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Domain\bin\Debug\netcoreapp3.1\Order.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Domain\obj\Debug\netcoreapp3.1\Order.Domain.pdb

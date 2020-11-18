@@ -1,0 +1,14 @@
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\bin\Debug\netcoreapp3.1\Order.Application.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\bin\Debug\netcoreapp3.1\Order.Application.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\bin\Debug\netcoreapp3.1\Order.Application.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\bin\Debug\netcoreapp3.1\Order.Application.Contracts.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\bin\Debug\netcoreapp3.1\Order.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\bin\Debug\netcoreapp3.1\Order.Application.Contracts.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\bin\Debug\netcoreapp3.1\Order.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\obj\Debug\netcoreapp3.1\Order.Application.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\obj\Debug\netcoreapp3.1\Order.Application.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\obj\Debug\netcoreapp3.1\Order.Application.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\obj\Debug\netcoreapp3.1\Order.Application.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\obj\Debug\netcoreapp3.1\Order.Application.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\obj\Debug\netcoreapp3.1\Order.Application.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.Application\obj\Debug\netcoreapp3.1\Order.Application.pdb

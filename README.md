@@ -1,62 +1,51 @@
-#### 项目简介
-一个基于ABP vNext微服务架构、vue-element-admin的后台管理系统，适用于大型分布式业务系统和企业后台，也可以集成各种小程序、电商后台以及业务中台。
-
-**启动文档：** [博客园](https://www.cnblogs.com/william-xu/p/12806810.html)
-
-
-**博客地址：** [博客园](https://www.cnblogs.com/william-xu/)
-
-**快速启动：**
-
-运行run目录下脚本
-
 **账号密码：** `admin/1q2w3E*`
-#### 主要特性
-- 最新.net core框架，稳定强大
-- 基于abp vNext、vue-element-admin，成熟的开发社区
-- 微服务架构设计，DDD实践
-- 统一授权、身份、权限管理，简化微服务开发
-- 多租户
-- 容器化、ci/cd集成
-####  系统功能
-- 租户管理
-- 用户管理
-- 角色管理
-- 组织机构
-- 字典管理
-- 岗位管理
-- 操作日志
-- 表单管理
-- 后台作业
-- 存储管理
-#### TODO：
-- 代码生成
-- 流程管理
-#### 系统预览
-<table>
-    <tr>
-        <td><img src="https://i.loli.net/2020/09/23/HSqvPoEt6IRNFek.png"/></td>
-        <td><img src="https://i.loli.net/2020/08/07/7pLGg2VdFAvkZ4a.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://i.loli.net/2020/09/03/VkmaiMKYLW3wjOH.png"/></td>
-        <td><img src="https://i.loli.net/2020/09/03/HplQKFo3a5Ee81x.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://i.loli.net/2020/06/16/LJS5Uy7owtNGfgK.png"/></td>
-        <td><img src="https://i.loli.net/2020/06/16/yc1LUur8fKDlWgF.png"/></td>
-    </tr>
-    <tr>
-        <td><img src="https://i.loli.net/2020/07/15/MulxvK7mePRJpLQ.png"/></td>
-        <td><img src="https://i.loli.net/2020/06/22/UZcrAliMTv7JntO.png"/></td>
-    </tr>
-</table>
+#### 一. 项目结构
+- 认证 AuthServer
+- 授权及基础服务 BaseService
+- 微服务  MicroServices文件夹下
+- 网关  Gateways文件夹下
 
-#### 表单设计/代码生成
-<img src="https://i.loli.net/2020/09/30/eGybATBz6874mq5.gif"/>
+>**网关介绍** 
+- web网关  WebAppGateway。
+用于对接前端Vue
+- 内部网关 项目下InternalGateway未启用，内部网关服务合并至BaseService
 
-#### 文件存储
-<img src="https://i.loli.net/2020/09/23/MgwR9oQWzmK5qGP.gif"/>
 
-#### 反馈交流
-- QQ交流群：1083795392
+>**微服务介绍**
+- 文件存储 FileStorage
+用于文件上传下载。编辑FileStorage.Host项目UploadController的Upload方法， 控制文件大小、支持的类别。
+填加了权限控制（未验证）
+- 微服务范本 Business
+系统工具部分功能（表单管理），添加了权限（已验证）
+
+>**基础服务**
+即BaseService
+- 组织架构、岗位管理、数据字典等
+- 系统工具（代码生成）
+- 全局权限管理（个人理解）
+
+#### 二. 新建微服务业务过程
+1. MicroServices文件夹下创建新项目。
+> 参照Business、AMS添加
+> **注意：** 参照下图，添加PermissionDefinitionProvider的实现
+>> <img src=".\imgs\permission.png">
+2. 新项目打包发布至私有nuget。
+- 项目打包
+按照下图，勾选“在构建时生成Nuget包。
+注意需要把用到的项目（Application、Application.Contracts）分别打包
+<img src=".\imgs\package.png">
+- 上传nuget
+> 这里我们使用nexus建设私有nuget（含maven），地址192.168.168.177:8081，在upload菜单上传打包后的文件（如：Pest.Business.HttpApi.1.0.1.nupkg）
+> <img src=".\imgs\upload.jpg">
+
+3. 基础服务（即BaseService）引用新的nuget文件
+> 添加nuget源
+>> <img src=".\imgs\mynuget.png">
+> 添加依赖
+>> <img src=".\imgs\using.png">
+> 注入host项目
+>> <img src=".\imgs\using2.png">
+
+4. 重新初始化基础服务（即BaseService）
+运行后，会更新数据库的permission部分。
+**注意：**业务和微服务不要重复做permission设置，否则会冲突

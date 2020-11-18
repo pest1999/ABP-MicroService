@@ -1,0 +1,15 @@
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Product.EntityFrameworkCore.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Product.EntityFrameworkCore.runtimeconfig.json
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Product.EntityFrameworkCore.runtimeconfig.dev.json
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Product.EntityFrameworkCore.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Product.EntityFrameworkCore.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Product.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\bin\Debug\netcoreapp3.1\Product.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Product.EntityFrameworkCore.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Product.EntityFrameworkCore.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Product.EntityFrameworkCore.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Product.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Product.EntityFrameworkCore.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Product.EntityFrameworkCore.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Product.EntityFrameworkCore.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.EntityFrameworkCore\obj\Debug\netcoreapp3.1\Product.EntityFrameworkCore.genruntimeconfig.cache

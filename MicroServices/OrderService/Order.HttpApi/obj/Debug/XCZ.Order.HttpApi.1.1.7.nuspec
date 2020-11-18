@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>XCZ.Order.HttpApi</id>
+    <version>1.1.7</version>
+    <authors>WilliamXu</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="XCZ.Order.Application.Contracts" version="1.1.7" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.AspNetCore.Mvc" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="F:\VNextProject\ABP-MicroService\MicroServices\OrderService\Order.HttpApi\bin\Debug\netcoreapp3.1\Order.HttpApi.dll" target="lib\netcoreapp3.1\Order.HttpApi.dll" />
+  </files>
+</package>

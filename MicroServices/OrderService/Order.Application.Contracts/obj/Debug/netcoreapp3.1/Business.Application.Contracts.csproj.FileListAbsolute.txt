@@ -1,0 +1,12 @@
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\bin\Debug\netcoreapp3.1\Business.Application.Contracts.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\bin\Debug\netcoreapp3.1\Business.Application.Contracts.dll
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\bin\Debug\netcoreapp3.1\Business.Application.Contracts.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\bin\Debug\netcoreapp3.1\Business.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\bin\Debug\netcoreapp3.1\Business.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\obj\Debug\netcoreapp3.1\Business.Application.Contracts.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\obj\Debug\netcoreapp3.1\Business.Application.Contracts.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\obj\Debug\netcoreapp3.1\Business.Application.Contracts.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\obj\Debug\netcoreapp3.1\Business.Application.Contracts.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\obj\Debug\netcoreapp3.1\Business.Application.Contracts.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\obj\Debug\netcoreapp3.1\Business.Application.Contracts.dll
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Application.Contracts\obj\Debug\netcoreapp3.1\Business.Application.Contracts.pdb

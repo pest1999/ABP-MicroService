@@ -1,0 +1,9 @@
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.Domain\bin\Debug\netcoreapp3.1\Product.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderService - 副本\Product.Domain\obj\Debug\netcoreapp3.1\Product.Domain.pdb
