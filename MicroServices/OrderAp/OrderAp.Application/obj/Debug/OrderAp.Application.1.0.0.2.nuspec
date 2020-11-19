@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OrderAp.Application</id>
+    <version>1.0.0.2</version>
+    <authors>OrderAp.Application</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Pest.OrderAp.Application.Contracts" version="1.0.0.2" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.AutoMapper" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.BackgroundJobs.HangFire" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.Http.Client.IdentityModel" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.Identity.HttpApi.Client" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\bin\Debug\netcoreapp3.1\OrderAp.Application.dll" target="lib\netcoreapp3.1\OrderAp.Application.dll" />
+  </files>
+</package>

@@ -4,9 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>OrderAp</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.1.7</Version>
-    <PackageId>XCZ.OrderAp.HttpApi</PackageId>
-    <Authors>WilliamXu</Authors>
+    <Version>1.0.0.2</Version>
+    <PackageId>Pest.OrderAp.HttpApi</PackageId>
+    <Authors>Cmtthe</Authors>
+    <Company>Cmtthe</Company>
   </PropertyGroup>
 
   <ItemGroup>

@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrderAp.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.2")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderAp.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderAp.Application")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.2")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

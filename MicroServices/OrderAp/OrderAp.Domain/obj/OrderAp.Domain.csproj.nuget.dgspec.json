@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Domain\\OrderAp.Domain.csproj": {}
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Domain\\OrderAp.Domain.csproj": {}
   },
   "projects": {
-    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Domain\\OrderAp.Domain.csproj": {
-      "version": "1.1.7",
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Domain\\OrderAp.Domain.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Domain\\OrderAp.Domain.csproj",
-        "projectName": "XCZ.OrderAp.Domain",
-        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Domain\\OrderAp.Domain.csproj",
+        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Domain\\OrderAp.Domain.csproj",
+        "projectName": "Pest.OrderAp.Domain",
+        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Domain\\OrderAp.Domain.csproj",
         "packagesPath": "E:\\Program Files\\.nuget\\packages",
-        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Domain\\obj\\",
+        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

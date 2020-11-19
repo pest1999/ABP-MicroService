@@ -22,10 +22,10 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "ProductAp.HttpApi/1.1.7": {
+      "ProductAp.HttpApi/1.0.0.2": {
         "dependencies": {
+          "Pest.ProductAp.Application.Contracts": "1.0.0.2",
           "Volo.Abp.AspNetCore.Mvc": "3.1.0",
-          "XCZ.ProductAp.Application.Contracts": "1.1.7",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -2028,11 +2028,11 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "XCZ.ProductAp.Application.Contracts/1.1.7": {
+      "Pest.ProductAp.Application.Contracts/1.0.0.2": {
         "dependencies": {
+          "Pest.ProductAp.Domain": "1.0.0.1",
           "Volo.Abp.Ddd.Application": "3.1.0",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0",
-          "XCZ.ProductAp.Domain": "1.1.7"
+          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
         "runtime": {
           "ProductAp.Application.Contracts.dll": {}
@@ -2041,7 +2041,7 @@
           "ProductAp.Application.Contracts.dll": {}
         }
       },
-      "XCZ.ProductAp.Domain/1.1.7": {
+      "Pest.ProductAp.Domain/1.0.0.1": {
         "dependencies": {
           "Volo.Abp.AuditLogging.Domain": "3.1.0",
           "Volo.Abp.Ddd.Domain": "3.1.0",
@@ -3572,7 +3572,7 @@
     }
   },
   "libraries": {
-    "ProductAp.HttpApi/1.1.7": {
+    "ProductAp.HttpApi/1.0.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -4494,12 +4494,12 @@
       "path": "volo.abp.virtualfilesystem/3.1.0",
       "hashPath": "volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
     },
-    "XCZ.ProductAp.Application.Contracts/1.1.7": {
+    "Pest.ProductAp.Application.Contracts/1.0.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "XCZ.ProductAp.Domain/1.1.7": {
+    "Pest.ProductAp.Domain/1.0.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

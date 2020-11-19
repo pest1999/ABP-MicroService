@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R5ALa8e5macsTuIM3HoEFTvxCMYyA+9H2h7o9WnJMucLJejXzRT1lvG6fcN/HFRB5Yn4irzCAbmbA44nt3AP8g==",
+  "dgSpecHash": "TFHEO0LfyQQNI0ksrRhPaqoW1LxZ9g6ROmGgap1XciN9/ksratsdj/qpK1ipMYsXk2G9cWnaXKsLYk2WjbZgQg==",
   "success": true,
-  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application\\ProductAp.Application.csproj",
+  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application\\ProductAp.Application.csproj",
   "expectedPackageFiles": [
     "E:\\Program Files\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
@@ -192,7 +192,8 @@
     "E:\\Program Files\\.nuget\\packages\\volo.abp.users.domain.shared\\3.1.0\\volo.abp.users.domain.shared.3.1.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\volo.abp.validation\\3.1.0\\volo.abp.validation.3.1.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\volo.abp.validation.abstractions\\3.1.0\\volo.abp.validation.abstractions.3.1.0.nupkg.sha512",
-    "E:\\Program Files\\.nuget\\packages\\volo.abp.virtualfilesystem\\3.1.0\\volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
+    "E:\\Program Files\\.nuget\\packages\\volo.abp.virtualfilesystem\\3.1.0\\volo.abp.virtualfilesystem.3.1.0.nupkg.sha512",
+    "E:\\Program Files\\.nuget\\packages\\pest.productap.domain\\1.0.0.1\\pest.productap.domain.1.0.0.1.nupkg.sha512"
   ],
   "logs": []
 }

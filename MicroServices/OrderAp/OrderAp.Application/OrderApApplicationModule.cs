@@ -8,10 +8,7 @@ namespace OrderAp
 {
     [DependsOn(
         typeof(OrderApApplicationContractsModule),
-        typeof(AbpHttpClientIdentityModelModule),
-        typeof(AbpIdentityHttpApiClientModule),
-        typeof(AbpAutoMapperModule),
-        typeof(AbpBackgroundJobsHangfireModule)
+        typeof(AbpAutoMapperModule)
     )]
     public class OrderApApplicationModule : AbpModule
     {

@@ -3,13 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>OrderAp</RootNamespace>
-    <Version>1.1.7</Version>
+    <Version>1.0.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>WilliamXu</Authors>
-    <Company>WilliamXu</Company>
-    <Product>ABC</Product>
+    <Authors>Cmtthe</Authors>
+    <Company>Cmtthe</Company>
+    <Product></Product>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageId>XCZ.OrderAp.Domain</PackageId>
+    <PackageId>Pest.OrderAp.Domain</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

@@ -2266,7 +2266,7 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "XCZ.ProductAp.Domain/1.1.7": {
+      "Pest.ProductAp.Domain/1.0.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2278,10 +2278,10 @@
           "Volo.Abp.Validation": "3.1.0"
         },
         "compile": {
-          "bin/placeholder/XCZ.ProductAp.Domain.dll": {}
+          "bin/placeholder/Pest.ProductAp.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XCZ.ProductAp.Domain.dll": {}
+          "bin/placeholder/Pest.ProductAp.Domain.dll": {}
         }
       }
     }
@@ -7372,7 +7372,7 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "XCZ.ProductAp.Domain/1.1.7": {
+    "Pest.ProductAp.Domain/1.0.0.1": {
       "type": "project",
       "path": "../ProductAp.Domain/ProductAp.Domain.csproj",
       "msbuildProject": "../ProductAp.Domain/ProductAp.Domain.csproj"
@@ -7382,12 +7382,12 @@
     ".NETCoreApp,Version=v3.1": [
       "Hangfire.SqlServer >= 1.7.11",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.6",
+      "Pest.ProductAp.Domain >= 1.0.0.1",
       "Volo.Abp.AuditLogging.EntityFrameworkCore >= 3.1.0",
       "Volo.Abp.EntityFrameworkCore.SqlServer >= 3.1.0",
       "Volo.Abp.PermissionManagement.EntityFrameworkCore >= 3.1.0",
       "Volo.Abp.SettingManagement.EntityFrameworkCore >= 3.1.0",
-      "Volo.Abp.TenantManagement.EntityFrameworkCore >= 3.1.0",
-      "XCZ.ProductAp.Domain >= 1.1.7"
+      "Volo.Abp.TenantManagement.EntityFrameworkCore >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -7397,11 +7397,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj",
+      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj",
       "projectName": "ProductAp.EntityFrameworkCore",
-      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj",
+      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj",
       "packagesPath": "E:\\Program Files\\.nuget\\packages",
-      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\obj\\",
+      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7424,8 +7424,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\ProductAp.Domain.csproj": {
-              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\ProductAp.Domain.csproj"
+            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\ProductAp.Domain.csproj": {
+              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\ProductAp.Domain.csproj"
             }
           }
         }

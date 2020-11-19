@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E7DiZuaaYAXXtGEgSOMBsPdvcLDEZEZwy3M213kYmAQ3M7nJhsP2Hnd/fU5Q63fHV0jO5ANK5n8PiWO2LMpD/A==",
+  "dgSpecHash": "AHF9sKtYscpA1RkajQCBdFiqlZYydpPi8GMo1VKnXnrY5SzYWiFc7wt/Y5ApuoW8KgcikJ5LJzgFisLKCavpBg==",
   "success": true,
   "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\AMS\\AssetManagementSystem.Application.Contracts\\AssetManagementSystem.Application.Contracts.csproj",
   "expectedPackageFiles": [

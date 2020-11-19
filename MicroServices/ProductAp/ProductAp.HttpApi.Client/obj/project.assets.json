@@ -2529,22 +2529,22 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "XCZ.ProductAp.Application.Contracts/1.1.7": {
+      "Pest.ProductAp.Application.Contracts/1.0.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Pest.ProductAp.Domain": "1.0.0.1",
           "Volo.Abp.Ddd.Application": "3.1.0",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0",
-          "XCZ.ProductAp.Domain": "1.1.7"
+          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
         "compile": {
-          "bin/placeholder/XCZ.ProductAp.Application.Contracts.dll": {}
+          "bin/placeholder/Pest.ProductAp.Application.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XCZ.ProductAp.Application.Contracts.dll": {}
+          "bin/placeholder/Pest.ProductAp.Application.Contracts.dll": {}
         }
       },
-      "XCZ.ProductAp.Domain/1.1.7": {
+      "Pest.ProductAp.Domain/1.0.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2556,10 +2556,10 @@
           "Volo.Abp.Validation": "3.1.0"
         },
         "compile": {
-          "bin/placeholder/XCZ.ProductAp.Domain.dll": {}
+          "bin/placeholder/Pest.ProductAp.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XCZ.ProductAp.Domain.dll": {}
+          "bin/placeholder/Pest.ProductAp.Domain.dll": {}
         }
       }
     }
@@ -7772,12 +7772,12 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "XCZ.ProductAp.Application.Contracts/1.1.7": {
+    "Pest.ProductAp.Application.Contracts/1.0.0.2": {
       "type": "project",
       "path": "../ProductAp.Application.Contracts/ProductAp.Application.Contracts.csproj",
       "msbuildProject": "../ProductAp.Application.Contracts/ProductAp.Application.Contracts.csproj"
     },
-    "XCZ.ProductAp.Domain/1.1.7": {
+    "Pest.ProductAp.Domain/1.0.0.1": {
       "type": "project",
       "path": "../ProductAp.Domain/ProductAp.Domain.csproj",
       "msbuildProject": "../ProductAp.Domain/ProductAp.Domain.csproj"
@@ -7785,8 +7785,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Volo.Abp.Http.Client >= 3.1.0",
-      "XCZ.ProductAp.Application.Contracts >= 1.1.7"
+      "Pest.ProductAp.Application.Contracts >= 1.0.0.2",
+      "Volo.Abp.Http.Client >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -7794,13 +7794,13 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.0.1",
     "restore": {
-      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi.Client\\ProductAp.HttpApi.Client.csproj",
+      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi.Client\\ProductAp.HttpApi.Client.csproj",
       "projectName": "ProductAp.HttpApi.Client",
-      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi.Client\\ProductAp.HttpApi.Client.csproj",
+      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi.Client\\ProductAp.HttpApi.Client.csproj",
       "packagesPath": "E:\\Program Files\\.nuget\\packages",
-      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi.Client\\obj\\",
+      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7823,8 +7823,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj": {
-              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj"
+            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj": {
+              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj"
             }
           }
         }

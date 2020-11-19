@@ -1335,7 +1335,7 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "XCZ.OrderAp.Domain/1.1.7": {
+      "Pest.OrderAp.Domain/1.0.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -1347,10 +1347,10 @@
           "Volo.Abp.Validation": "3.1.0"
         },
         "compile": {
-          "bin/placeholder/XCZ.OrderAp.Domain.dll": {}
+          "bin/placeholder/Pest.OrderAp.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XCZ.OrderAp.Domain.dll": {}
+          "bin/placeholder/Pest.OrderAp.Domain.dll": {}
         }
       }
     }
@@ -4167,7 +4167,7 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "XCZ.OrderAp.Domain/1.1.7": {
+    "Pest.OrderAp.Domain/1.0.0.1": {
       "type": "project",
       "path": "../OrderAp.Domain/OrderAp.Domain.csproj",
       "msbuildProject": "../OrderAp.Domain/OrderAp.Domain.csproj"
@@ -4175,9 +4175,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Pest.OrderAp.Domain >= 1.0.0.1",
       "Volo.Abp.Ddd.Application >= 3.1.0",
-      "Volo.Abp.PermissionManagement.Application.Contracts >= 3.1.0",
-      "XCZ.OrderAp.Domain >= 1.1.7"
+      "Volo.Abp.PermissionManagement.Application.Contracts >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -4185,13 +4185,13 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.1.7",
+    "version": "1.0.0.2",
     "restore": {
-      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Application.Contracts\\OrderAp.Application.Contracts.csproj",
-      "projectName": "XCZ.OrderAp.Application.Contracts",
-      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Application.Contracts\\OrderAp.Application.Contracts.csproj",
+      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Application.Contracts\\OrderAp.Application.Contracts.csproj",
+      "projectName": "Pest.OrderAp.Application.Contracts",
+      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Application.Contracts\\OrderAp.Application.Contracts.csproj",
       "packagesPath": "E:\\Program Files\\.nuget\\packages",
-      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Application.Contracts\\obj\\",
+      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Application.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -4214,8 +4214,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Domain\\OrderAp.Domain.csproj": {
-              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Domain\\OrderAp.Domain.csproj"
+            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Domain\\OrderAp.Domain.csproj": {
+              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Domain\\OrderAp.Domain.csproj"
             }
           }
         }

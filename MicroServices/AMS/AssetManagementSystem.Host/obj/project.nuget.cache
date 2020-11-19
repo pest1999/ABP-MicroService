@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+2e3ogGdm1SXWirzF1g+9GT7KtCszR13ZPGV8A6C8nnIofw4ZDJJ8FFJQowQY8yqI+kjjRNHl6zqbC9enQXAAA==",
+  "dgSpecHash": "p7vXcWKc6AhLhh/tyFS8DEEX+RbuVnEgcTQhHmIoSCsX1C8eI/aXoLHoLrwiKIvQg/2vvHpoyE9phu8b5ZIOWg==",
   "success": true,
   "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\AMS\\AssetManagementSystem.Host\\AssetManagementSystem.Host.csproj",
   "expectedPackageFiles": [

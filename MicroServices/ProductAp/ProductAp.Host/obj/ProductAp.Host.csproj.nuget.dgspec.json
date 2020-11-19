@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Host\\ProductAp.Host.csproj": {}
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Host\\ProductAp.Host.csproj": {}
   },
   "projects": {
-    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj": {
-      "version": "1.1.7",
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj": {
+      "version": "1.0.0.2",
       "restore": {
-        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj",
-        "projectName": "XCZ.ProductAp.Application.Contracts",
-        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj",
+        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj",
+        "projectName": "Pest.ProductAp.Application.Contracts",
+        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj",
         "packagesPath": "E:\\Program Files\\.nuget\\packages",
-        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application.Contracts\\obj\\",
+        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -34,8 +34,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\ProductAp.Domain.csproj": {
-                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\ProductAp.Domain.csproj"
+              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\ProductAp.Domain.csproj": {
+                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\ProductAp.Domain.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application\\ProductAp.Application.csproj": {
-      "version": "1.0.0",
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application\\ProductAp.Application.csproj": {
+      "version": "1.0.0.2",
       "restore": {
-        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application\\ProductAp.Application.csproj",
+        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application\\ProductAp.Application.csproj",
         "projectName": "ProductAp.Application",
-        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application\\ProductAp.Application.csproj",
+        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application\\ProductAp.Application.csproj",
         "packagesPath": "E:\\Program Files\\.nuget\\packages",
-        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application\\obj\\",
+        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -107,8 +107,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj": {
-                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj"
+              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj": {
+                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj"
               }
             }
           }
@@ -161,14 +161,14 @@
         }
       }
     },
-    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\ProductAp.Domain.csproj": {
-      "version": "1.1.7",
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\ProductAp.Domain.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\ProductAp.Domain.csproj",
-        "projectName": "XCZ.ProductAp.Domain",
-        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\ProductAp.Domain.csproj",
+        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\ProductAp.Domain.csproj",
+        "projectName": "Pest.ProductAp.Domain",
+        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\ProductAp.Domain.csproj",
         "packagesPath": "E:\\Program Files\\.nuget\\packages",
-        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\obj\\",
+        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -246,14 +246,14 @@
         }
       }
     },
-    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj": {
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj",
+        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj",
         "projectName": "ProductAp.EntityFrameworkCore",
-        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj",
+        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj",
         "packagesPath": "E:\\Program Files\\.nuget\\packages",
-        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\obj\\",
+        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -276,8 +276,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\ProductAp.Domain.csproj": {
-                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\ProductAp.Domain.csproj"
+              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\ProductAp.Domain.csproj": {
+                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\ProductAp.Domain.csproj"
               }
             }
           }
@@ -341,14 +341,14 @@
         }
       }
     },
-    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Host\\ProductAp.Host.csproj": {
-      "version": "1.0.9",
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Host\\ProductAp.Host.csproj": {
+      "version": "1.0.0.1",
       "restore": {
-        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Host\\ProductAp.Host.csproj",
+        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Host\\ProductAp.Host.csproj",
         "projectName": "ProductAp.Host",
-        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Host\\ProductAp.Host.csproj",
+        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Host\\ProductAp.Host.csproj",
         "packagesPath": "E:\\Program Files\\.nuget\\packages",
-        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Host\\obj\\",
+        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Host\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -371,14 +371,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application\\ProductAp.Application.csproj": {
-                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application\\ProductAp.Application.csproj"
+              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application\\ProductAp.Application.csproj": {
+                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application\\ProductAp.Application.csproj"
               },
-              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj": {
-                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj"
+              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj": {
+                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj"
               },
-              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj": {
-                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj"
+              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj": {
+                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj"
               }
             }
           }
@@ -469,14 +469,14 @@
         }
       }
     },
-    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj": {
-      "version": "1.1.7",
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj": {
+      "version": "1.0.0.2",
       "restore": {
-        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj",
-        "projectName": "XCZ.ProductAp.HttpApi",
-        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj",
+        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj",
+        "projectName": "Pest.ProductAp.HttpApi",
+        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj",
         "packagesPath": "E:\\Program Files\\.nuget\\packages",
-        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi\\obj\\",
+        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -499,8 +499,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj": {
-                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj"
+              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj": {
+                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj"
               }
             }
           }

@@ -1,4 +1,6 @@
 ﻿using BaseService.Localization;
+using OrderAp.Permissions;
+using ProductAp.Permissions;
 using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.Localization;
 using Volo.Abp.MultiTenancy;
@@ -28,6 +30,22 @@ namespace BaseService.Permissions
             job.AddChild(BaseServicePermissions.Job.Update, L("Edit"));
             job.AddChild(BaseServicePermissions.Job.Delete, L("Delete"));
             job.AddChild(BaseServicePermissions.Job.Create, L("Create"));
+
+            #region 添加订单权限
+            var orderGroup = context.AddGroup(OrderApPermissions.Group, L("OrderAp"), MultiTenancySides.Tenant);
+            var order = orderGroup.AddPermission(OrderApPermissions.Order.Default, L("Order"));
+            order.AddChild(OrderApPermissions.Order.Update, L("Edit"));
+            order.AddChild(OrderApPermissions.Order.Delete, L("Delete"));
+            order.AddChild(OrderApPermissions.Order.Create, L("Create"));
+            #endregion
+
+            #region 添加产品权限
+            var productGroup = context.AddGroup(ProductApPermissions.Group, L("ProductAp"), MultiTenancySides.Tenant);
+            var product = productGroup.AddPermission(ProductApPermissions.Product.Default, L("Product"));
+            product.AddChild(ProductApPermissions.Product.Update, L("Edit"));
+            product.AddChild(ProductApPermissions.Product.Delete, L("Delete"));
+            product.AddChild(ProductApPermissions.Product.Create, L("Create"));
+            #endregion
         }
 
         private static LocalizableString L(string name)

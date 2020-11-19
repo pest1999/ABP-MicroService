@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gRPxbVBqM3hHKoMYrNMVPXARLPsc/Xh2BScylMeHwVN8bI0bswAE5KcpnFYwWE8ubU45FtoQwDuVorQNOhhzcw==",
+  "dgSpecHash": "ffbpWnDD3Bf8+f4lckGAG85Os19E5UYA1q2vM+9L/eQDfFflhe01nOAn/G8ox5JQzqOFX/jcT7qwZxs7UqP3IQ==",
   "success": true,
-  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Domain\\ProductAp.Domain.csproj",
+  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Domain\\ProductAp.Domain.csproj",
   "expectedPackageFiles": [
     "E:\\Program Files\\.nuget\\packages\\jetbrains.annotations\\2020.1.0\\jetbrains.annotations.2020.1.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

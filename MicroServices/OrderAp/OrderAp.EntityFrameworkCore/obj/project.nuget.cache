@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GqEJfzaTU0H/B3OzXLNtfE8nLp9EsXO1HEArnDdasYhpbrJneqc7caFZGIBVloCIv11Bh9IuqyPSM0kBI/CLjA==",
+  "dgSpecHash": "D7iNIahEtMIEKyCef997ULnkAi8dLzdhQyS7zZtsjPk5gf+yoG+CLRhwMCSdnSpXzLxW4804Z7btr6d2sDY5rg==",
   "success": true,
-  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.EntityFrameworkCore\\OrderAp.EntityFrameworkCore.csproj",
+  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.EntityFrameworkCore\\OrderAp.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [
     "E:\\Program Files\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\hangfire.core\\1.7.11\\hangfire.core.1.7.11.nupkg.sha512",

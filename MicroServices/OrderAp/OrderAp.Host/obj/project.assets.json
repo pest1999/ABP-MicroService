@@ -4456,15 +4456,15 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "OrderAp.Application/1.0.0": {
+      "OrderAp.Application/1.0.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Pest.OrderAp.Application.Contracts": "1.0.0.2",
           "Volo.Abp.AutoMapper": "3.1.0",
           "Volo.Abp.BackgroundJobs.HangFire": "3.1.0",
           "Volo.Abp.Http.Client.IdentityModel": "3.1.0",
-          "Volo.Abp.Identity.HttpApi.Client": "3.1.0",
-          "XCZ.OrderAp.Application.Contracts": "1.1.7"
+          "Volo.Abp.Identity.HttpApi.Client": "3.1.0"
         },
         "compile": {
           "bin/placeholder/OrderAp.Application.dll": {}
@@ -4476,17 +4476,17 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "OrderAp.EntityFrameworkCore/1.0.0": {
+      "OrderAp.EntityFrameworkCore/1.0.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Hangfire.SqlServer": "1.7.11",
+          "Pest.OrderAp.Domain": "1.0.0.1",
           "Volo.Abp.AuditLogging.EntityFrameworkCore": "3.1.0",
           "Volo.Abp.EntityFrameworkCore.SqlServer": "3.1.0",
           "Volo.Abp.PermissionManagement.EntityFrameworkCore": "3.1.0",
           "Volo.Abp.SettingManagement.EntityFrameworkCore": "3.1.0",
-          "Volo.Abp.TenantManagement.EntityFrameworkCore": "3.1.0",
-          "XCZ.OrderAp.Domain": "1.1.7"
+          "Volo.Abp.TenantManagement.EntityFrameworkCore": "3.1.0"
         },
         "compile": {
           "bin/placeholder/OrderAp.EntityFrameworkCore.dll": {}
@@ -4495,22 +4495,22 @@
           "bin/placeholder/OrderAp.EntityFrameworkCore.dll": {}
         }
       },
-      "XCZ.OrderAp.Application.Contracts/1.1.7": {
+      "Pest.OrderAp.Application.Contracts/1.0.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Pest.OrderAp.Domain": "1.0.0.1",
           "Volo.Abp.Ddd.Application": "3.1.0",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0",
-          "XCZ.OrderAp.Domain": "1.1.7"
+          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
         "compile": {
-          "bin/placeholder/XCZ.OrderAp.Application.Contracts.dll": {}
+          "bin/placeholder/Pest.OrderAp.Application.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XCZ.OrderAp.Application.Contracts.dll": {}
+          "bin/placeholder/Pest.OrderAp.Application.Contracts.dll": {}
         }
       },
-      "XCZ.OrderAp.Domain/1.1.7": {
+      "Pest.OrderAp.Domain/1.0.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -4522,24 +4522,24 @@
           "Volo.Abp.Validation": "3.1.0"
         },
         "compile": {
-          "bin/placeholder/XCZ.OrderAp.Domain.dll": {}
+          "bin/placeholder/Pest.OrderAp.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XCZ.OrderAp.Domain.dll": {}
+          "bin/placeholder/Pest.OrderAp.Domain.dll": {}
         }
       },
-      "XCZ.OrderAp.HttpApi/1.1.7": {
+      "Pest.OrderAp.HttpApi/1.0.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Volo.Abp.AspNetCore.Mvc": "3.1.0",
-          "XCZ.OrderAp.Application.Contracts": "1.1.7"
+          "Pest.OrderAp.Application.Contracts": "1.0.0.2",
+          "Volo.Abp.AspNetCore.Mvc": "3.1.0"
         },
         "compile": {
-          "bin/placeholder/XCZ.OrderAp.HttpApi.dll": {}
+          "bin/placeholder/Pest.OrderAp.HttpApi.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XCZ.OrderAp.HttpApi.dll": {}
+          "bin/placeholder/Pest.OrderAp.HttpApi.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -12713,27 +12713,27 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "OrderAp.Application/1.0.0": {
+    "OrderAp.Application/1.0.0.2": {
       "type": "project",
       "path": "../OrderAp.Application/OrderAp.Application.csproj",
       "msbuildProject": "../OrderAp.Application/OrderAp.Application.csproj"
     },
-    "OrderAp.EntityFrameworkCore/1.0.0": {
+    "OrderAp.EntityFrameworkCore/1.0.0.1": {
       "type": "project",
       "path": "../OrderAp.EntityFrameworkCore/OrderAp.EntityFrameworkCore.csproj",
       "msbuildProject": "../OrderAp.EntityFrameworkCore/OrderAp.EntityFrameworkCore.csproj"
     },
-    "XCZ.OrderAp.Application.Contracts/1.1.7": {
+    "Pest.OrderAp.Application.Contracts/1.0.0.2": {
       "type": "project",
       "path": "../OrderAp.Application.Contracts/OrderAp.Application.Contracts.csproj",
       "msbuildProject": "../OrderAp.Application.Contracts/OrderAp.Application.Contracts.csproj"
     },
-    "XCZ.OrderAp.Domain/1.1.7": {
+    "Pest.OrderAp.Domain/1.0.0.1": {
       "type": "project",
       "path": "../OrderAp.Domain/OrderAp.Domain.csproj",
       "msbuildProject": "../OrderAp.Domain/OrderAp.Domain.csproj"
     },
-    "XCZ.OrderAp.HttpApi/1.1.7": {
+    "Pest.OrderAp.HttpApi/1.0.0.2": {
       "type": "project",
       "path": "../OrderAp.HttpApi/OrderAp.HttpApi.csproj",
       "msbuildProject": "../OrderAp.HttpApi/OrderAp.HttpApi.csproj"
@@ -12745,8 +12745,9 @@
       "Microsoft.AspNetCore.DataProtection.StackExchangeRedis >= 3.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.6",
       "Microsoft.Extensions.Caching.StackExchangeRedis >= 3.1.6",
-      "OrderAp.Application >= 1.0.0",
-      "OrderAp.EntityFrameworkCore >= 1.0.0",
+      "OrderAp.Application >= 1.0.0.2",
+      "OrderAp.EntityFrameworkCore >= 1.0.0.1",
+      "Pest.OrderAp.HttpApi >= 1.0.0.2",
       "Serilog.AspNetCore >= 3.2.0",
       "Serilog.Sinks.Async >= 1.4.0",
       "Serilog.Sinks.Elasticsearch >= 8.2.0",
@@ -12755,8 +12756,7 @@
       "Volo.Abp.AspNetCore.MultiTenancy >= 3.1.0",
       "Volo.Abp.AspNetCore.Serilog >= 3.1.0",
       "Volo.Abp.Autofac >= 3.1.0",
-      "Volo.Abp.Caching >= 3.1.0",
-      "XCZ.OrderAp.HttpApi >= 1.1.7"
+      "Volo.Abp.Caching >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -12764,13 +12764,13 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.9",
+    "version": "1.0.0.1",
     "restore": {
-      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Host\\OrderAp.Host.csproj",
+      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Host\\OrderAp.Host.csproj",
       "projectName": "OrderAp.Host",
-      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Host\\OrderAp.Host.csproj",
+      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Host\\OrderAp.Host.csproj",
       "packagesPath": "E:\\Program Files\\.nuget\\packages",
-      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Host\\obj\\",
+      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Host\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12793,14 +12793,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Application\\OrderAp.Application.csproj": {
-              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Application\\OrderAp.Application.csproj"
+            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Application\\OrderAp.Application.csproj": {
+              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Application\\OrderAp.Application.csproj"
             },
-            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.EntityFrameworkCore\\OrderAp.EntityFrameworkCore.csproj": {
-              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.EntityFrameworkCore\\OrderAp.EntityFrameworkCore.csproj"
+            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.EntityFrameworkCore\\OrderAp.EntityFrameworkCore.csproj": {
+              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.EntityFrameworkCore\\OrderAp.EntityFrameworkCore.csproj"
             },
-            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.HttpApi\\OrderAp.HttpApi.csproj": {
-              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.HttpApi\\OrderAp.HttpApi.csproj"
+            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.HttpApi\\OrderAp.HttpApi.csproj": {
+              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.HttpApi\\OrderAp.HttpApi.csproj"
             }
           }
         }

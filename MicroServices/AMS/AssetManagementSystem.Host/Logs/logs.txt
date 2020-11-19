@@ -1,0 +1,67 @@
+2020-11-18 18:02:41.273 +08:00 [INF] Starting AssetManagementSystem.Host
+2020-11-18 18:02:48.137 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-11-18 18:02:48.356 +08:00 [INF] Loaded ABP modules:
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-11-18 18:02:48.356 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-11-18 18:02:48.357 +08:00 [INF] - AssetManagementSystem.AssetManagementSystemDomainModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-11-18 18:02:48.357 +08:00 [INF] - AssetManagementSystem.AssetManagementSystemApplicationContractsModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-11-18 18:02:48.357 +08:00 [INF] - AssetManagementSystem.AssetManagementSystemApplicationModule
+2020-11-18 18:02:48.357 +08:00 [INF] - AssetManagementSystem.EntityFrameworkCore.AssetManagementSystemEntityFrameworkCoreModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-11-18 18:02:48.357 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-11-18 18:02:48.357 +08:00 [INF] - AssetManagementSystem.AssetManagementSystemHostModule
+2020-11-18 18:02:49.363 +08:00 [INF] Initialized all ABP modules.
+2020-11-18 18:02:49.395 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-18 18:02:49.395 +08:00 [INF] Hosting environment: Development
+2020-11-18 18:02:49.395 +08:00 [INF] Content root path: F:\VNextProject\ABP-MicroService\MicroServices\AMS\AssetManagementSystem.Host
+2020-11-18 18:02:49.478 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44360/  
+2020-11-18 18:02:49.551 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-18 18:02:49.700 +08:00 [INF] Executing endpoint 'AssetManagementSystem.Controllers.HomeController.Index (AssetManagementSystem.Host)'
+2020-11-18 18:02:49.800 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller AssetManagementSystem.Controllers.HomeController (AssetManagementSystem.Host).
+2020-11-18 18:02:49.864 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-11-18 18:02:49.872 +08:00 [INF] Executed action AssetManagementSystem.Controllers.HomeController.Index (AssetManagementSystem.Host) in 65.5116ms
+2020-11-18 18:02:49.876 +08:00 [INF] Executed endpoint 'AssetManagementSystem.Controllers.HomeController.Index (AssetManagementSystem.Host)'
+2020-11-18 18:02:49.912 +08:00 [INF] Request finished in 437.9947ms 302 
+2020-11-18 18:02:49.943 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44360/swagger/index.html  
+2020-11-18 18:02:49.982 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-18 18:02:50.027 +08:00 [INF] Request finished in 83.3241ms 200 text/html;charset=utf-8
+2020-11-18 18:02:50.307 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44360/swagger/v1/swagger.json  
+2020-11-18 18:02:50.311 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-18 18:02:50.493 +08:00 [INF] Request finished in 186.5651ms 200 application/json;charset=utf-8

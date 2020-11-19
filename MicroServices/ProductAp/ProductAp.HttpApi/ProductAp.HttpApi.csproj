@@ -4,9 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>ProductAp</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.1.7</Version>
-    <PackageId>XCZ.ProductAp.HttpApi</PackageId>
-    <Authors>WilliamXu</Authors>
+    <Version>1.0.0.2</Version>
+    <PackageId>Pest.ProductAp.HttpApi</PackageId>
+    <Authors>Cmtthe</Authors>
+    <Company>Cmtthe</Company>
   </PropertyGroup>
 
   <ItemGroup>

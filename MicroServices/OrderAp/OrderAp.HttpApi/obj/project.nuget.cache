@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rsdwKOAgGngjnFlD7WGJiT2gGJ78TccuX4JFHZKLPOTYQURGPOFU1nxBPYiGoOY94HorivjNpkN3Holq8CVgBg==",
+  "dgSpecHash": "hdFntUfvE2z3NPPKDj0FKvvPWBXNR+4uIezwfWF+n9uoXw5IM4NzCJhwkauN+RMbFaobJtr5G/VVa5MdmmE98Q==",
   "success": true,
-  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.HttpApi\\OrderAp.HttpApi.csproj",
+  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.HttpApi\\OrderAp.HttpApi.csproj",
   "expectedPackageFiles": [
     "E:\\Program Files\\.nuget\\packages\\jetbrains.annotations\\2020.1.0\\jetbrains.annotations.2020.1.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
@@ -134,7 +134,8 @@
     "E:\\Program Files\\.nuget\\packages\\volo.abp.uow\\3.1.0\\volo.abp.uow.3.1.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\volo.abp.validation\\3.1.0\\volo.abp.validation.3.1.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\volo.abp.validation.abstractions\\3.1.0\\volo.abp.validation.abstractions.3.1.0.nupkg.sha512",
-    "E:\\Program Files\\.nuget\\packages\\volo.abp.virtualfilesystem\\3.1.0\\volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
+    "E:\\Program Files\\.nuget\\packages\\volo.abp.virtualfilesystem\\3.1.0\\volo.abp.virtualfilesystem.3.1.0.nupkg.sha512",
+    "E:\\Program Files\\.nuget\\packages\\pest.orderap.domain\\1.0.0.1\\pest.orderap.domain.1.0.0.1.nupkg.sha512"
   ],
   "logs": []
 }

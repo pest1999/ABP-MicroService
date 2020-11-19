@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>ProductAp</RootNamespace>
-    <Version>1.1.7</Version>
+    <Version>1.0.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>WilliamXu</Authors>
-    <Company>WilliamXu</Company>
+    <Authors>Cmtthe</Authors>
+    <Company>Cmtthe</Company>
     <ProductAp>ABC</ProductAp>
-    <PackageId>XCZ.ProductAp.Application.Contracts</PackageId>
+    <PackageId>Pest.ProductAp.Application.Contracts</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

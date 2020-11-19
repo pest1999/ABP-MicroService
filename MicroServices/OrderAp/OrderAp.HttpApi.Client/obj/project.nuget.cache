@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uh5InNhgO3B3+ANHsahIrI8eAiJIBzF4Tn5DGqphhTUJxrOsJnjx52wEysn2pzsxBb//mTK4eFcHn65diV6/SA==",
+  "dgSpecHash": "Zc7YSQqE7lO4J/XBbJ/oZSoJjFyrMUtU69rOgOuOGLEdcHZTrsi9ilosEHaES7E2ySr4CqYPT3tVNIO6QwjhHg==",
   "success": true,
-  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.HttpApi.Client\\OrderAp.HttpApi.Client.csproj",
+  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.HttpApi.Client\\OrderAp.HttpApi.Client.csproj",
   "expectedPackageFiles": [
     "E:\\Program Files\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\castle.core.asyncinterceptor\\2.0.21-alpha\\castle.core.asyncinterceptor.2.0.21-alpha.nupkg.sha512",
@@ -175,7 +175,8 @@
     "E:\\Program Files\\.nuget\\packages\\volo.abp.uow\\3.1.0\\volo.abp.uow.3.1.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\volo.abp.validation\\3.1.0\\volo.abp.validation.3.1.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\volo.abp.validation.abstractions\\3.1.0\\volo.abp.validation.abstractions.3.1.0.nupkg.sha512",
-    "E:\\Program Files\\.nuget\\packages\\volo.abp.virtualfilesystem\\3.1.0\\volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
+    "E:\\Program Files\\.nuget\\packages\\volo.abp.virtualfilesystem\\3.1.0\\volo.abp.virtualfilesystem.3.1.0.nupkg.sha512",
+    "E:\\Program Files\\.nuget\\packages\\pest.orderap.domain\\1.0.0.1\\pest.orderap.domain.1.0.0.1.nupkg.sha512"
   ],
   "logs": []
 }

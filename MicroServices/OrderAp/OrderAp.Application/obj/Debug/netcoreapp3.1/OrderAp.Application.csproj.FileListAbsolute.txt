@@ -12,3 +12,17 @@ F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.Application\
 F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.Application\obj\Debug\netcoreapp3.1\OrderAp.Application.csproj.CopyComplete
 F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.Application\obj\Debug\netcoreapp3.1\OrderAp.Application.dll
 F:\VNextProject\ABP-MicroService\MicroServices\OrderService\OrderAp.Application\obj\Debug\netcoreapp3.1\OrderAp.Application.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\bin\Debug\netcoreapp3.1\OrderAp.Application.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\bin\Debug\netcoreapp3.1\OrderAp.Application.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\bin\Debug\netcoreapp3.1\OrderAp.Application.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\bin\Debug\netcoreapp3.1\OrderAp.Application.Contracts.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\bin\Debug\netcoreapp3.1\OrderAp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\bin\Debug\netcoreapp3.1\OrderAp.Application.Contracts.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\bin\Debug\netcoreapp3.1\OrderAp.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\obj\Debug\netcoreapp3.1\OrderAp.Application.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\obj\Debug\netcoreapp3.1\OrderAp.Application.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\obj\Debug\netcoreapp3.1\OrderAp.Application.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\obj\Debug\netcoreapp3.1\OrderAp.Application.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\obj\Debug\netcoreapp3.1\OrderAp.Application.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\obj\Debug\netcoreapp3.1\OrderAp.Application.dll
+F:\VNextProject\ABP-MicroService\MicroServices\OrderAp\OrderAp.Application\obj\Debug\netcoreapp3.1\OrderAp.Application.pdb

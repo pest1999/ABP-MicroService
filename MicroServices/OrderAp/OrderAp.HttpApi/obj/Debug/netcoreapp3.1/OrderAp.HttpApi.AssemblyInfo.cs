@@ -11,13 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("WilliamXu")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Cmtthe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.7.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.7")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.2")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderAp.HttpApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderAp.HttpApi")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.1.7.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.2")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GMVBLpA98FLzlRArQPm9Apoyb4zBO8I6xOq1ln9xrXxUSHcPTDeexmNikxAsnMOdVrLLauuT+oEwAmn8PlzgrQ==",
+  "dgSpecHash": "mf/dy1xjMsf8ePQlGSORNkrC6g6aBjWFc1f7GxLqkkPtoacR6C36UX0OXa6o72lTyPb0/zz7kSqiXWq7SrjRXw==",
   "success": true,
-  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Host\\OrderAp.Host.csproj",
+  "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Host\\OrderAp.Host.csproj",
   "expectedPackageFiles": [
     "E:\\Program Files\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\autofac.extras.dynamicproxy\\5.0.0\\autofac.extras.dynamicproxy.5.0.0.nupkg.sha512",
@@ -301,7 +301,8 @@
     "E:\\Program Files\\.nuget\\packages\\volo.abp.users.domain.shared\\3.1.0\\volo.abp.users.domain.shared.3.1.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\volo.abp.validation\\3.1.0\\volo.abp.validation.3.1.0.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\volo.abp.validation.abstractions\\3.1.0\\volo.abp.validation.abstractions.3.1.0.nupkg.sha512",
-    "E:\\Program Files\\.nuget\\packages\\volo.abp.virtualfilesystem\\3.1.0\\volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
+    "E:\\Program Files\\.nuget\\packages\\volo.abp.virtualfilesystem\\3.1.0\\volo.abp.virtualfilesystem.3.1.0.nupkg.sha512",
+    "E:\\Program Files\\.nuget\\packages\\pest.orderap.domain\\1.0.0.1\\pest.orderap.domain.1.0.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>OrderAp</RootNamespace>
-    <Version>1.1.7</Version>
+    <Version>1.0.0.2</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>WilliamXu</Authors>
-    <Company>WilliamXu</Company>
-    <Product>ABC</Product>
-    <PackageId>XCZ.OrderAp.Application.Contracts</PackageId>
+    <Authors>Cmtthe</Authors>
+    <Company>Cmtthe</Company>
+    <Product></Product>
+    <PackageId>Pest.OrderAp.Application.Contracts</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

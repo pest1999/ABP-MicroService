@@ -2529,22 +2529,22 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "XCZ.OrderAp.Application.Contracts/1.1.7": {
+      "Pest.OrderAp.Application.Contracts/1.0.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Pest.OrderAp.Domain": "1.0.0.1",
           "Volo.Abp.Ddd.Application": "3.1.0",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0",
-          "XCZ.OrderAp.Domain": "1.1.7"
+          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
         "compile": {
-          "bin/placeholder/XCZ.OrderAp.Application.Contracts.dll": {}
+          "bin/placeholder/Pest.OrderAp.Application.Contracts.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XCZ.OrderAp.Application.Contracts.dll": {}
+          "bin/placeholder/Pest.OrderAp.Application.Contracts.dll": {}
         }
       },
-      "XCZ.OrderAp.Domain/1.1.7": {
+      "Pest.OrderAp.Domain/1.0.0.1": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2556,10 +2556,10 @@
           "Volo.Abp.Validation": "3.1.0"
         },
         "compile": {
-          "bin/placeholder/XCZ.OrderAp.Domain.dll": {}
+          "bin/placeholder/Pest.OrderAp.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/XCZ.OrderAp.Domain.dll": {}
+          "bin/placeholder/Pest.OrderAp.Domain.dll": {}
         }
       }
     }
@@ -7772,12 +7772,12 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "XCZ.OrderAp.Application.Contracts/1.1.7": {
+    "Pest.OrderAp.Application.Contracts/1.0.0.2": {
       "type": "project",
       "path": "../OrderAp.Application.Contracts/OrderAp.Application.Contracts.csproj",
       "msbuildProject": "../OrderAp.Application.Contracts/OrderAp.Application.Contracts.csproj"
     },
-    "XCZ.OrderAp.Domain/1.1.7": {
+    "Pest.OrderAp.Domain/1.0.0.1": {
       "type": "project",
       "path": "../OrderAp.Domain/OrderAp.Domain.csproj",
       "msbuildProject": "../OrderAp.Domain/OrderAp.Domain.csproj"
@@ -7785,8 +7785,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Volo.Abp.Http.Client >= 3.1.0",
-      "XCZ.OrderAp.Application.Contracts >= 1.1.7"
+      "Pest.OrderAp.Application.Contracts >= 1.0.0.2",
+      "Volo.Abp.Http.Client >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -7794,13 +7794,13 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.0.1",
     "restore": {
-      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.HttpApi.Client\\OrderAp.HttpApi.Client.csproj",
+      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.HttpApi.Client\\OrderAp.HttpApi.Client.csproj",
       "projectName": "OrderAp.HttpApi.Client",
-      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.HttpApi.Client\\OrderAp.HttpApi.Client.csproj",
+      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.HttpApi.Client\\OrderAp.HttpApi.Client.csproj",
       "packagesPath": "E:\\Program Files\\.nuget\\packages",
-      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.HttpApi.Client\\obj\\",
+      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.HttpApi.Client\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7823,8 +7823,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Application.Contracts\\OrderAp.Application.Contracts.csproj": {
-              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderService\\OrderAp.Application.Contracts\\OrderAp.Application.Contracts.csproj"
+            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Application.Contracts\\OrderAp.Application.Contracts.csproj": {
+              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\OrderAp\\OrderAp.Application.Contracts\\OrderAp.Application.Contracts.csproj"
             }
           }
         }

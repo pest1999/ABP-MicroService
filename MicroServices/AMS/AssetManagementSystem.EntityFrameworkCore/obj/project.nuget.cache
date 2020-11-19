@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sCzF6cpMfka/cCPJl3OCIIFvJ6ellL0cif6htC86sLRRhuIJuuQL3hf0f5qcTTm3CP99cW5ytQuy+3ZBCtwRNw==",
+  "dgSpecHash": "HICYlnPTF+neOHt/zTD6zMXdOnhRpaz2jvoLZGSaSkc8+ibvgEoITcpRYQt2JE1ocSsLWY3KBlaTVLPIlWSGCQ==",
   "success": true,
   "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\AMS\\AssetManagementSystem.EntityFrameworkCore\\AssetManagementSystem.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [

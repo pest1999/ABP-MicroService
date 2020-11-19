@@ -3,13 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>ProductAp</RootNamespace>
-    <Version>1.1.7</Version>
+    <Version>1.0.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>WilliamXu</Authors>
-    <Company>WilliamXu</Company>
+    <Authors>Cmtthe</Authors>
+    <Company>Cmtthe</Company>
     <ProductAp>ABC</ProductAp>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <PackageId>XCZ.ProductAp.Domain</PackageId>
+    <PackageId>Pest.ProductAp.Domain</PackageId>
   </PropertyGroup>
 
   <ItemGroup>

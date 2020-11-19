@@ -11,13 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("WilliamXu")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Cmtthe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.1.7.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.1.7")]
-[assembly: System.Reflection.AssemblyProductAttribute("ABC")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.1")]
+[assembly: System.Reflection.AssemblyProductAttribute("OrderAp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderAp.Domain")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.1.7.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.1")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using OrderAp.Orders;
+using OrderAp.Orders.Dto;
 
 namespace OrderAp
 {
@@ -6,6 +8,10 @@ namespace OrderAp
     {
         public OrderApApplicationAutoMapperProfile()
         {
+            CreateMap<Order, OrderDto>();
+            CreateMap<Order, CreateOrUpdateOrderDto>();
+            CreateMap<OrderDto, Order>();
+            CreateMap<CreateOrUpdateOrderDto, Order>();
         }
     }
 }

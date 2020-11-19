@@ -25,6 +25,7 @@ using Volo.Abp.Modularity;
 using Volo.Abp.MultiTenancy;
 using Volo.Abp.Threading;
 using Volo.Abp.VirtualFileSystem;
+using Volo.Abp.AspNetCore.Mvc;
 
 namespace ProductAp
 {
@@ -55,6 +56,17 @@ namespace ProductAp
             ConfigureCors(context, configuration);
             ConfigureSwaggerServices(context);
             ConfigureHangfire(context, configuration);
+
+            //AppServices自动转换成Api
+            ConfigureConventionalControllers();
+        }
+
+        private void ConfigureConventionalControllers()
+        {
+            Configure<AbpAspNetCoreMvcOptions>(options =>
+            {
+                options.ConventionalControllers.Create(typeof(ProductApApplicationModule).Assembly);
+            });
         }
 
         private void ConfigureMultiTenancy()

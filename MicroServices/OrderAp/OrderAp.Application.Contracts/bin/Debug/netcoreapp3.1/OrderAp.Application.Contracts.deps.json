@@ -6,11 +6,11 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "OrderAp.Application.Contracts/1.1.7": {
+      "OrderAp.Application.Contracts/1.0.0.2": {
         "dependencies": {
+          "Pest.OrderAp.Domain": "1.0.0.1",
           "Volo.Abp.Ddd.Application": "3.1.0",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0",
-          "XCZ.OrderAp.Domain": "1.1.7"
+          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
         "runtime": {
           "OrderAp.Application.Contracts.dll": {}
@@ -1113,7 +1113,7 @@
           }
         }
       },
-      "XCZ.OrderAp.Domain/1.1.7": {
+      "Pest.OrderAp.Domain/1.0.0.1": {
         "dependencies": {
           "Volo.Abp.AuditLogging.Domain": "3.1.0",
           "Volo.Abp.Ddd.Domain": "3.1.0",
@@ -1129,7 +1129,7 @@
     }
   },
   "libraries": {
-    "OrderAp.Application.Contracts/1.1.7": {
+    "OrderAp.Application.Contracts/1.0.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1855,7 +1855,7 @@
       "path": "volo.abp.virtualfilesystem/3.1.0",
       "hashPath": "volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
     },
-    "XCZ.OrderAp.Domain/1.1.7": {
+    "Pest.OrderAp.Domain/1.0.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

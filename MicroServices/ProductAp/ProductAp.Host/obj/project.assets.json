@@ -4456,15 +4456,65 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "ProductAp.Application/1.0.0": {
+      "Pest.ProductAp.Application.Contracts/1.0.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "Pest.ProductAp.Domain": "1.0.0.1",
+          "Volo.Abp.Ddd.Application": "3.1.0",
+          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Pest.ProductAp.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pest.ProductAp.Application.Contracts.dll": {}
+        }
+      },
+      "Pest.ProductAp.Domain/1.0.0.1": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Volo.Abp.AuditLogging.Domain": "3.1.0",
+          "Volo.Abp.Ddd.Domain": "3.1.0",
+          "Volo.Abp.EntityFrameworkCore": "3.1.0",
+          "Volo.Abp.Localization": "3.1.0",
+          "Volo.Abp.SettingManagement.Domain": "3.1.0",
+          "Volo.Abp.Validation": "3.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Pest.ProductAp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pest.ProductAp.Domain.dll": {}
+        }
+      },
+      "Pest.ProductAp.HttpApi/1.0.0.2": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Pest.ProductAp.Application.Contracts": "1.0.0.2",
+          "Volo.Abp.AspNetCore.Mvc": "3.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Pest.ProductAp.HttpApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pest.ProductAp.HttpApi.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "ProductAp.Application/1.0.0.2": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Pest.ProductAp.Application.Contracts": "1.0.0.2",
           "Volo.Abp.AutoMapper": "3.1.0",
           "Volo.Abp.BackgroundJobs.HangFire": "3.1.0",
           "Volo.Abp.Http.Client.IdentityModel": "3.1.0",
-          "Volo.Abp.Identity.HttpApi.Client": "3.1.0",
-          "XCZ.ProductAp.Application.Contracts": "1.1.7"
+          "Volo.Abp.Identity.HttpApi.Client": "3.1.0"
         },
         "compile": {
           "bin/placeholder/ProductAp.Application.dll": {}
@@ -4481,12 +4531,12 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Hangfire.SqlServer": "1.7.11",
+          "Pest.ProductAp.Domain": "1.0.0.1",
           "Volo.Abp.AuditLogging.EntityFrameworkCore": "3.1.0",
           "Volo.Abp.EntityFrameworkCore.SqlServer": "3.1.0",
           "Volo.Abp.PermissionManagement.EntityFrameworkCore": "3.1.0",
           "Volo.Abp.SettingManagement.EntityFrameworkCore": "3.1.0",
-          "Volo.Abp.TenantManagement.EntityFrameworkCore": "3.1.0",
-          "XCZ.ProductAp.Domain": "1.1.7"
+          "Volo.Abp.TenantManagement.EntityFrameworkCore": "3.1.0"
         },
         "compile": {
           "bin/placeholder/ProductAp.EntityFrameworkCore.dll": {}
@@ -4494,56 +4544,6 @@
         "runtime": {
           "bin/placeholder/ProductAp.EntityFrameworkCore.dll": {}
         }
-      },
-      "XCZ.ProductAp.Application.Contracts/1.1.7": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Volo.Abp.Ddd.Application": "3.1.0",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0",
-          "XCZ.ProductAp.Domain": "1.1.7"
-        },
-        "compile": {
-          "bin/placeholder/XCZ.ProductAp.Application.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/XCZ.ProductAp.Application.Contracts.dll": {}
-        }
-      },
-      "XCZ.ProductAp.Domain/1.1.7": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Volo.Abp.AuditLogging.Domain": "3.1.0",
-          "Volo.Abp.Ddd.Domain": "3.1.0",
-          "Volo.Abp.EntityFrameworkCore": "3.1.0",
-          "Volo.Abp.Localization": "3.1.0",
-          "Volo.Abp.SettingManagement.Domain": "3.1.0",
-          "Volo.Abp.Validation": "3.1.0"
-        },
-        "compile": {
-          "bin/placeholder/XCZ.ProductAp.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/XCZ.ProductAp.Domain.dll": {}
-        }
-      },
-      "XCZ.ProductAp.HttpApi/1.1.7": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Volo.Abp.AspNetCore.Mvc": "3.1.0",
-          "XCZ.ProductAp.Application.Contracts": "1.1.7"
-        },
-        "compile": {
-          "bin/placeholder/XCZ.ProductAp.HttpApi.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/XCZ.ProductAp.HttpApi.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -12713,7 +12713,22 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "ProductAp.Application/1.0.0": {
+    "Pest.ProductAp.Application.Contracts/1.0.0.2": {
+      "type": "project",
+      "path": "../ProductAp.Application.Contracts/ProductAp.Application.Contracts.csproj",
+      "msbuildProject": "../ProductAp.Application.Contracts/ProductAp.Application.Contracts.csproj"
+    },
+    "Pest.ProductAp.Domain/1.0.0.1": {
+      "type": "project",
+      "path": "../ProductAp.Domain/ProductAp.Domain.csproj",
+      "msbuildProject": "../ProductAp.Domain/ProductAp.Domain.csproj"
+    },
+    "Pest.ProductAp.HttpApi/1.0.0.2": {
+      "type": "project",
+      "path": "../ProductAp.HttpApi/ProductAp.HttpApi.csproj",
+      "msbuildProject": "../ProductAp.HttpApi/ProductAp.HttpApi.csproj"
+    },
+    "ProductAp.Application/1.0.0.2": {
       "type": "project",
       "path": "../ProductAp.Application/ProductAp.Application.csproj",
       "msbuildProject": "../ProductAp.Application/ProductAp.Application.csproj"
@@ -12722,21 +12737,6 @@
       "type": "project",
       "path": "../ProductAp.EntityFrameworkCore/ProductAp.EntityFrameworkCore.csproj",
       "msbuildProject": "../ProductAp.EntityFrameworkCore/ProductAp.EntityFrameworkCore.csproj"
-    },
-    "XCZ.ProductAp.Application.Contracts/1.1.7": {
-      "type": "project",
-      "path": "../ProductAp.Application.Contracts/ProductAp.Application.Contracts.csproj",
-      "msbuildProject": "../ProductAp.Application.Contracts/ProductAp.Application.Contracts.csproj"
-    },
-    "XCZ.ProductAp.Domain/1.1.7": {
-      "type": "project",
-      "path": "../ProductAp.Domain/ProductAp.Domain.csproj",
-      "msbuildProject": "../ProductAp.Domain/ProductAp.Domain.csproj"
-    },
-    "XCZ.ProductAp.HttpApi/1.1.7": {
-      "type": "project",
-      "path": "../ProductAp.HttpApi/ProductAp.HttpApi.csproj",
-      "msbuildProject": "../ProductAp.HttpApi/ProductAp.HttpApi.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12745,7 +12745,8 @@
       "Microsoft.AspNetCore.DataProtection.StackExchangeRedis >= 3.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.6",
       "Microsoft.Extensions.Caching.StackExchangeRedis >= 3.1.6",
-      "ProductAp.Application >= 1.0.0",
+      "Pest.ProductAp.HttpApi >= 1.0.0.2",
+      "ProductAp.Application >= 1.0.0.2",
       "ProductAp.EntityFrameworkCore >= 1.0.0",
       "Serilog.AspNetCore >= 3.2.0",
       "Serilog.Sinks.Async >= 1.4.0",
@@ -12755,8 +12756,7 @@
       "Volo.Abp.AspNetCore.MultiTenancy >= 3.1.0",
       "Volo.Abp.AspNetCore.Serilog >= 3.1.0",
       "Volo.Abp.Autofac >= 3.1.0",
-      "Volo.Abp.Caching >= 3.1.0",
-      "XCZ.ProductAp.HttpApi >= 1.1.7"
+      "Volo.Abp.Caching >= 3.1.0"
     ]
   },
   "packageFolders": {
@@ -12764,13 +12764,13 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.9",
+    "version": "1.0.0.1",
     "restore": {
-      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Host\\ProductAp.Host.csproj",
+      "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Host\\ProductAp.Host.csproj",
       "projectName": "ProductAp.Host",
-      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Host\\ProductAp.Host.csproj",
+      "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Host\\ProductAp.Host.csproj",
       "packagesPath": "E:\\Program Files\\.nuget\\packages",
-      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Host\\obj\\",
+      "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Host\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12793,14 +12793,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application\\ProductAp.Application.csproj": {
-              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.Application\\ProductAp.Application.csproj"
+            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application\\ProductAp.Application.csproj": {
+              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application\\ProductAp.Application.csproj"
             },
-            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj": {
-              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj"
+            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj": {
+              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.EntityFrameworkCore\\ProductAp.EntityFrameworkCore.csproj"
             },
-            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj": {
-              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\Product\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj"
+            "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj": {
+              "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj"
             }
           }
         }
