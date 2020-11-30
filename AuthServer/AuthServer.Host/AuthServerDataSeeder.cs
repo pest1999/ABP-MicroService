@@ -1,7 +1,9 @@
 ﻿using IdentityServer4.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Volo.Abp.Account;
 using Volo.Abp.Authorization.Permissions;
 using Volo.Abp.Data;
 using Volo.Abp.DependencyInjection;
@@ -25,26 +27,39 @@ namespace AuthServer.Host
         private readonly IGuidGenerator _guidGenerator;
         private readonly IPermissionDataSeeder _permissionDataSeeder;
 
+        private readonly AccountAppService accountAppService;
+
         public AuthServerDataSeeder(
             IClientRepository clientRepository,
             IApiResourceRepository apiResourceRepository,
             IIdentityResourceDataSeeder identityResourceDataSeeder,
             IGuidGenerator guidGenerator,
-            IPermissionDataSeeder permissionDataSeeder)
+            IPermissionDataSeeder permissionDataSeeder,
+             AccountAppService _accountAppService)
         {
             _clientRepository = clientRepository;
             _apiResourceRepository = apiResourceRepository;
             _identityResourceDataSeeder = identityResourceDataSeeder;
             _guidGenerator = guidGenerator;
             _permissionDataSeeder = permissionDataSeeder;
+
+            //accountAppService = _accountAppService;
+            
         }
 
         [UnitOfWork]
         public virtual async Task SeedAsync(DataSeedContext context)
         {
+            //var input = new ResetPasswordDto();
+            //input.UserId = Guid.Parse("A6C9CFD5-833B-13EF-C78A-39F866BCE0EC");
+            //input.Password = "1q2w3E*";
+            //input.ResetToken
+            //await accountAppService.ResetPasswordAsync(input);
+
             await _identityResourceDataSeeder.CreateStandardResourcesAsync();
             await CreateApiResourcesAsync();
             await CreateClientsAsync();
+            await CreateProductClientsAsync();
         }
 
         private async Task CreateApiResourcesAsync()
@@ -65,6 +80,11 @@ namespace AuthServer.Host
             await CreateApiResourceAsync("TenantService", commonApiUserClaims);
             await CreateApiResourceAsync("BusinessService", commonApiUserClaims);
             await CreateApiResourceAsync("ResourceService", commonApiUserClaims);
+
+            await CreateApiResourceAsync("Product", commonApiUserClaims);
+            await CreateApiResourceAsync("BoxAp", commonApiUserClaims);
+            await CreateApiResourceAsync("ProductApService", commonApiUserClaims);
+            //await CreateApiResourceAsync("PosAppService", commonApiUserClaims);
         }
 
         private async Task<ApiResource> CreateApiResourceAsync(string name, IEnumerable<string> claims)
@@ -107,7 +127,7 @@ namespace AuthServer.Host
 
             await CreateClientAsync(
                 "basic-web",
-                new[] { "IdentityService", "WebAppGateway", "BusinessService", "TenantService" },
+                new[] { "IdentityService", "WebAppGateway", "BusinessService", "TenantService", "ProductAp", "Product", "BoxAp", "Box", "ProductApService" },
                 new[] { "password" },
                 "1q2w3e*".Sha256()
             );
@@ -123,6 +143,49 @@ namespace AuthServer.Host
             await CreateClientAsync(
                 "resource-app",
                 new[] { "ResourceService", "ResourceService" },
+                new[] { "client_credentials" },
+                "1q2w3e*".Sha256(),
+                permissions: new[] { IdentityPermissions.Users.Default }
+            );
+
+           // await CreateClientAsync(
+           //    "PosApp-app",
+           //    new[] { "InternalGateway", "IdentityService", "basic-web", "WebAppGateway" },
+           //    new[] { "client_credentials" },
+           //    "1q2w3e*".Sha256(),
+           //    permissions: new[] { IdentityPermissions.Users.Default }
+           //);
+        }
+
+        private async Task CreateProductClientsAsync()
+        {
+            await CreateClientAsync(
+                "order-app",
+                new[] { "InternalGateway", "IdentityService" },
+                new[] { "client_credentials" },
+                "1q2w3e*".Sha256(),
+                permissions: new[] { IdentityPermissions.Users.Default }
+            );
+
+            await CreateClientAsync(
+                "product-app",
+                new[] { "InternalGateway", "IdentityService" },
+                new[] { "client_credentials" },
+                "1q2w3e*".Sha256(),
+                permissions: new[] { IdentityPermissions.Users.Default }
+            );
+
+            await CreateClientAsync(
+                "ProductAp-app",
+                new[] { "InternalGateway", "IdentityService" },
+                new[] { "client_credentials" },
+                "1q2w3e*".Sha256(),
+                permissions: new[] { IdentityPermissions.Users.Default }
+            );
+
+            await CreateClientAsync(
+                "BoxAp-app",
+                new[] { "InternalGateway", "IdentityService" },
                 new[] { "client_credentials" },
                 "1q2w3e*".Sha256(),
                 permissions: new[] { IdentityPermissions.Users.Default }

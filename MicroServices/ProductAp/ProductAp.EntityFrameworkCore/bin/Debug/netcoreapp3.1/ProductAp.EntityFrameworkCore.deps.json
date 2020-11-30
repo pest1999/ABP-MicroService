@@ -10,12 +10,12 @@
         "dependencies": {
           "Hangfire.SqlServer": "1.7.11",
           "Microsoft.EntityFrameworkCore.Design": "3.1.6",
+          "Pest.ProductAp.Domain": "1.0.0.1",
           "Volo.Abp.AuditLogging.EntityFrameworkCore": "3.1.0",
           "Volo.Abp.EntityFrameworkCore.SqlServer": "3.1.0",
           "Volo.Abp.PermissionManagement.EntityFrameworkCore": "3.1.0",
           "Volo.Abp.SettingManagement.EntityFrameworkCore": "3.1.0",
-          "Volo.Abp.TenantManagement.EntityFrameworkCore": "3.1.0",
-          "XCZ.ProductAp.Domain": "1.1.7"
+          "Volo.Abp.TenantManagement.EntityFrameworkCore": "3.1.0"
         },
         "runtime": {
           "ProductAp.EntityFrameworkCore.dll": {}
@@ -1763,7 +1763,7 @@
           }
         }
       },
-      "XCZ.ProductAp.Domain/1.1.7": {
+      "Pest.ProductAp.Domain/1.0.0.1": {
         "dependencies": {
           "Volo.Abp.AuditLogging.Domain": "3.1.0",
           "Volo.Abp.Ddd.Domain": "3.1.0",
@@ -2890,7 +2890,7 @@
       "path": "volo.abp.virtualfilesystem/3.1.0",
       "hashPath": "volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
     },
-    "XCZ.ProductAp.Domain/1.1.7": {
+    "Pest.ProductAp.Domain/1.0.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

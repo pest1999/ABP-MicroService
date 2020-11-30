@@ -22,13 +22,14 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "ProductAp.Host/1.0.9": {
+      "ProductAp.Host/1.0.0.1": {
         "dependencies": {
           "IdentityServer4.AccessTokenValidation": "3.0.1",
           "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "3.1.6",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.6",
           "Microsoft.Extensions.Caching.StackExchangeRedis": "3.1.6",
-          "ProductAp.Application": "1.0.0",
+          "Pest.ProductAp.HttpApi": "1.0.0.3",
+          "ProductAp.Application": "1.0.0.2",
           "ProductAp.EntityFrameworkCore": "1.0.0",
           "Serilog.AspNetCore": "3.2.0",
           "Serilog.Sinks.Async": "1.4.0",
@@ -39,7 +40,6 @@
           "Volo.Abp.AspNetCore.Serilog": "3.1.0",
           "Volo.Abp.Autofac": "3.1.0",
           "Volo.Abp.Caching": "3.1.0",
-          "XCZ.ProductAp.HttpApi": "1.1.7",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -4124,43 +4124,11 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "ProductAp.Application/1.0.0": {
+      "Pest.ProductAp.Application.Contracts/1.0.0.4": {
         "dependencies": {
-          "Volo.Abp.AutoMapper": "3.1.0",
-          "Volo.Abp.BackgroundJobs.HangFire": "3.1.0",
-          "Volo.Abp.Http.Client.IdentityModel": "3.1.0",
-          "Volo.Abp.Identity.HttpApi.Client": "3.1.0",
-          "XCZ.ProductAp.Application.Contracts": "1.1.7"
-        },
-        "runtime": {
-          "ProductAp.Application.dll": {}
-        },
-        "compile": {
-          "ProductAp.Application.dll": {}
-        }
-      },
-      "ProductAp.EntityFrameworkCore/1.0.0": {
-        "dependencies": {
-          "Hangfire.SqlServer": "1.7.11",
-          "Volo.Abp.AuditLogging.EntityFrameworkCore": "3.1.0",
-          "Volo.Abp.EntityFrameworkCore.SqlServer": "3.1.0",
-          "Volo.Abp.PermissionManagement.EntityFrameworkCore": "3.1.0",
-          "Volo.Abp.SettingManagement.EntityFrameworkCore": "3.1.0",
-          "Volo.Abp.TenantManagement.EntityFrameworkCore": "3.1.0",
-          "XCZ.ProductAp.Domain": "1.1.7"
-        },
-        "runtime": {
-          "ProductAp.EntityFrameworkCore.dll": {}
-        },
-        "compile": {
-          "ProductAp.EntityFrameworkCore.dll": {}
-        }
-      },
-      "XCZ.ProductAp.Application.Contracts/1.1.7": {
-        "dependencies": {
+          "Pest.ProductAp.Domain": "1.0.0.1",
           "Volo.Abp.Ddd.Application": "3.1.0",
-          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0",
-          "XCZ.ProductAp.Domain": "1.1.7"
+          "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
         "runtime": {
           "ProductAp.Application.Contracts.dll": {}
@@ -4169,7 +4137,7 @@
           "ProductAp.Application.Contracts.dll": {}
         }
       },
-      "XCZ.ProductAp.Domain/1.1.7": {
+      "Pest.ProductAp.Domain/1.0.0.1": {
         "dependencies": {
           "Volo.Abp.AuditLogging.Domain": "3.1.0",
           "Volo.Abp.Ddd.Domain": "3.1.0",
@@ -4185,16 +4153,48 @@
           "ProductAp.Domain.dll": {}
         }
       },
-      "XCZ.ProductAp.HttpApi/1.1.7": {
+      "Pest.ProductAp.HttpApi/1.0.0.3": {
         "dependencies": {
-          "Volo.Abp.AspNetCore.Mvc": "3.1.0",
-          "XCZ.ProductAp.Application.Contracts": "1.1.7"
+          "Pest.ProductAp.Application.Contracts": "1.0.0.4",
+          "Volo.Abp.AspNetCore.Mvc": "3.1.0"
         },
         "runtime": {
           "ProductAp.HttpApi.dll": {}
         },
         "compile": {
           "ProductAp.HttpApi.dll": {}
+        }
+      },
+      "ProductAp.Application/1.0.0.2": {
+        "dependencies": {
+          "Pest.ProductAp.Application.Contracts": "1.0.0.4",
+          "Volo.Abp.AutoMapper": "3.1.0",
+          "Volo.Abp.BackgroundJobs.HangFire": "3.1.0",
+          "Volo.Abp.Http.Client.IdentityModel": "3.1.0",
+          "Volo.Abp.Identity.HttpApi.Client": "3.1.0"
+        },
+        "runtime": {
+          "ProductAp.Application.dll": {}
+        },
+        "compile": {
+          "ProductAp.Application.dll": {}
+        }
+      },
+      "ProductAp.EntityFrameworkCore/1.0.0": {
+        "dependencies": {
+          "Hangfire.SqlServer": "1.7.11",
+          "Pest.ProductAp.Domain": "1.0.0.1",
+          "Volo.Abp.AuditLogging.EntityFrameworkCore": "3.1.0",
+          "Volo.Abp.EntityFrameworkCore.SqlServer": "3.1.0",
+          "Volo.Abp.PermissionManagement.EntityFrameworkCore": "3.1.0",
+          "Volo.Abp.SettingManagement.EntityFrameworkCore": "3.1.0",
+          "Volo.Abp.TenantManagement.EntityFrameworkCore": "3.1.0"
+        },
+        "runtime": {
+          "ProductAp.EntityFrameworkCore.dll": {}
+        },
+        "compile": {
+          "ProductAp.EntityFrameworkCore.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -5688,7 +5688,7 @@
     }
   },
   "libraries": {
-    "ProductAp.Host/1.0.9": {
+    "ProductAp.Host/1.0.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -7779,27 +7779,27 @@
       "path": "volo.abp.virtualfilesystem/3.1.0",
       "hashPath": "volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
     },
-    "ProductAp.Application/1.0.0": {
+    "Pest.ProductAp.Application.Contracts/1.0.0.4": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pest.ProductAp.Domain/1.0.0.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pest.ProductAp.HttpApi/1.0.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProductAp.Application/1.0.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "ProductAp.EntityFrameworkCore/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "XCZ.ProductAp.Application.Contracts/1.1.7": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "XCZ.ProductAp.Domain/1.1.7": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "XCZ.ProductAp.HttpApi/1.1.7": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

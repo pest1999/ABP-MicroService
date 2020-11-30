@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "69E0RKLQSDCkerxXag7/QyNI7m0E4LlM9+WH8cgP+r44ycNcbpFo6ByLRVM4NyHNo+L5Cj8aCwhPSUTlJcSnMg==",
+  "dgSpecHash": "ty0y+v+VmOcaz/uYczuUnuPut3b+YIh83KE4Cu0nIHUDtPuEr/iRx2FQzP7WBqnYN2IKGfVFx9kKzhGtWgY0OQ==",
   "success": true,
   "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi.Client\\ProductAp.HttpApi.Client.csproj",
   "expectedPackageFiles": [

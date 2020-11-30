@@ -4456,7 +4456,7 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "Pest.ProductAp.Application.Contracts/1.0.0.2": {
+      "Pest.ProductAp.Application.Contracts/1.0.0.4": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -4489,11 +4489,11 @@
           "bin/placeholder/Pest.ProductAp.Domain.dll": {}
         }
       },
-      "Pest.ProductAp.HttpApi/1.0.0.2": {
+      "Pest.ProductAp.HttpApi/1.0.0.3": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Pest.ProductAp.Application.Contracts": "1.0.0.2",
+          "Pest.ProductAp.Application.Contracts": "1.0.0.4",
           "Volo.Abp.AspNetCore.Mvc": "3.1.0"
         },
         "compile": {
@@ -4510,7 +4510,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Pest.ProductAp.Application.Contracts": "1.0.0.2",
+          "Pest.ProductAp.Application.Contracts": "1.0.0.4",
           "Volo.Abp.AutoMapper": "3.1.0",
           "Volo.Abp.BackgroundJobs.HangFire": "3.1.0",
           "Volo.Abp.Http.Client.IdentityModel": "3.1.0",
@@ -12713,7 +12713,7 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "Pest.ProductAp.Application.Contracts/1.0.0.2": {
+    "Pest.ProductAp.Application.Contracts/1.0.0.4": {
       "type": "project",
       "path": "../ProductAp.Application.Contracts/ProductAp.Application.Contracts.csproj",
       "msbuildProject": "../ProductAp.Application.Contracts/ProductAp.Application.Contracts.csproj"
@@ -12723,7 +12723,7 @@
       "path": "../ProductAp.Domain/ProductAp.Domain.csproj",
       "msbuildProject": "../ProductAp.Domain/ProductAp.Domain.csproj"
     },
-    "Pest.ProductAp.HttpApi/1.0.0.2": {
+    "Pest.ProductAp.HttpApi/1.0.0.3": {
       "type": "project",
       "path": "../ProductAp.HttpApi/ProductAp.HttpApi.csproj",
       "msbuildProject": "../ProductAp.HttpApi/ProductAp.HttpApi.csproj"
@@ -12745,7 +12745,7 @@
       "Microsoft.AspNetCore.DataProtection.StackExchangeRedis >= 3.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.6",
       "Microsoft.Extensions.Caching.StackExchangeRedis >= 3.1.6",
-      "Pest.ProductAp.HttpApi >= 1.0.0.2",
+      "Pest.ProductAp.HttpApi >= 1.0.0.3",
       "ProductAp.Application >= 1.0.0.2",
       "ProductAp.EntityFrameworkCore >= 1.0.0",
       "Serilog.AspNetCore >= 3.2.0",

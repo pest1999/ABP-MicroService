@@ -57,8 +57,8 @@ namespace ProductAp
             ConfigureSwaggerServices(context);
             ConfigureHangfire(context, configuration);
 
-            //AppServices自动转换成Api
-            ConfigureConventionalControllers();
+            ////AppServices自动转换成Api
+            //ConfigureConventionalControllers();
         }
 
         private void ConfigureConventionalControllers()
@@ -192,6 +192,7 @@ namespace ProductAp
             app.UseRouting();
             app.UseCors(DefaultCorsPolicyName);
             app.UseAuthentication();
+            //app.UseAuthorization();
             app.UseAbpClaimsMap();
             if (MultiTenancyConsts.IsEnabled)
             {

@@ -1,0 +1,14 @@
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\bin\Debug\netcoreapp3.1\PosApp.Application.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\bin\Debug\netcoreapp3.1\PosApp.Application.dll
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\bin\Debug\netcoreapp3.1\PosApp.Application.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\bin\Debug\netcoreapp3.1\PosApp.Application.Contracts.dll
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\bin\Debug\netcoreapp3.1\PosApp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\bin\Debug\netcoreapp3.1\PosApp.Application.Contracts.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\bin\Debug\netcoreapp3.1\PosApp.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\obj\Debug\netcoreapp3.1\PosApp.Application.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\obj\Debug\netcoreapp3.1\PosApp.Application.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\obj\Debug\netcoreapp3.1\PosApp.Application.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\obj\Debug\netcoreapp3.1\PosApp.Application.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\obj\Debug\netcoreapp3.1\PosApp.Application.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\obj\Debug\netcoreapp3.1\PosApp.Application.dll
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Application\obj\Debug\netcoreapp3.1\PosApp.Application.pdb

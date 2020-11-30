@@ -15,6 +15,7 @@ using System.IO;
 using System.Linq;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.MultiTenancy;
+using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.AspNetCore.Serilog;
 using Volo.Abp.Autofac;
 using Volo.Abp.Caching;
@@ -55,6 +56,16 @@ namespace Business
             ConfigureCors(context, configuration);
             ConfigureSwaggerServices(context);
             ConfigureHangfire(context, configuration);
+
+            //ConfigureConventionalControllers();
+        }
+
+        private void ConfigureConventionalControllers()
+        {
+            Configure<AbpAspNetCoreMvcOptions>(options =>
+            {
+                options.ConventionalControllers.Create(typeof(BusinessApplicationModule).Assembly);
+            });
         }
 
         private void ConfigureMultiTenancy()

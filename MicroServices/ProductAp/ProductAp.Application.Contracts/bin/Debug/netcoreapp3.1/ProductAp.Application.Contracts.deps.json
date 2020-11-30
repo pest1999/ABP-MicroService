@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "ProductAp.Application.Contracts/1.0.0.2": {
+      "ProductAp.Application.Contracts/1.0.0.4": {
         "dependencies": {
           "Pest.ProductAp.Domain": "1.0.0.1",
           "Volo.Abp.Ddd.Application": "3.1.0",
@@ -1129,7 +1129,7 @@
     }
   },
   "libraries": {
-    "ProductAp.Application.Contracts/1.0.0.2": {
+    "ProductAp.Application.Contracts/1.0.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,14 @@
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\bin\Debug\netcoreapp3.1\PosApp.HttpApi.Client.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\bin\Debug\netcoreapp3.1\PosApp.HttpApi.Client.dll
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\bin\Debug\netcoreapp3.1\PosApp.HttpApi.Client.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\bin\Debug\netcoreapp3.1\PosApp.Application.Contracts.dll
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\bin\Debug\netcoreapp3.1\PosApp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\bin\Debug\netcoreapp3.1\PosApp.Application.Contracts.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\bin\Debug\netcoreapp3.1\PosApp.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\obj\Debug\netcoreapp3.1\PosApp.HttpApi.Client.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\obj\Debug\netcoreapp3.1\PosApp.HttpApi.Client.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\obj\Debug\netcoreapp3.1\PosApp.HttpApi.Client.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\obj\Debug\netcoreapp3.1\PosApp.HttpApi.Client.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\obj\Debug\netcoreapp3.1\PosApp.HttpApi.Client.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\obj\Debug\netcoreapp3.1\PosApp.HttpApi.Client.dll
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi.Client\obj\Debug\netcoreapp3.1\PosApp.HttpApi.Client.pdb

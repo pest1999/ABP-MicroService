@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zeDxcZt7ayNpknajyc4EkEAeShn2Qn3F4wLpPB1p3oM0r++51SbyvQ4+xdtaSvaGYyRtaEAOsVUo++NsO93Qbw==",
+  "dgSpecHash": "Y4Rs4EbfCSY4wF7yCHSmaACHlCKxzxZAu182c6XkPZbYgGU5cyfFn4pryXAiJiZDgP0QSwX0b168MprTSXG3cw==",
   "success": true,
   "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj",
   "expectedPackageFiles": [

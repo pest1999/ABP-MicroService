@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ProductAp.Application/1.0.0.2": {
         "dependencies": {
-          "Pest.ProductAp.Application.Contracts": "1.0.0.2",
+          "Pest.ProductAp.Application.Contracts": "1.0.0.4",
           "Volo.Abp.AutoMapper": "3.1.0",
           "Volo.Abp.BackgroundJobs.HangFire": "3.1.0",
           "Volo.Abp.Http.Client.IdentityModel": "3.1.0",
@@ -2045,7 +2045,7 @@
           }
         }
       },
-      "Pest.ProductAp.Application.Contracts/1.0.0.2": {
+      "Pest.ProductAp.Application.Contracts/1.0.0.4": {
         "dependencies": {
           "Pest.ProductAp.Domain": "1.0.0.1",
           "Volo.Abp.Ddd.Application": "3.1.0",
@@ -3399,7 +3399,7 @@
       "path": "volo.abp.virtualfilesystem/3.1.0",
       "hashPath": "volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
     },
-    "Pest.ProductAp.Application.Contracts/1.0.0.2": {
+    "Pest.ProductAp.Application.Contracts/1.0.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

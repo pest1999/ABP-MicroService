@@ -161,7 +161,7 @@ export default {
       this.listLoading = true;
       this.listQuery.SkipCount = (this.page - 1) * 10;
       this.$axios
-        .gets("/api/business/form", this.listQuery)
+        .gets("/api/business/form2", this.listQuery)
         .then((response) => {
           this.list = response.items;
           this.totalCount = response.totalCount;

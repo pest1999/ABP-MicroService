@@ -5,7 +5,7 @@
   },
   "projects": {
     "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj": {
-      "version": "1.0.0.2",
+      "version": "1.0.0.4",
       "restore": {
         "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.Application.Contracts\\ProductAp.Application.Contracts.csproj",
         "projectName": "Pest.ProductAp.Application.Contracts",
@@ -163,7 +163,7 @@
       }
     },
     "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj": {
-      "version": "1.0.0.2",
+      "version": "1.0.0.3",
       "restore": {
         "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj",
         "projectName": "Pest.ProductAp.HttpApi",

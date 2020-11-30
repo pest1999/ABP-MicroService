@@ -4,9 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Business</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.1.7</Version>
-    <PackageId>XCZ.Business.HttpApi</PackageId>
-    <Authors>WilliamXu</Authors>
+    <Version>1.1.8</Version>
+    <PackageId>pest.Business.HttpApi</PackageId>
+    <Authors>cmtthe</Authors>
+    <Company>cmtthe</Company>
   </PropertyGroup>
 
   <ItemGroup>

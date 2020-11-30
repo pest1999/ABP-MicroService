@@ -53,6 +53,7 @@ namespace ProductAp.Products
             return ObjectMapper.Map<Product, ProductDto>(result);
         }
 
+        [Authorize(ProductApPermissions.Product.Create)]
         public async Task<PagedResultDto<ProductDto>> GetAll(GetProductInputDto input)
         {
             var query = _repository
@@ -68,7 +69,7 @@ namespace ProductAp.Products
             return new PagedResultDto<ProductDto>(totalCount, dots);
         }
 
-        [Authorize(ProductApPermissions.Product.Update)]
+        //[Authorize(ProductApPermissions.Product.Update)]
         public async Task<ProductDto> Update(Guid id, CreateOrUpdateProductDto input)
         {
             var dic = await _repository.GetAsync(id);

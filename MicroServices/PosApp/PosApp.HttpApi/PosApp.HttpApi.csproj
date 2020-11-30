@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>PosApp</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0.3</Version>
+    <PackageId>Pest.PosApp.HttpApi</PackageId>
+    <Authors>cmtthe</Authors>
+    <Company>cmtthe</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="3.1.0" />
+    <PackageReference Include="XCZ.FormManagement.HttpApi" Version="1.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PosApp.Application.Contracts\PosApp.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,355 @@
+2020-11-30 17:02:54.949 +08:00 [INF] Starting PosApp.Host
+2020-11-30 17:03:02.570 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-11-30 17:03:02.715 +08:00 [INF] Loaded ABP modules:
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-11-30 17:03:02.715 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-11-30 17:03:02.716 +08:00 [INF] - PosApp.PosAppDomainModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-11-30 17:03:02.716 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-11-30 17:03:02.717 +08:00 [INF] - PosApp.PosAppApplicationContractsModule
+2020-11-30 17:03:02.717 +08:00 [INF] - XCZ.FormDomainModule
+2020-11-30 17:03:02.717 +08:00 [INF] - XCZ.FormApplicationContractsModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-11-30 17:03:02.717 +08:00 [INF] - XCZ.FormHttpApiModule
+2020-11-30 17:03:02.717 +08:00 [INF] - PosApp.PosAppHttpApiModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-11-30 17:03:02.717 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-11-30 17:03:02.718 +08:00 [INF] - XCZ.FormApplicationModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.Hangfire.AbpHangfireModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.BackgroundJobs.Hangfire.AbpBackgroundJobsHangfireModule
+2020-11-30 17:03:02.718 +08:00 [INF] - PosApp.PosAppApplicationModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-11-30 17:03:02.718 +08:00 [INF] - XCZ.EntityFrameworkCore.FormEntityFrameworkCoreModule
+2020-11-30 17:03:02.718 +08:00 [INF] - PosApp.EntityFrameworkCore.PosAppEntityFrameworkCoreModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-11-30 17:03:02.718 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-11-30 17:03:02.718 +08:00 [INF] - PosApp.PosAppHostModule
+2020-11-30 17:03:03.373 +08:00 [INF] Start installing Hangfire SQL objects...
+2020-11-30 17:03:04.963 +08:00 [INF] Hangfire SQL objects installed.
+2020-11-30 17:03:04.984 +08:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.168.177,1433@PosApp'
+2020-11-30 17:03:04.985 +08:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2020-11-30 17:03:04.985 +08:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-11-30 17:03:05.008 +08:00 [DBG] Execution loop BackgroundServerProcess:bc9c3c4f has started in 14.2328 ms
+2020-11-30 17:03:05.369 +08:00 [INF] Server win-g69a0gokhhj:16076:9233c52c successfully announced in 293.4775 ms
+2020-11-30 17:03:05.392 +08:00 [DBG] Execution loop ServerHeartbeatProcess:9cb64505 has started in 20.0432 ms
+2020-11-30 17:03:05.392 +08:00 [INF] Server win-g69a0gokhhj:16076:9233c52c is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-11-30 17:03:05.401 +08:00 [DBG] Execution loop ServerWatchdog:7ac7cc0c has started in 8.3345 ms
+2020-11-30 17:03:05.409 +08:00 [DBG] Execution loop ServerJobCancellationWatcher:5eb54e1f has started in 16.406 ms
+2020-11-30 17:03:05.418 +08:00 [DBG] Execution loop ExpirationManager:26cb2168 has started in 14.0225 ms
+2020-11-30 17:03:05.433 +08:00 [DBG] Execution loop CountersAggregator:7e16c96c has started in 23.1057 ms
+2020-11-30 17:03:05.434 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-11-30 17:03:05.434 +08:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2020-11-30 17:03:05.445 +08:00 [DBG] Execution loop Worker:3c73a29c has started in 10.2742 ms
+2020-11-30 17:03:05.453 +08:00 [DBG] Execution loop Worker:83179a1a has started in 17.6128 ms
+2020-11-30 17:03:05.503 +08:00 [DBG] Execution loop Worker:14b528c2 has started in 67.805 ms
+2020-11-30 17:03:05.511 +08:00 [DBG] Execution loop Worker:e5520039 has started in 75.7985 ms
+2020-11-30 17:03:05.592 +08:00 [DBG] Execution loop Worker:68b00bb7 has started in 156.8324 ms
+2020-11-30 17:03:05.618 +08:00 [DBG] Execution loop Worker:db6dfa71 has started in 182.7203 ms
+2020-11-30 17:03:05.650 +08:00 [DBG] Execution loop Worker:13bbae33 has started in 214.9838 ms
+2020-11-30 17:03:05.702 +08:00 [DBG] Removing outdated records from the 'Job' table...
+2020-11-30 17:03:05.815 +08:00 [DBG] Execution loop Worker:61263a1a has started in 379.707 ms
+2020-11-30 17:03:05.823 +08:00 [DBG] Execution loop Worker:c4bb02e8 has started in 387.849 ms
+2020-11-30 17:03:05.837 +08:00 [DBG] Execution loop Worker:ba64415b has started in 401.7305 ms
+2020-11-30 17:03:05.858 +08:00 [DBG] Execution loop Worker:0d26847e has started in 423.179 ms
+2020-11-30 17:03:05.864 +08:00 [DBG] Execution loop Worker:74f5a58f has started in 429.3939 ms
+2020-11-30 17:03:05.895 +08:00 [DBG] Execution loop Worker:e51cec99 has started in 459.8504 ms
+2020-11-30 17:03:05.957 +08:00 [DBG] Execution loop Worker:a22bb29f has started in 521.734 ms
+2020-11-30 17:03:05.981 +08:00 [DBG] Removing outdated records from the 'List' table...
+2020-11-30 17:03:05.989 +08:00 [DBG] Execution loop Worker:fca6384a has started in 553.8049 ms
+2020-11-30 17:03:06.082 +08:00 [DBG] Execution loop Worker:0a4fe43d has started in 647.2682 ms
+2020-11-30 17:03:06.101 +08:00 [DBG] Execution loop Worker:75991010 has started in 665.6999 ms
+2020-11-30 17:03:06.110 +08:00 [DBG] Execution loop Worker:4ab5aa8f has started in 675.1805 ms
+2020-11-30 17:03:06.155 +08:00 [DBG] Execution loop Worker:240b921a has started in 720.2559 ms
+2020-11-30 17:03:06.220 +08:00 [DBG] Execution loop Worker:8fbf9d46 has started in 785.5765 ms
+2020-11-30 17:03:06.244 +08:00 [DBG] Removing outdated records from the 'Set' table...
+2020-11-30 17:03:06.300 +08:00 [DBG] Execution loop DelayedJobScheduler:8c176773 has started in 128.2789 ms
+2020-11-30 17:03:06.365 +08:00 [INF] Server win-g69a0gokhhj:16076:9233c52c all the dispatchers started
+2020-11-30 17:03:06.445 +08:00 [DBG] Removing outdated records from the 'Hash' table...
+2020-11-30 17:03:06.448 +08:00 [DBG] Execution loop RecurringJobScheduler:5f96d4ca has started in 148.4947 ms
+2020-11-30 17:03:08.174 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-11-30 17:03:09.116 +08:00 [INF] Executed DbCommand (150ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.221 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.225 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.227 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.229 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.232 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.235 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.237 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.239 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.241 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.244 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.246 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.248 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.252 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-11-30 17:03:09.349 +08:00 [INF] Initialized all ABP modules.
+2020-11-30 17:03:09.376 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-30 17:03:09.376 +08:00 [INF] Hosting environment: Development
+2020-11-30 17:03:09.376 +08:00 [INF] Content root path: F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Host
+2020-11-30 17:03:09.458 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51586/  
+2020-11-30 17:03:09.535 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-30 17:03:10.386 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'SettingManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-11-30 17:03:10.407 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__providerName_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ([a].[ProviderName] = @__providerName_0) AND [a].[ProviderKey] IS NULL
+2020-11-30 17:03:10.537 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'SettingManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-11-30 17:03:10.540 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__providerName_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ([a].[ProviderName] = @__providerName_0) AND [a].[ProviderKey] IS NULL
+2020-11-30 17:03:10.615 +08:00 [INF] Executing endpoint 'PosApp.Controllers.HomeController.Index (PosApp.Host)'
+2020-11-30 17:03:10.740 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller PosApp.Controllers.HomeController (PosApp.Host).
+2020-11-30 17:03:10.866 +08:00 [INF] Executing action method PosApp.Controllers.HomeController.Index (PosApp.Host) - Validation state: "Valid"
+2020-11-30 17:03:10.874 +08:00 [INF] Executed action method PosApp.Controllers.HomeController.Index (PosApp.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.473ms.
+2020-11-30 17:03:10.884 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-11-30 17:03:10.891 +08:00 [INF] Executed action PosApp.Controllers.HomeController.Index (PosApp.Host) in 145.5006ms
+2020-11-30 17:03:10.892 +08:00 [INF] Executed endpoint 'PosApp.Controllers.HomeController.Index (PosApp.Host)'
+2020-11-30 17:03:10.927 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51586/swagger  
+2020-11-30 17:03:10.929 +08:00 [INF] Request finished in 1470.1531ms 302 
+2020-11-30 17:03:10.930 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-30 17:03:10.937 +08:00 [INF] Request finished in 10.44ms 301 
+2020-11-30 17:03:10.939 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51586/swagger/index.html  
+2020-11-30 17:03:10.972 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-30 17:03:11.044 +08:00 [INF] Request finished in 105.3385ms 200 text/html;charset=utf-8
+2020-11-30 17:03:11.054 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51586/swagger/swagger-ui-standalone-preset.js  
+2020-11-30 17:03:11.054 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51586/swagger/swagger-ui.css  
+2020-11-30 17:03:11.054 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51586/swagger/swagger-ui-bundle.js  
+2020-11-30 17:03:11.056 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-30 17:03:11.057 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-30 17:03:11.073 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-30 17:03:11.115 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2020-11-30 17:03:11.115 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2020-11-30 17:03:11.127 +08:00 [INF] Request finished in 73.4724ms 200 text/css
+2020-11-30 17:03:11.127 +08:00 [INF] Request finished in 73.6264ms 200 application/javascript
+2020-11-30 17:03:11.128 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2020-11-30 17:03:11.129 +08:00 [INF] Request finished in 75.752ms 200 application/javascript
+2020-11-30 17:03:11.537 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51586/swagger/v1/swagger.json  
+2020-11-30 17:03:11.539 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-30 17:03:11.590 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51586/swagger/favicon-32x32.png  
+2020-11-30 17:03:11.592 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-30 17:03:11.594 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2020-11-30 17:03:11.595 +08:00 [INF] Request finished in 4.1349ms 200 image/png
+2020-11-30 17:03:11.615 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51586/swagger/favicon-16x16.png  
+2020-11-30 17:03:11.615 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-30 17:03:11.617 +08:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2020-11-30 17:03:11.617 +08:00 [INF] Request finished in 2.367ms 200 image/png
+2020-11-30 17:03:11.723 +08:00 [INF] Request finished in 186.1003ms 200 application/json;charset=utf-8
+2020-11-30 17:03:22.039 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51586/api/PosApp/test  
+2020-11-30 17:03:22.048 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-11-30 17:03:22.053 +08:00 [INF] Executing endpoint 'PosApp.Controllers.TestController.GetAsync (PosApp.HttpApi)'
+2020-11-30 17:03:22.070 +08:00 [INF] Route matched with {area = "PosApp", action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAsync() on controller PosApp.Controllers.TestController (PosApp.HttpApi).
+2020-11-30 17:03:22.174 +08:00 [INF] Executing action method PosApp.Controllers.TestController.GetAsync (PosApp.HttpApi) - Validation state: "Valid"
+2020-11-30 17:03:28.102 +08:00 [INF] Authorization failed.
+2020-11-30 17:03:28.442 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "Authorization failed! Given policy has not granted.",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-11-30 17:03:28.443 +08:00 [WRN] Authorization failed! Given policy has not granted.
+Volo.Abp.Authorization.AbpAuthorizationException: Authorization failed! Given policy has not granted.
+   at Microsoft.AspNetCore.Authorization.AbpAuthorizationServiceExtensions.CheckAsync(IAuthorizationService authorizationService, AuthorizationPolicy policy)
+   at Volo.Abp.Authorization.MethodInvocationAuthorizationService.CheckAsync(MethodInvocationAuthorizationContext context)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.AuthorizeAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at PosApp.Controllers.TestController.GetAsync() in F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.HttpApi\Controllers\TestController.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-11-30 17:03:29.097 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-11-30 17:03:29.135 +08:00 [INF] Executed action PosApp.Controllers.TestController.GetAsync (PosApp.HttpApi) in 7064.948ms
+2020-11-30 17:03:29.135 +08:00 [INF] Executed endpoint 'PosApp.Controllers.TestController.GetAsync (PosApp.HttpApi)'
+2020-11-30 17:03:29.829 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'AbpAuditLoggingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-11-30 17:03:30.072 +08:00 [INF] Executed DbCommand (27ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 96), @p2='?' (Size = 512), @p3='?' (Size = 64), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (Size = 256), @p7='?' (Size = 40), @p8='?' (Size = 64), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime2), @p12='?' (Size = 4000), @p13='?' (Size = 16), @p14='?' (DbType = Int32), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (Size = 4000), @p19='?' (Size = 256), @p20='?' (DbType = Guid), @p21='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([Id], [ApplicationName], [BrowserInfo], [ClientId], [ClientIpAddress], [ClientName], [Comments], [ConcurrencyStamp], [CorrelationId], [Exceptions], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [HttpMethod], [HttpStatusCode], [ImpersonatorTenantId], [ImpersonatorUserId], [TenantId], [TenantName], [Url], [UserId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2020-11-30 17:03:30.088 +08:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-11-30 17:03:30.098 +08:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-11-30 17:03:30.142 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-11-30 17:03:30.142 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-11-30 17:03:30.149 +08:00 [INF] Request finished in 8110.9048ms 401 application/json; charset=utf-8
+2020-11-30 17:03:35.531 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:04:05.547 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:04:35.572 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:05:05.598 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:05:35.631 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:06:05.649 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:06:35.681 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:07:05.709 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:07:35.726 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:08:05.699 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-11-30 17:08:05.749 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:08:35.772 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:09:05.787 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:09:35.807 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:10:05.823 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:10:35.842 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:11:05.858 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:11:35.876 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:12:05.905 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:12:35.924 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:13:05.722 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-11-30 17:13:05.944 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:13:35.960 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:14:05.977 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:14:35.994 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:15:06.015 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:15:36.036 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:16:06.054 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:16:36.070 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:17:06.089 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:17:36.107 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:18:05.857 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-11-30 17:18:06.123 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:18:36.140 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:19:06.160 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:19:36.182 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:20:06.260 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:20:36.290 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:21:06.311 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:21:36.330 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:22:06.352 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:22:36.368 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:23:05.874 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-11-30 17:23:06.391 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:23:36.414 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:24:06.429 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:24:36.448 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:25:06.464 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:25:36.501 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:26:06.523 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:26:36.542 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:27:06.558 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:27:36.573 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:28:05.892 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-11-30 17:28:06.591 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:28:36.610 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent
+2020-11-30 17:29:06.631 +08:00 [DBG] Server win-g69a0gokhhj:16076:9233c52c heartbeat successfully sent

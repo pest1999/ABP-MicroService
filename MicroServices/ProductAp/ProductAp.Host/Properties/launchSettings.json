@@ -18,7 +18,7 @@
     "Business.Host": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:51186",
+      "applicationUrl": "http://localhost:51386",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

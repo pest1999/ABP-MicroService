@@ -1783,7 +1783,7 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "Pest.ProductAp.Application.Contracts/1.0.0.2": {
+      "Pest.ProductAp.Application.Contracts/1.0.0.4": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -5246,7 +5246,7 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "Pest.ProductAp.Application.Contracts/1.0.0.2": {
+    "Pest.ProductAp.Application.Contracts/1.0.0.4": {
       "type": "project",
       "path": "../ProductAp.Application.Contracts/ProductAp.Application.Contracts.csproj",
       "msbuildProject": "../ProductAp.Application.Contracts/ProductAp.Application.Contracts.csproj"
@@ -5259,7 +5259,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Pest.ProductAp.Application.Contracts >= 1.0.0.2",
+      "Pest.ProductAp.Application.Contracts >= 1.0.0.4",
       "Volo.Abp.AspNetCore.Mvc >= 3.1.0"
     ]
   },
@@ -5268,7 +5268,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0.2",
+    "version": "1.0.0.3",
     "restore": {
       "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\ProductAp\\ProductAp.HttpApi\\ProductAp.HttpApi.csproj",
       "projectName": "Pest.ProductAp.HttpApi",

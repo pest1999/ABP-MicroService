@@ -36,65 +36,65 @@ import componentsRouter from './modules/components'
  * all roles can be accessed
  */
 export const constantRoutes = [{
-    path: '/redirect',
-    component: Layout,
-    hidden: true,
-    children: [{
-      path: '/redirect/:path*',
-      component: () => import('@/views/redirect/index')
-    }]
-  },
-  {
-    path: '/login',
-    component: () => import('@/views/login/index'),
-    hidden: true
-  },
-  {
-    path: '/auth-redirect',
-    component: () => import('@/views/login/auth-redirect'),
-    hidden: true
-  },
-  {
-    path: '/404',
-    component: () => import('@/views/error-page/404'),
-    hidden: true
-  },
-  {
-    path: '/401',
-    component: () => import('@/views/error-page/401'),
-    hidden: true
-  },
-  {
-    path: '/',
-    component: Layout,
-    redirect: '/dashboard',
-    children: [{
-      path: 'dashboard',
-      component: () => import('@/views/dashboard/index'),
-      name: 'Dashboard',
-      meta: {
-        title: 'dashboard',
-        icon: 'dashboard',
-        affix: true
-      }
-    }]
-  },
-  {
-    path: '/profile',
-    component: Layout,
-    redirect: '/profile/index',
-    hidden: true,
-    children: [{
-      path: 'index',
-      component: () => import('@/views/profile/index'),
-      name: 'Profile',
-      meta: {
-        title: 'profile',
-        icon: 'user',
-        noCache: true
-      }
-    }]
-  }
+  path: '/redirect',
+  component: Layout,
+  hidden: true,
+  children: [{
+    path: '/redirect/:path*',
+    component: () => import('@/views/redirect/index')
+  }]
+},
+{
+  path: '/login',
+  component: () => import('@/views/login/index'),
+  hidden: true
+},
+{
+  path: '/auth-redirect',
+  component: () => import('@/views/login/auth-redirect'),
+  hidden: true
+},
+{
+  path: '/404',
+  component: () => import('@/views/error-page/404'),
+  hidden: true
+},
+{
+  path: '/401',
+  component: () => import('@/views/error-page/401'),
+  hidden: true
+},
+{
+  path: '/',
+  component: Layout,
+  redirect: '/dashboard',
+  children: [{
+    path: 'dashboard',
+    component: () => import('@/views/dashboard/index'),
+    name: 'Dashboard',
+    meta: {
+      title: 'dashboard',
+      icon: 'dashboard',
+      affix: true
+    }
+  }]
+},
+{
+  path: '/profile',
+  component: Layout,
+  redirect: '/profile/index',
+  hidden: true,
+  children: [{
+    path: 'index',
+    component: () => import('@/views/profile/index'),
+    name: 'Profile',
+    meta: {
+      title: 'profile',
+      icon: 'user',
+      noCache: true
+    }
+  }]
+}
 ]
 
 /**
@@ -102,175 +102,205 @@ export const constantRoutes = [{
  * the routes that need to be dynamically loaded based on user roles
  */
 export const asyncRoutes = [{
-    path: '/saas',
-    component: Layout,
-    redirect: '/saas/tenant',
-    alwaysShow: true,
-    name: 'SAAS',
+  path: '/saas',
+  component: Layout,
+  redirect: '/saas/tenant',
+  alwaysShow: true,
+  name: 'SAAS',
+  meta: {
+    title: 'Saas',
+    icon: 'cloud',
+    roles: ['AbpTenantManagement.Tenants'],
+  },
+  children: [{
+    path: 'tenant',
+    component: () => import('@/views/tenant/index'),
+    name: 'Tenant',
     meta: {
-      title: 'Saas',
-      icon: 'cloud',
+      title: 'tenant',
       roles: ['AbpTenantManagement.Tenants'],
+      icon: 'users'
+    }
+  }]
+},
+{
+  path: '/order',
+  component: Layout,
+  redirect: '/order/order',
+  alwaysShow: true,
+  name: 'Order',
+  meta: {
+    title: '订单',
+    icon: 'system'
+  },
+  children: [{
+    path: 'order',
+    component: () => import('@/views/order/index'),
+    name: 'Order',
+    meta: {
+      title: '订单',
+      roles: ['AbpIdentity.Users'],
+      icon: 'user'
+    }
+  }, {
+    path: 'product',
+    component: () => import('@/views/product/index'),
+    name: 'Product',
+    meta: {
+      title: '产品',
+      roles: ['AbpIdentity.Users'],
+      icon: 'user'
     },
-    children: [{
-      path: 'tenant',
-      component: () => import('@/views/tenant/index'),
-      name: 'Tenant',
-      meta: {
-        title: 'tenant',
-        roles: ['AbpTenantManagement.Tenants'],
-        icon: 'users'
-      }
-    }]
+  }]
+},
+{
+  path: '/system',
+  component: Layout,
+  redirect: '/system/user',
+  alwaysShow: true,
+  name: 'SystemManagement',
+  meta: {
+    title: 'systemManagement',
+    icon: 'system'
+  },
+  children: [{
+    path: 'user',
+    component: () => import('@/views/user/index'),
+    name: 'User',
+    meta: {
+      title: 'user',
+      roles: ['AbpIdentity.Users'],
+      icon: 'user'
+    }
   },
   {
-    path: '/system',
-    component: Layout,
-    redirect: '/system/user',
-    alwaysShow: true,
-    name: 'SystemManagement',
+    path: 'role',
+    component: () => import('@/views/role/index'),
+    name: 'Role',
     meta: {
-      title: 'systemManagement',
-      icon: 'system'
-    },
-    children: [{
-        path: 'user',
-        component: () => import('@/views/user/index'),
-        name: 'User',
-        meta: {
-          title: 'user',
-          roles: ['AbpIdentity.Users'],
-          icon: 'user'
-        }
-      },
-      {
-        path: 'role',
-        component: () => import('@/views/role/index'),
-        name: 'Role',
-        meta: {
-          title: 'role',
-          roles: ['AbpIdentity.Roles'],
-          icon: 'role'
-        }
-      },
-      {
-        path: 'org',
-        component: () => import('@/views/org/index'),
-        name: 'Organization',
-        meta: {
-          title: 'org',
-          roles: ['BaseService.Organization'],
-          icon: 'org'
-        }
-      },
-      {
-        path: 'dict',
-        component: () => import('@/views/dict/index'),
-        name: 'Dictionary',
-        meta: {
-          title: 'dict',
-          roles: ['BaseService.DataDictionary'],
-          icon: 'data'
-        }
-      },
-      {
-        path: 'job',
-        component: () => import('@/views/job/index'),
-        name: 'Job',
-        meta: {
-          title: 'job',
-          roles: ['BaseService.Job'],
-          icon: 'job'
-        }
-      },
-      {
-        path: 'log',
-        component: () => import('@/views/log/index'),
-        name: 'Log',
-        meta: {
-          title: 'log',
-          roles: ['BaseService.AuditLogging'],
-          icon: 'log'
-        }
-      },
-    ]
+      title: 'role',
+      roles: ['AbpIdentity.Roles'],
+      icon: 'role'
+    }
   },
   {
-    path: '/tool',
-    component: Layout,
-    redirect: '/tool/form',
-    alwaysShow: true,
-    name: 'Tool',
+    path: 'org',
+    component: () => import('@/views/org/index'),
+    name: 'Organization',
     meta: {
-      title: 'tool',
-      icon: 'tool',
-    },
-    children: [{
-        path: 'form',
-        component: () => import('@/views/form/index'),
-        name: 'Form',
-        meta: {
-          title: 'form',
-          icon: 'control'
-        }
-      },
-      {
-        path: 'formCreate',
-        component: () => import('@/views/form/create'),
-        name: 'FormCreate',
-        meta: {
-          title: 'formCreate'
-        },
-        hidden: true
-      },
-      {
-        path: 'formEdit/:id',
-        component: () => import('@/views/form/edit'),
-        name: 'FormEdit',
-        meta: {
-          title: 'formEdit'
-        },
-        hidden: true
-      },
-      {
-        path: 'build',
-        component: () => import('@/views/build/index'),
-        name: 'Build',
-        meta: {
-          title: 'build',
-          icon: 'code'
-        }
-      },
-      {
-        path: 'buildEdit/:id',
-        component: () => import('@/views/build/components/index'),
-        name: 'BuildEdit',
-        meta: {
-          title: 'buildEdit'
-        },
-        hidden: true
-      },
-      {
-        path:'storage',
-        component: () => import('@/views/storage/index'),
-        name: 'Storage',
-        meta: {
-          title: 'storage',
-          icon: 'storage'
-        },
-      }
-    ]
+      title: 'org',
+      roles: ['BaseService.Organization'],
+      icon: 'org'
+    }
   },
+  {
+    path: 'dict',
+    component: () => import('@/views/dict/index'),
+    name: 'Dictionary',
+    meta: {
+      title: 'dict',
+      roles: ['BaseService.DataDictionary'],
+      icon: 'data'
+    }
+  },
+  {
+    path: 'job',
+    component: () => import('@/views/job/index'),
+    name: 'Job',
+    meta: {
+      title: 'job',
+      roles: ['BaseService.Job'],
+      icon: 'job'
+    }
+  },
+  {
+    path: 'log',
+    component: () => import('@/views/log/index'),
+    name: 'Log',
+    meta: {
+      title: 'log',
+      roles: ['BaseService.AuditLogging'],
+      icon: 'log'
+    }
+  },
+  ]
+},
+{
+  path: '/tool',
+  component: Layout,
+  redirect: '/tool/form',
+  alwaysShow: true,
+  name: 'Tool',
+  meta: {
+    title: 'tool',
+    icon: 'tool',
+  },
+  children: [{
+    path: 'form',
+    component: () => import('@/views/form/index'),
+    name: 'Form',
+    meta: {
+      title: 'form',
+      icon: 'control'
+    }
+  },
+  {
+    path: 'formCreate',
+    component: () => import('@/views/form/create'),
+    name: 'FormCreate',
+    meta: {
+      title: 'formCreate'
+    },
+    hidden: true
+  },
+  {
+    path: 'formEdit/:id',
+    component: () => import('@/views/form/edit'),
+    name: 'FormEdit',
+    meta: {
+      title: 'formEdit'
+    },
+    hidden: true
+  },
+  {
+    path: 'build',
+    component: () => import('@/views/build/index'),
+    name: 'Build',
+    meta: {
+      title: 'build',
+      icon: 'code'
+    }
+  },
+  {
+    path: 'buildEdit/:id',
+    component: () => import('@/views/build/components/index'),
+    name: 'BuildEdit',
+    meta: {
+      title: 'buildEdit'
+    },
+    hidden: true
+  },
+  {
+    path: 'storage',
+    component: () => import('@/views/storage/index'),
+    name: 'Storage',
+    meta: {
+      title: 'storage',
+      icon: 'storage'
+    },
+  }
+  ]
+},
 
   /** when your routing map is too long, you can split it into small modules **/
   componentsRouter,
 
-  // 404 page must be placed at the end !!!
-  {
-    path: '*',
-    redirect: '/404',
-    hidden: true
-  }
+// 404 page must be placed at the end !!!
+{
+  path: '*',
+  redirect: '/404',
+  hidden: true
+}
 ]
 
 const createRouter = () => new Router({

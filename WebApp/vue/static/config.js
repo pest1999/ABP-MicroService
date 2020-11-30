@@ -26,6 +26,12 @@ export default {
     client_id: 'basic-web',
     client_secret: '1q2w3e*',
     grant_type: 'password'
+  },
+  order: {
+    ip: process.env.VUE_APP_ORDER_API
+  },
+  products: {
+    ip: process.env.VUE_APP_PRODUCT_API
   }
 }
 // 测试环境

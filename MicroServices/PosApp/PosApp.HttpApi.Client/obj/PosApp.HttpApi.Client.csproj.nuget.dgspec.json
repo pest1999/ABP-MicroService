@@ -1,0 +1,235 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.HttpApi.Client\\PosApp.HttpApi.Client.csproj": {}
+  },
+  "projects": {
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Application.Contracts\\PosApp.Application.Contracts.csproj": {
+      "version": "1.0.0.3",
+      "restore": {
+        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Application.Contracts\\PosApp.Application.Contracts.csproj",
+        "projectName": "Pest.PosApp.Application.Contracts",
+        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Application.Contracts\\PosApp.Application.Contracts.csproj",
+        "packagesPath": "E:\\Program Files\\.nuget\\packages",
+        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.168.177:8081/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Domain\\PosApp.Domain.csproj": {
+                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Domain\\PosApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Volo.Abp.Ddd.Application": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Application.Contracts": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Domain\\PosApp.Domain.csproj": {
+      "version": "1.0.0.1",
+      "restore": {
+        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Domain\\PosApp.Domain.csproj",
+        "projectName": "Pest.PosApp.Domain",
+        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Domain\\PosApp.Domain.csproj",
+        "packagesPath": "E:\\Program Files\\.nuget\\packages",
+        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.168.177:8081/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Volo.Abp.AuditLogging.Domain": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Volo.Abp.Localization": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Volo.Abp.SettingManagement.Domain": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Volo.Abp.Validation": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.HttpApi.Client\\PosApp.HttpApi.Client.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.HttpApi.Client\\PosApp.HttpApi.Client.csproj",
+        "projectName": "PosApp.HttpApi.Client",
+        "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.HttpApi.Client\\PosApp.HttpApi.Client.csproj",
+        "packagesPath": "E:\\Program Files\\.nuget\\packages",
+        "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.HttpApi.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.168.177:8081/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Application.Contracts\\PosApp.Application.Contracts.csproj": {
+                "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\PosApp\\PosApp.Application.Contracts\\PosApp.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Volo.Abp.Http.Client": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

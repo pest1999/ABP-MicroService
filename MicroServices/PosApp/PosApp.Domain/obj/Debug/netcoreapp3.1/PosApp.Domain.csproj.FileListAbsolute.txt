@@ -1,0 +1,8 @@
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Domain\bin\Debug\netcoreapp3.1\PosApp.Domain.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Domain\bin\Debug\netcoreapp3.1\PosApp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Domain\bin\Debug\netcoreapp3.1\PosApp.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Domain\obj\Debug\netcoreapp3.1\PosApp.Domain.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Domain\obj\Debug\netcoreapp3.1\PosApp.Domain.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Domain\obj\Debug\netcoreapp3.1\PosApp.Domain.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Domain\obj\Debug\netcoreapp3.1\PosApp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\PosApp\PosApp.Domain\obj\Debug\netcoreapp3.1\PosApp.Domain.pdb

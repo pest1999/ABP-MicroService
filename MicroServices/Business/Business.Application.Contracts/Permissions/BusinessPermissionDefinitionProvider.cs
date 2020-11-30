@@ -14,7 +14,11 @@ namespace Business.Permissions
 
         public override void Define(IPermissionDefinitionContext context)
         {
-            var business = context.AddGroup(BusinessPermissions.Business, L("Business"), MultiTenancySides.Tenant);
+            var productGroup = context.AddGroup(BusinessPermissions.Group, L("Business"), MultiTenancySides.Tenant);
+            var product = productGroup.AddPermission(BusinessPermissions.Business.Default, L("Business"));
+            product.AddChild(BusinessPermissions.Business.Update, L("Edit"));
+            product.AddChild(BusinessPermissions.Business.Delete, L("Delete"));
+            product.AddChild(BusinessPermissions.Business.Create, L("Create"));
 
         }
 

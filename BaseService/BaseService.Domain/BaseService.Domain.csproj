@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Pest.BoxAp.Domain" Version="1.0.0.1" />
     <PackageReference Include="Volo.Abp.AuditLogging.Domain" Version="3.1.0" />
     <PackageReference Include="Volo.Abp.Ddd.Domain" Version="3.1.0" />
     <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="3.1.0" />

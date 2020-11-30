@@ -1,0 +1,8 @@
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Domain\bin\Debug\netcoreapp3.1\Business.Domain.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Domain\bin\Debug\netcoreapp3.1\Business.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Domain\bin\Debug\netcoreapp3.1\Business.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Domain\obj\Debug\netcoreapp3.1\Business.Domain.pdb

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>XCZ.Business.Domain</id>
+    <version>1.1.6</version>
+    <authors>WilliamXu</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Volo.Abp.AuditLogging.Domain" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.Ddd.Domain" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.EntityFrameworkCore" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.Localization" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.SettingManagement.Domain" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.Validation" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.Domain\bin\Debug\netcoreapp3.1\Business.Domain.dll" target="lib\netcoreapp3.1\Business.Domain.dll" />
+  </files>
+</package>
