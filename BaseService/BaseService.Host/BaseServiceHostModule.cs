@@ -22,6 +22,7 @@ using Microsoft.AspNetCore.Cors;
 using Volo.Abp.MultiTenancy;
 using BaseService.EntityFrameworkCore;
 using Business;
+using BoxApp;
 
 namespace BaseService
 {
@@ -35,7 +36,8 @@ namespace BaseService
         typeof(AbpTenantManagementHttpApiModule),
         typeof(AbpIdentityHttpApiModule),
         typeof(BusinessHttpApiModule),
-        typeof(AbpAspNetCoreSerilogModule)
+        typeof(AbpAspNetCoreSerilogModule),
+        typeof(BoxAppHttpApiModule)
     )]
     public class BaseServiceHostModule : AbpModule
     {

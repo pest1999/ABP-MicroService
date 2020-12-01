@@ -1,0 +1,15 @@
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.runtimeconfig.json
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.runtimeconfig.dev.json
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\BoxApp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\bin\Debug\netcoreapp3.1\BoxApp.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.EntityFrameworkCore\obj\Debug\netcoreapp3.1\BoxApp.EntityFrameworkCore.genruntimeconfig.cache

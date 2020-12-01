@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>BoxApp</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1.1</Version>
+    <PackageId>Pest.BoxApp.HttpApi</PackageId>
+    <Authors>Cmtthe</Authors>
+    <Product>BoxApp</Product>
+    <Company>Cmtthe</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="3.1.0" />
+    <PackageReference Include="XCZ.FormManagement.HttpApi" Version="1.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BoxApp.Application.Contracts\BoxApp.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

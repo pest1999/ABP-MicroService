@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Business</RootNamespace>
+    <PackageId>Pest.Business.Application</PackageId>
+    <Version>1.0.1.0</Version>
+    <Authors>Cmtthe</Authors>
+    <Company>Cmtthe</Company>
+    <Product>Business</Product>
   </PropertyGroup>
 
   <ItemGroup>

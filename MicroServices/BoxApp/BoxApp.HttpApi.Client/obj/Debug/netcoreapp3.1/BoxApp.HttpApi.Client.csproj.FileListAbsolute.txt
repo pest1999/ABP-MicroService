@@ -1,0 +1,14 @@
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\bin\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\bin\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\bin\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\bin\Debug\netcoreapp3.1\BoxApp.Application.Contracts.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\bin\Debug\netcoreapp3.1\BoxApp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\bin\Debug\netcoreapp3.1\BoxApp.Application.Contracts.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\bin\Debug\netcoreapp3.1\BoxApp.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.pdb

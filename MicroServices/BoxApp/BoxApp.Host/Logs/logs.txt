@@ -1,0 +1,1211 @@
+2020-12-01 16:06:39.738 +08:00 [INF] Starting BoxApp.Host
+2020-12-01 16:06:46.609 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-01 16:06:46.735 +08:00 [INF] Loaded ABP modules:
+2020-12-01 16:06:46.735 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-12-01 16:06:46.735 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-12-01 16:06:46.735 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-12-01 16:06:46.735 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-12-01 16:06:46.735 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-12-01 16:06:46.736 +08:00 [INF] - BoxApp.BoxAppDomainModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - BoxApp.BoxAppApplicationContractsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - XCZ.FormDomainModule
+2020-12-01 16:06:46.736 +08:00 [INF] - XCZ.FormApplicationContractsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-12-01 16:06:46.736 +08:00 [INF] - XCZ.FormHttpApiModule
+2020-12-01 16:06:46.736 +08:00 [INF] - BoxApp.BoxAppHttpApiModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-12-01 16:06:46.736 +08:00 [INF] - XCZ.FormApplicationModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.Hangfire.AbpHangfireModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.BackgroundJobs.Hangfire.AbpBackgroundJobsHangfireModule
+2020-12-01 16:06:46.736 +08:00 [INF] - BoxApp.BoxAppApplicationModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-12-01 16:06:46.736 +08:00 [INF] - XCZ.EntityFrameworkCore.FormEntityFrameworkCoreModule
+2020-12-01 16:06:46.736 +08:00 [INF] - BoxApp.EntityFrameworkCore.BoxAppEntityFrameworkCoreModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-12-01 16:06:46.736 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-12-01 16:06:46.736 +08:00 [INF] - BoxApp.BoxAppHostModule
+2020-12-01 16:06:47.183 +08:00 [INF] Start installing Hangfire SQL objects...
+2020-12-01 16:06:47.560 +08:00 [INF] Hangfire SQL objects installed.
+2020-12-01 16:06:47.581 +08:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.168.177,1433@BoxApp'
+2020-12-01 16:06:47.582 +08:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2020-12-01 16:06:47.582 +08:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-12-01 16:06:47.864 +08:00 [DBG] Execution loop BackgroundServerProcess:894ef4cc has started in 149.56 ms
+2020-12-01 16:06:48.497 +08:00 [INF] Server win-g69a0gokhhj:6312:55396c70 successfully announced in 572.6115 ms
+2020-12-01 16:06:48.509 +08:00 [DBG] Execution loop ServerHeartbeatProcess:a5786b13 has started in 10.0265 ms
+2020-12-01 16:06:48.512 +08:00 [INF] Server win-g69a0gokhhj:6312:55396c70 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-12-01 16:06:48.535 +08:00 [DBG] Execution loop ServerWatchdog:d3a04d8e has started in 22.9903 ms
+2020-12-01 16:06:48.584 +08:00 [DBG] Execution loop ServerJobCancellationWatcher:ae1e994e has started in 61.4451 ms
+2020-12-01 16:06:48.618 +08:00 [DBG] Execution loop ExpirationManager:c726a19b has started in 61.9934 ms
+2020-12-01 16:06:48.620 +08:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2020-12-01 16:06:48.639 +08:00 [INF] 1 servers were removed due to timeout
+2020-12-01 16:06:48.651 +08:00 [DBG] Execution loop CountersAggregator:394b4705 has started in 33.1291 ms
+2020-12-01 16:06:48.652 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-12-01 16:06:48.674 +08:00 [DBG] Execution loop Worker:844e57b7 has started in 31.0339 ms
+2020-12-01 16:06:48.685 +08:00 [DBG] Execution loop Worker:3df04eb9 has started in 42.5153 ms
+2020-12-01 16:06:48.693 +08:00 [DBG] Execution loop Worker:8151a4f0 has started in 49.8282 ms
+2020-12-01 16:06:48.701 +08:00 [DBG] Execution loop Worker:43c53008 has started in 57.8418 ms
+2020-12-01 16:06:48.712 +08:00 [DBG] Execution loop Worker:02f0fb09 has started in 68.6423 ms
+2020-12-01 16:06:48.718 +08:00 [DBG] Execution loop Worker:5dd53629 has started in 74.7363 ms
+2020-12-01 16:06:48.728 +08:00 [DBG] Execution loop Worker:c758adb3 has started in 85.4158 ms
+2020-12-01 16:06:48.737 +08:00 [DBG] Execution loop Worker:85c86e9b has started in 94.5771 ms
+2020-12-01 16:06:48.789 +08:00 [DBG] Execution loop Worker:546964d1 has started in 146.3726 ms
+2020-12-01 16:06:48.811 +08:00 [DBG] Execution loop Worker:ade54581 has started in 168.4142 ms
+2020-12-01 16:06:48.881 +08:00 [DBG] Execution loop Worker:81c54e4c has started in 237.7419 ms
+2020-12-01 16:06:48.913 +08:00 [DBG] Removing outdated records from the 'Job' table...
+2020-12-01 16:06:49.027 +08:00 [DBG] Execution loop Worker:96bce3c2 has started in 384.1839 ms
+2020-12-01 16:06:49.063 +08:00 [DBG] Execution loop Worker:8e81b285 has started in 420.0487 ms
+2020-12-01 16:06:49.069 +08:00 [DBG] Execution loop Worker:476fda06 has started in 426.3061 ms
+2020-12-01 16:06:49.087 +08:00 [DBG] Execution loop Worker:baaa574a has started in 443.9832 ms
+2020-12-01 16:06:49.099 +08:00 [DBG] Execution loop Worker:e35c35c2 has started in 454.7214 ms
+2020-12-01 16:06:49.106 +08:00 [DBG] Execution loop Worker:3255b3f2 has started in 463.145 ms
+2020-12-01 16:06:49.125 +08:00 [DBG] Execution loop Worker:d3a4458c has started in 482.6018 ms
+2020-12-01 16:06:49.159 +08:00 [DBG] Removing outdated records from the 'List' table...
+2020-12-01 16:06:49.198 +08:00 [DBG] Execution loop Worker:7c051efe has started in 555.3602 ms
+2020-12-01 16:06:49.222 +08:00 [DBG] Execution loop Worker:ba0473fe has started in 578.9394 ms
+2020-12-01 16:06:49.258 +08:00 [DBG] Execution loop DelayedJobScheduler:b8f6aac2 has started in 58.9446 ms
+2020-12-01 16:06:49.280 +08:00 [INF] Server win-g69a0gokhhj:6312:55396c70 all the dispatchers started
+2020-12-01 16:06:49.288 +08:00 [DBG] Execution loop RecurringJobScheduler:91e192fb has started in 30.6963 ms
+2020-12-01 16:06:49.443 +08:00 [DBG] Removing outdated records from the 'Set' table...
+2020-12-01 16:06:49.538 +08:00 [DBG] Removing outdated records from the 'Hash' table...
+2020-12-01 16:06:51.473 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:06:52.248 +08:00 [INF] Executed DbCommand (96ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.372 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.376 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.378 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.379 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.383 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.400 +08:00 [INF] Executed DbCommand (17ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.412 +08:00 [INF] Executed DbCommand (11ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.416 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.418 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.420 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.421 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.423 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.425 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:06:52.534 +08:00 [INF] Initialized all ABP modules.
+2020-12-01 16:06:52.562 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-01 16:06:52.562 +08:00 [INF] Hosting environment: Development
+2020-12-01 16:06:52.562 +08:00 [INF] Content root path: F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host
+2020-12-01 16:06:52.631 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/  
+2020-12-01 16:06:52.710 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:06:53.596 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'SettingManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:06:53.614 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__providerName_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ([a].[ProviderName] = @__providerName_0) AND [a].[ProviderKey] IS NULL
+2020-12-01 16:06:53.732 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'SettingManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:06:53.751 +08:00 [INF] Executed DbCommand (17ms) [Parameters=[@__providerName_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ([a].[ProviderName] = @__providerName_0) AND [a].[ProviderKey] IS NULL
+2020-12-01 16:06:53.821 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.HomeController.Index (BoxApp.Host)'
+2020-12-01 16:06:53.912 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BoxApp.Controllers.HomeController (BoxApp.Host).
+2020-12-01 16:06:54.066 +08:00 [INF] Executing action method BoxApp.Controllers.HomeController.Index (BoxApp.Host) - Validation state: "Valid"
+2020-12-01 16:06:54.074 +08:00 [INF] Executed action method BoxApp.Controllers.HomeController.Index (BoxApp.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5836ms.
+2020-12-01 16:06:54.089 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-12-01 16:06:54.096 +08:00 [INF] Executed action BoxApp.Controllers.HomeController.Index (BoxApp.Host) in 178.1852ms
+2020-12-01 16:06:54.097 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.HomeController.Index (BoxApp.Host)'
+2020-12-01 16:06:54.130 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger  
+2020-12-01 16:06:54.130 +08:00 [INF] Request finished in 1499.7428ms 302 
+2020-12-01 16:06:54.146 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:06:54.159 +08:00 [INF] Request finished in 29.3423ms 301 
+2020-12-01 16:06:54.166 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/index.html  
+2020-12-01 16:06:54.200 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:06:54.253 +08:00 [INF] Request finished in 87.0385ms 200 text/html;charset=utf-8
+2020-12-01 16:06:54.261 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/swagger-ui.css  
+2020-12-01 16:06:54.262 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/swagger-ui-bundle.js  
+2020-12-01 16:06:54.262 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/swagger-ui-standalone-preset.js  
+2020-12-01 16:06:54.263 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:06:54.263 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:06:54.266 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:06:54.272 +08:00 [INF] The file /swagger-ui.css was not modified
+2020-12-01 16:06:54.273 +08:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2020-12-01 16:06:54.273 +08:00 [INF] The file /swagger-ui-bundle.js was not modified
+2020-12-01 16:06:54.275 +08:00 [INF] Request finished in 13.6704ms 304 text/css
+2020-12-01 16:06:54.275 +08:00 [INF] Request finished in 13.323ms 304 application/javascript
+2020-12-01 16:06:54.275 +08:00 [INF] Request finished in 13.3356ms 304 application/javascript
+2020-12-01 16:06:54.662 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/v1/swagger.json  
+2020-12-01 16:06:54.663 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:06:54.702 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/favicon-32x32.png  
+2020-12-01 16:06:54.703 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:06:54.705 +08:00 [INF] The file /favicon-32x32.png was not modified
+2020-12-01 16:06:54.706 +08:00 [INF] Request finished in 3.3311ms 304 image/png
+2020-12-01 16:06:54.794 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/favicon-16x16.png  
+2020-12-01 16:06:54.794 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:06:54.797 +08:00 [INF] The file /favicon-16x16.png was not modified
+2020-12-01 16:06:54.797 +08:00 [INF] Request finished in 3.2456ms 304 image/png
+2020-12-01 16:06:54.927 +08:00 [INF] Request finished in 265.2847ms 200 application/json;charset=utf-8
+2020-12-01 16:07:18.591 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:07:48.633 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:08:18.652 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:08:48.670 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:09:18.687 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:09:48.704 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:10:18.916 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:10:49.511 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:11:19.529 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:11:48.687 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-12-01 16:11:49.602 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:12:19.618 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:12:49.674 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:13:19.694 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:13:43.196 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/api/boxApp/test?SkipCount=0&MaxResultCount=10  0
+2020-12-01 16:13:43.204 +08:00 [INF] CORS policy execution successful.
+2020-12-01 16:13:44.162 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-01 16:13:44.257 +08:00 [INF] BearerIdentityServerAuthenticationJwt was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:13:44.259 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:13:44.274 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:13:44.282 +08:00 [INF] Route matched with {area = "BoxApp", action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAsync() on controller BoxApp.Controllers.TestController (BoxApp.HttpApi).
+2020-12-01 16:13:44.405 +08:00 [INF] Executing action method BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) - Validation state: "Valid"
+2020-12-01 16:13:44.535 +08:00 [INF] Authorization failed.
+2020-12-01 16:13:44.813 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "Authorization failed! Given policy has not granted.",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-12-01 16:13:44.814 +08:00 [WRN] Authorization failed! Given policy has not granted.
+Volo.Abp.Authorization.AbpAuthorizationException: Authorization failed! Given policy has not granted.
+   at Microsoft.AspNetCore.Authorization.AbpAuthorizationServiceExtensions.CheckAsync(IAuthorizationService authorizationService, AuthorizationPolicy policy)
+   at Volo.Abp.Authorization.MethodInvocationAuthorizationService.CheckAsync(MethodInvocationAuthorizationContext context)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.AuthorizeAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at BoxApp.Controllers.TestController.GetAsync() in F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\Controllers\TestController.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-12-01 16:13:44.873 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-12-01 16:13:44.902 +08:00 [INF] Executed action BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) in 619.9077ms
+2020-12-01 16:13:44.902 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:13:45.258 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'AbpAuditLoggingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:13:45.595 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 96), @p2='?' (Size = 512), @p3='?' (Size = 64), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (Size = 256), @p7='?' (Size = 40), @p8='?' (Size = 64), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime2), @p12='?' (Size = 4000), @p13='?' (Size = 16), @p14='?' (DbType = Int32), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (Size = 4000), @p19='?' (Size = 256), @p20='?' (DbType = Guid), @p21='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([Id], [ApplicationName], [BrowserInfo], [ClientId], [ClientIpAddress], [ClientName], [Comments], [ConcurrencyStamp], [CorrelationId], [Exceptions], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [HttpMethod], [HttpStatusCode], [ImpersonatorTenantId], [ImpersonatorUserId], [TenantId], [TenantName], [Url], [UserId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2020-12-01 16:13:45.606 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:13:45.609 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:13:45.654 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:13:45.655 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:13:45.667 +08:00 [INF] Request finished in 2472.2822ms 401 application/json; charset=utf-8
+2020-12-01 16:13:49.720 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:14:19.736 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:14:49.752 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:15:20.064 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:15:27.472 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/api/boxApp/test?SkipCount=0&MaxResultCount=10  0
+2020-12-01 16:15:27.475 +08:00 [INF] CORS policy execution successful.
+2020-12-01 16:15:27.477 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-01 16:15:27.478 +08:00 [INF] BearerIdentityServerAuthenticationJwt was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:15:27.478 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:15:27.483 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:15:27.486 +08:00 [INF] Route matched with {area = "BoxApp", action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAsync() on controller BoxApp.Controllers.TestController (BoxApp.HttpApi).
+2020-12-01 16:15:27.523 +08:00 [INF] Executing action method BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) - Validation state: "Valid"
+2020-12-01 16:18:10.960 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-12-01 16:18:10.973 +08:00 [INF] Authorization failed.
+2020-12-01 16:18:11.119 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:18:11.745 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "Authorization failed! Given policy has not granted.",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-12-01 16:18:11.746 +08:00 [WRN] Authorization failed! Given policy has not granted.
+Volo.Abp.Authorization.AbpAuthorizationException: Authorization failed! Given policy has not granted.
+   at Microsoft.AspNetCore.Authorization.AbpAuthorizationServiceExtensions.CheckAsync(IAuthorizationService authorizationService, AuthorizationPolicy policy)
+   at Volo.Abp.Authorization.MethodInvocationAuthorizationService.CheckAsync(MethodInvocationAuthorizationContext context)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.AuthorizeAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at BoxApp.Controllers.TestController.GetAsync() in F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\Controllers\TestController.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-12-01 16:18:11.753 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-12-01 16:18:11.754 +08:00 [INF] Executed action BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) in 164267.7388ms
+2020-12-01 16:18:11.754 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:18:11.760 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'AbpAuditLoggingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:18:11.822 +08:00 [INF] Executed DbCommand (48ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 96), @p2='?' (Size = 512), @p3='?' (Size = 64), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (Size = 256), @p7='?' (Size = 40), @p8='?' (Size = 64), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime2), @p12='?' (Size = 4000), @p13='?' (Size = 16), @p14='?' (DbType = Int32), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (Size = 4000), @p19='?' (Size = 256), @p20='?' (DbType = Guid), @p21='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([Id], [ApplicationName], [BrowserInfo], [ClientId], [ClientIpAddress], [ClientName], [Comments], [ConcurrencyStamp], [CorrelationId], [Exceptions], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [HttpMethod], [HttpStatusCode], [ImpersonatorTenantId], [ImpersonatorUserId], [TenantId], [TenantName], [Url], [UserId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2020-12-01 16:18:11.847 +08:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:18:11.850 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:18:11.854 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:18:11.854 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:18:11.855 +08:00 [INF] Request finished in 164383.0835ms 401 application/json; charset=utf-8
+2020-12-01 16:18:41.192 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:19:11.218 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:19:41.299 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:20:11.330 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:20:16.936 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/api/BoxApp/test  
+2020-12-01 16:20:16.937 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:20:16.944 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:20:16.947 +08:00 [INF] Route matched with {area = "BoxApp", action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAsync() on controller BoxApp.Controllers.TestController (BoxApp.HttpApi).
+2020-12-01 16:20:16.987 +08:00 [INF] Executing action method BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) - Validation state: "Valid"
+2020-12-01 16:20:18.652 +08:00 [INF] Authorization failed.
+2020-12-01 16:20:18.765 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "Authorization failed! Given policy has not granted.",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-12-01 16:20:18.766 +08:00 [WRN] Authorization failed! Given policy has not granted.
+Volo.Abp.Authorization.AbpAuthorizationException: Authorization failed! Given policy has not granted.
+   at Microsoft.AspNetCore.Authorization.AbpAuthorizationServiceExtensions.CheckAsync(IAuthorizationService authorizationService, AuthorizationPolicy policy)
+   at Volo.Abp.Authorization.MethodInvocationAuthorizationService.CheckAsync(MethodInvocationAuthorizationContext context)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.AuthorizeAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at BoxApp.Controllers.TestController.GetAsync() in F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\Controllers\TestController.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-12-01 16:20:18.769 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-12-01 16:20:18.794 +08:00 [INF] Executed action BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) in 1847.3206ms
+2020-12-01 16:20:18.795 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:20:18.812 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'AbpAuditLoggingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:20:18.820 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 96), @p2='?' (Size = 512), @p3='?' (Size = 64), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (Size = 256), @p7='?' (Size = 40), @p8='?' (Size = 64), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime2), @p12='?' (Size = 4000), @p13='?' (Size = 16), @p14='?' (DbType = Int32), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (Size = 4000), @p19='?' (Size = 256), @p20='?' (DbType = Guid), @p21='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([Id], [ApplicationName], [BrowserInfo], [ClientId], [ClientIpAddress], [ClientName], [Comments], [ConcurrencyStamp], [CorrelationId], [Exceptions], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [HttpMethod], [HttpStatusCode], [ImpersonatorTenantId], [ImpersonatorUserId], [TenantId], [TenantName], [Url], [UserId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2020-12-01 16:20:18.822 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:20:18.833 +08:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:20:18.837 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:20:18.837 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:20:18.838 +08:00 [INF] Request finished in 1901.9333ms 401 application/json; charset=utf-8
+2020-12-01 16:20:41.345 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:21:00.500 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/api/boxApp/test?SkipCount=0&MaxResultCount=10  0
+2020-12-01 16:21:00.500 +08:00 [INF] CORS policy execution successful.
+2020-12-01 16:21:00.503 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-01 16:21:00.503 +08:00 [INF] BearerIdentityServerAuthenticationJwt was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:21:00.503 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:21:00.509 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:21:00.513 +08:00 [INF] Route matched with {area = "BoxApp", action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAsync() on controller BoxApp.Controllers.TestController (BoxApp.HttpApi).
+2020-12-01 16:21:00.560 +08:00 [INF] Executing action method BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) - Validation state: "Valid"
+2020-12-01 16:21:01.727 +08:00 [INF] Authorization failed.
+2020-12-01 16:21:01.860 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "Authorization failed! Given policy has not granted.",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-12-01 16:21:01.860 +08:00 [WRN] Authorization failed! Given policy has not granted.
+Volo.Abp.Authorization.AbpAuthorizationException: Authorization failed! Given policy has not granted.
+   at Microsoft.AspNetCore.Authorization.AbpAuthorizationServiceExtensions.CheckAsync(IAuthorizationService authorizationService, AuthorizationPolicy policy)
+   at Volo.Abp.Authorization.MethodInvocationAuthorizationService.CheckAsync(MethodInvocationAuthorizationContext context)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.AuthorizeAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at BoxApp.Controllers.TestController.GetAsync() in F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\Controllers\TestController.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-12-01 16:21:01.862 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-12-01 16:21:01.864 +08:00 [INF] Executed action BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) in 1349.8365ms
+2020-12-01 16:21:01.865 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:21:01.884 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'AbpAuditLoggingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:21:01.895 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 96), @p2='?' (Size = 512), @p3='?' (Size = 64), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (Size = 256), @p7='?' (Size = 40), @p8='?' (Size = 64), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime2), @p12='?' (Size = 4000), @p13='?' (Size = 16), @p14='?' (DbType = Int32), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (Size = 4000), @p19='?' (Size = 256), @p20='?' (DbType = Guid), @p21='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([Id], [ApplicationName], [BrowserInfo], [ClientId], [ClientIpAddress], [ClientName], [Comments], [ConcurrencyStamp], [CorrelationId], [Exceptions], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [HttpMethod], [HttpStatusCode], [ImpersonatorTenantId], [ImpersonatorUserId], [TenantId], [TenantName], [Url], [UserId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2020-12-01 16:21:01.905 +08:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:21:01.933 +08:00 [INF] Executed DbCommand (27ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:21:01.938 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:21:01.938 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:21:01.939 +08:00 [INF] Request finished in 1439.1109ms 401 application/json; charset=utf-8
+2020-12-01 16:21:08.877 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/api/boxApp/test?SkipCount=0&MaxResultCount=10  0
+2020-12-01 16:21:08.878 +08:00 [INF] CORS policy execution successful.
+2020-12-01 16:21:08.879 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-01 16:21:08.880 +08:00 [INF] BearerIdentityServerAuthenticationJwt was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:21:08.880 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:21:08.883 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:21:08.885 +08:00 [INF] Route matched with {area = "BoxApp", action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAsync() on controller BoxApp.Controllers.TestController (BoxApp.HttpApi).
+2020-12-01 16:21:08.937 +08:00 [INF] Executing action method BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) - Validation state: "Valid"
+2020-12-01 16:21:11.299 +08:00 [INF] Authorization failed.
+2020-12-01 16:21:11.433 +08:00 [DBG] Server win-g69a0gokhhj:6312:55396c70 heartbeat successfully sent
+2020-12-01 16:21:11.460 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "Authorization failed! Given policy has not granted.",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-12-01 16:21:11.460 +08:00 [WRN] Authorization failed! Given policy has not granted.
+Volo.Abp.Authorization.AbpAuthorizationException: Authorization failed! Given policy has not granted.
+   at Microsoft.AspNetCore.Authorization.AbpAuthorizationServiceExtensions.CheckAsync(IAuthorizationService authorizationService, AuthorizationPolicy policy)
+   at Volo.Abp.Authorization.MethodInvocationAuthorizationService.CheckAsync(MethodInvocationAuthorizationContext context)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.AuthorizeAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at BoxApp.Controllers.TestController.GetAsync() in F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\Controllers\TestController.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-12-01 16:21:11.463 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-12-01 16:21:11.464 +08:00 [INF] Executed action BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) in 2578.6164ms
+2020-12-01 16:21:11.464 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:21:11.468 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'AbpAuditLoggingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:21:11.476 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 96), @p2='?' (Size = 512), @p3='?' (Size = 64), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (Size = 256), @p7='?' (Size = 40), @p8='?' (Size = 64), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime2), @p12='?' (Size = 4000), @p13='?' (Size = 16), @p14='?' (DbType = Int32), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (Size = 4000), @p19='?' (Size = 256), @p20='?' (DbType = Guid), @p21='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([Id], [ApplicationName], [BrowserInfo], [ClientId], [ClientIpAddress], [ClientName], [Comments], [ConcurrencyStamp], [CorrelationId], [Exceptions], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [HttpMethod], [HttpStatusCode], [ImpersonatorTenantId], [ImpersonatorUserId], [TenantId], [TenantName], [Url], [UserId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2020-12-01 16:21:11.478 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:21:11.479 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:21:11.483 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:21:11.483 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:21:11.484 +08:00 [INF] Request finished in 2607.2018ms 401 application/json; charset=utf-8
+2020-12-01 16:21:50.614 +08:00 [INF] Starting BoxApp.Host
+2020-12-01 16:21:54.717 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-01 16:21:54.850 +08:00 [INF] Loaded ABP modules:
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-12-01 16:21:54.850 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-12-01 16:21:54.851 +08:00 [INF] - BoxApp.BoxAppDomainModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-12-01 16:21:54.851 +08:00 [INF] - BoxApp.BoxAppApplicationContractsModule
+2020-12-01 16:21:54.851 +08:00 [INF] - XCZ.FormDomainModule
+2020-12-01 16:21:54.851 +08:00 [INF] - XCZ.FormApplicationContractsModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-12-01 16:21:54.851 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-12-01 16:21:54.852 +08:00 [INF] - XCZ.FormHttpApiModule
+2020-12-01 16:21:54.852 +08:00 [INF] - BoxApp.BoxAppHttpApiModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-12-01 16:21:54.852 +08:00 [INF] - XCZ.FormApplicationModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.Hangfire.AbpHangfireModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.BackgroundJobs.Hangfire.AbpBackgroundJobsHangfireModule
+2020-12-01 16:21:54.852 +08:00 [INF] - BoxApp.BoxAppApplicationModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-12-01 16:21:54.852 +08:00 [INF] - XCZ.EntityFrameworkCore.FormEntityFrameworkCoreModule
+2020-12-01 16:21:54.852 +08:00 [INF] - BoxApp.EntityFrameworkCore.BoxAppEntityFrameworkCoreModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-12-01 16:21:54.852 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-12-01 16:21:54.852 +08:00 [INF] - BoxApp.BoxAppHostModule
+2020-12-01 16:21:55.206 +08:00 [INF] Start installing Hangfire SQL objects...
+2020-12-01 16:21:55.514 +08:00 [INF] Hangfire SQL objects installed.
+2020-12-01 16:21:55.537 +08:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.168.177,1433@BoxApp'
+2020-12-01 16:21:55.538 +08:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2020-12-01 16:21:55.538 +08:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-12-01 16:21:55.600 +08:00 [DBG] Execution loop BackgroundServerProcess:d475f7ae has started in 34.7738 ms
+2020-12-01 16:21:55.922 +08:00 [INF] Server win-g69a0gokhhj:7660:7705c117 successfully announced in 298.6538 ms
+2020-12-01 16:21:55.936 +08:00 [DBG] Execution loop ServerHeartbeatProcess:460d944f has started in 12.4999 ms
+2020-12-01 16:21:55.936 +08:00 [INF] Server win-g69a0gokhhj:7660:7705c117 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-12-01 16:21:55.955 +08:00 [DBG] Execution loop ServerWatchdog:dca56f0a has started in 18.4741 ms
+2020-12-01 16:21:55.972 +08:00 [DBG] Execution loop ServerJobCancellationWatcher:0e56464e has started in 31.2221 ms
+2020-12-01 16:21:55.981 +08:00 [DBG] Execution loop ExpirationManager:961d26d4 has started in 9.1494 ms
+2020-12-01 16:21:56.007 +08:00 [DBG] Execution loop CountersAggregator:9fccf4d9 has started in 31.6762 ms
+2020-12-01 16:21:56.007 +08:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2020-12-01 16:21:56.008 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-12-01 16:21:56.017 +08:00 [DBG] Execution loop Worker:f5e61f47 has started in 10.3829 ms
+2020-12-01 16:21:56.039 +08:00 [DBG] Execution loop Worker:36006ee4 has started in 32.1481 ms
+2020-12-01 16:21:56.061 +08:00 [DBG] Execution loop Worker:1f8c841c has started in 54.348 ms
+2020-12-01 16:21:56.122 +08:00 [DBG] Execution loop Worker:77e12607 has started in 114.6085 ms
+2020-12-01 16:21:56.122 +08:00 [DBG] Execution loop Worker:e4849612 has started in 114.9437 ms
+2020-12-01 16:21:56.147 +08:00 [DBG] Execution loop Worker:01a07d6f has started in 140.4669 ms
+2020-12-01 16:21:56.178 +08:00 [DBG] Removing outdated records from the 'Job' table...
+2020-12-01 16:21:56.178 +08:00 [DBG] Execution loop Worker:2af8651b has started in 171.428 ms
+2020-12-01 16:21:56.190 +08:00 [DBG] Execution loop Worker:3abab385 has started in 183.0504 ms
+2020-12-01 16:21:56.203 +08:00 [DBG] Execution loop Worker:75b8604d has started in 195.6617 ms
+2020-12-01 16:21:56.236 +08:00 [DBG] Execution loop Worker:7d9d11a2 has started in 228.9536 ms
+2020-12-01 16:21:56.249 +08:00 [DBG] Execution loop Worker:73e4f7df has started in 241.9088 ms
+2020-12-01 16:21:56.258 +08:00 [DBG] Execution loop Worker:c0fd93b3 has started in 250.7979 ms
+2020-12-01 16:21:56.303 +08:00 [DBG] Execution loop Worker:cdc44bd0 has started in 295.852 ms
+2020-12-01 16:21:56.315 +08:00 [DBG] Execution loop Worker:32d7e277 has started in 307.7946 ms
+2020-12-01 16:21:56.344 +08:00 [DBG] Removing outdated records from the 'List' table...
+2020-12-01 16:21:56.350 +08:00 [DBG] Execution loop Worker:214295aa has started in 343.4739 ms
+2020-12-01 16:21:56.439 +08:00 [DBG] Execution loop Worker:7ecca8da has started in 431.9842 ms
+2020-12-01 16:21:56.479 +08:00 [DBG] Execution loop Worker:5f0607e0 has started in 472.1097 ms
+2020-12-01 16:21:56.479 +08:00 [DBG] Execution loop Worker:a879f1b6 has started in 472.3724 ms
+2020-12-01 16:21:56.500 +08:00 [DBG] Execution loop Worker:a97992b1 has started in 492.8528 ms
+2020-12-01 16:21:56.534 +08:00 [DBG] Execution loop Worker:75407125 has started in 527.0151 ms
+2020-12-01 16:21:56.542 +08:00 [DBG] Execution loop DelayedJobScheduler:0172a788 has started in 28.5046 ms
+2020-12-01 16:21:56.561 +08:00 [DBG] Removing outdated records from the 'Set' table...
+2020-12-01 16:21:56.607 +08:00 [INF] Server win-g69a0gokhhj:7660:7705c117 all the dispatchers started
+2020-12-01 16:21:56.616 +08:00 [DBG] Execution loop RecurringJobScheduler:732c2e56 has started in 81.8357 ms
+2020-12-01 16:21:56.849 +08:00 [DBG] Removing outdated records from the 'Hash' table...
+2020-12-01 16:21:58.583 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:21:59.375 +08:00 [INF] Executed DbCommand (100ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.488 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.491 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.493 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.495 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.498 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.500 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.502 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.504 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.506 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.508 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.511 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.513 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.515 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:21:59.601 +08:00 [INF] Initialized all ABP modules.
+2020-12-01 16:21:59.688 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-01 16:21:59.688 +08:00 [INF] Hosting environment: Development
+2020-12-01 16:21:59.688 +08:00 [INF] Content root path: F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host
+2020-12-01 16:21:59.738 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/  
+2020-12-01 16:21:59.815 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:22:00.770 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.HomeController.Index (BoxApp.Host)'
+2020-12-01 16:22:00.858 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BoxApp.Controllers.HomeController (BoxApp.Host).
+2020-12-01 16:22:00.996 +08:00 [INF] Executing action method BoxApp.Controllers.HomeController.Index (BoxApp.Host) - Validation state: "Valid"
+2020-12-01 16:22:01.016 +08:00 [INF] Executed action method BoxApp.Controllers.HomeController.Index (BoxApp.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6565ms.
+2020-12-01 16:22:01.024 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-12-01 16:22:01.030 +08:00 [INF] Executed action BoxApp.Controllers.HomeController.Index (BoxApp.Host) in 166.6329ms
+2020-12-01 16:22:01.031 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.HomeController.Index (BoxApp.Host)'
+2020-12-01 16:22:01.082 +08:00 [INF] Request finished in 1344.8894ms 302 
+2020-12-01 16:22:01.096 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/index.html  
+2020-12-01 16:22:01.134 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:22:01.181 +08:00 [INF] Request finished in 85.3839ms 200 text/html;charset=utf-8
+2020-12-01 16:22:01.371 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/v1/swagger.json  
+2020-12-01 16:22:01.373 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:22:01.586 +08:00 [INF] Request finished in 217.2087ms 200 application/json;charset=utf-8
+2020-12-01 16:22:26.011 +08:00 [DBG] Server win-g69a0gokhhj:7660:7705c117 heartbeat successfully sent
+2020-12-01 16:22:27.415 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/api/boxApp/test?SkipCount=0&MaxResultCount=10  0
+2020-12-01 16:22:27.422 +08:00 [INF] CORS policy execution successful.
+2020-12-01 16:22:28.205 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-01 16:22:28.269 +08:00 [INF] BearerIdentityServerAuthenticationJwt was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:22:28.271 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:22:28.282 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:22:28.289 +08:00 [INF] Route matched with {area = "BoxApp", action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAsync() on controller BoxApp.Controllers.TestController (BoxApp.HttpApi).
+2020-12-01 16:22:28.393 +08:00 [INF] Executing action method BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) - Validation state: "Valid"
+2020-12-01 16:22:31.908 +08:00 [INF] Executed action method BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3515.2804ms.
+2020-12-01 16:22:31.935 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-01 16:22:31.938 +08:00 [INF] Executed action BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) in 3647.4025ms
+2020-12-01 16:22:31.938 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:22:31.939 +08:00 [INF] Request finished in 4524.2514ms 200 text/plain; charset=utf-8
+2020-12-01 16:22:56.027 +08:00 [DBG] Server win-g69a0gokhhj:7660:7705c117 heartbeat successfully sent
+2020-12-01 16:43:16.897 +08:00 [INF] Starting BoxApp.Host
+2020-12-01 16:43:21.715 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-01 16:43:21.836 +08:00 [INF] Loaded ABP modules:
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-12-01 16:43:21.836 +08:00 [INF] - BoxApp.BoxAppDomainModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-12-01 16:43:21.836 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-12-01 16:43:21.837 +08:00 [INF] - BoxApp.BoxAppApplicationContractsModule
+2020-12-01 16:43:21.837 +08:00 [INF] - XCZ.FormDomainModule
+2020-12-01 16:43:21.837 +08:00 [INF] - XCZ.FormApplicationContractsModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-12-01 16:43:21.837 +08:00 [INF] - XCZ.FormHttpApiModule
+2020-12-01 16:43:21.837 +08:00 [INF] - BoxApp.BoxAppHttpApiModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-12-01 16:43:21.837 +08:00 [INF] - XCZ.FormApplicationModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.Hangfire.AbpHangfireModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.BackgroundJobs.Hangfire.AbpBackgroundJobsHangfireModule
+2020-12-01 16:43:21.837 +08:00 [INF] - BoxApp.BoxAppApplicationModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-12-01 16:43:21.837 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-12-01 16:43:21.838 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-12-01 16:43:21.838 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-12-01 16:43:21.838 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-12-01 16:43:21.838 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-12-01 16:43:21.838 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-12-01 16:43:21.838 +08:00 [INF] - XCZ.EntityFrameworkCore.FormEntityFrameworkCoreModule
+2020-12-01 16:43:21.838 +08:00 [INF] - BoxApp.EntityFrameworkCore.BoxAppEntityFrameworkCoreModule
+2020-12-01 16:43:21.838 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-12-01 16:43:21.838 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-12-01 16:43:21.838 +08:00 [INF] - BoxApp.BoxAppHostModule
+2020-12-01 16:43:22.231 +08:00 [INF] Start installing Hangfire SQL objects...
+2020-12-01 16:43:22.515 +08:00 [INF] Hangfire SQL objects installed.
+2020-12-01 16:43:22.542 +08:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.168.177,1433@BoxApp'
+2020-12-01 16:43:22.542 +08:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2020-12-01 16:43:22.543 +08:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-12-01 16:43:22.573 +08:00 [DBG] Execution loop BackgroundServerProcess:7e71696b has started in 20.686 ms
+2020-12-01 16:43:23.037 +08:00 [INF] Server win-g69a0gokhhj:9636:386407c9 successfully announced in 430.0414 ms
+2020-12-01 16:43:23.058 +08:00 [DBG] Execution loop ServerHeartbeatProcess:62cf636f has started in 19.8979 ms
+2020-12-01 16:43:23.059 +08:00 [INF] Server win-g69a0gokhhj:9636:386407c9 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-12-01 16:43:23.080 +08:00 [DBG] Execution loop ServerWatchdog:cae28a3e has started in 20.7269 ms
+2020-12-01 16:43:23.093 +08:00 [DBG] Execution loop ServerJobCancellationWatcher:964a1970 has started in 30.8346 ms
+2020-12-01 16:43:23.105 +08:00 [DBG] Execution loop ExpirationManager:43f39ccc has started in 24.5484 ms
+2020-12-01 16:43:23.106 +08:00 [INF] 2 servers were removed due to timeout
+2020-12-01 16:43:23.116 +08:00 [DBG] Execution loop CountersAggregator:06c2889e has started in 21.5248 ms
+2020-12-01 16:43:23.116 +08:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2020-12-01 16:43:23.132 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-12-01 16:43:23.135 +08:00 [DBG] Execution loop Worker:9cb11142 has started in 29.5955 ms
+2020-12-01 16:43:23.161 +08:00 [DBG] Execution loop Worker:0d3c8f08 has started in 55.2948 ms
+2020-12-01 16:43:23.173 +08:00 [DBG] Execution loop Worker:2e01ef6b has started in 66.9629 ms
+2020-12-01 16:43:23.216 +08:00 [DBG] Removing outdated records from the 'Job' table...
+2020-12-01 16:43:23.222 +08:00 [DBG] Removing outdated records from the 'List' table...
+2020-12-01 16:43:23.230 +08:00 [DBG] Removing outdated records from the 'Set' table...
+2020-12-01 16:43:23.234 +08:00 [DBG] Execution loop Worker:83b8c6ac has started in 127.9784 ms
+2020-12-01 16:43:23.236 +08:00 [DBG] Removing outdated records from the 'Hash' table...
+2020-12-01 16:43:23.331 +08:00 [DBG] Execution loop Worker:10b3950c has started in 224.6563 ms
+2020-12-01 16:43:23.339 +08:00 [DBG] Execution loop Worker:482ea576 has started in 232.7219 ms
+2020-12-01 16:43:23.461 +08:00 [DBG] Execution loop Worker:e56fd58f has started in 355.3905 ms
+2020-12-01 16:43:23.473 +08:00 [DBG] Execution loop Worker:b1c5a5f1 has started in 367.3954 ms
+2020-12-01 16:43:23.486 +08:00 [DBG] Execution loop Worker:ad32c30a has started in 379.7582 ms
+2020-12-01 16:43:23.493 +08:00 [DBG] Execution loop Worker:08767174 has started in 387.007 ms
+2020-12-01 16:43:23.508 +08:00 [DBG] Execution loop Worker:43a768d9 has started in 402.1464 ms
+2020-12-01 16:43:23.515 +08:00 [DBG] Execution loop Worker:c1816596 has started in 407.8013 ms
+2020-12-01 16:43:23.520 +08:00 [DBG] Execution loop Worker:78b4ec2f has started in 414.1816 ms
+2020-12-01 16:43:23.529 +08:00 [DBG] Execution loop Worker:8486cde4 has started in 422.6918 ms
+2020-12-01 16:43:23.544 +08:00 [DBG] Execution loop Worker:c6443df7 has started in 438.5575 ms
+2020-12-01 16:43:23.562 +08:00 [DBG] Execution loop Worker:14174b30 has started in 456.5236 ms
+2020-12-01 16:43:23.565 +08:00 [DBG] Execution loop Worker:dc64aacd has started in 459.3581 ms
+2020-12-01 16:43:23.577 +08:00 [DBG] Execution loop Worker:1b549803 has started in 471.1432 ms
+2020-12-01 16:43:23.584 +08:00 [DBG] Execution loop Worker:1b40dcd3 has started in 477.9174 ms
+2020-12-01 16:43:23.604 +08:00 [DBG] Execution loop Worker:1ee88a05 has started in 498.5549 ms
+2020-12-01 16:43:23.617 +08:00 [DBG] Execution loop DelayedJobScheduler:7f1a59cb has started in 14.1091 ms
+2020-12-01 16:43:23.644 +08:00 [INF] Server win-g69a0gokhhj:9636:386407c9 all the dispatchers started
+2020-12-01 16:43:23.660 +08:00 [DBG] Execution loop RecurringJobScheduler:6c8ccf0f has started in 43.0517 ms
+2020-12-01 16:43:25.322 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:43:26.214 +08:00 [INF] Executed DbCommand (102ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.333 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.338 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.348 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.351 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.354 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.357 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.359 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.361 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.363 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.365 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.367 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.369 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.372 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-01 16:43:26.465 +08:00 [INF] Initialized all ABP modules.
+2020-12-01 16:43:26.491 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-01 16:43:26.491 +08:00 [INF] Hosting environment: Development
+2020-12-01 16:43:26.491 +08:00 [INF] Content root path: F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host
+2020-12-01 16:43:26.540 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/  
+2020-12-01 16:43:26.621 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:43:27.587 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'SettingManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:43:27.611 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@__providerName_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ([a].[ProviderName] = @__providerName_0) AND [a].[ProviderKey] IS NULL
+2020-12-01 16:43:27.708 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'SettingManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:43:27.711 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__providerName_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ([a].[ProviderName] = @__providerName_0) AND [a].[ProviderKey] IS NULL
+2020-12-01 16:43:27.795 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.HomeController.Index (BoxApp.Host)'
+2020-12-01 16:43:27.891 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BoxApp.Controllers.HomeController (BoxApp.Host).
+2020-12-01 16:43:27.927 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-12-01 16:43:27.935 +08:00 [INF] Executed action BoxApp.Controllers.HomeController.Index (BoxApp.Host) in 36.8372ms
+2020-12-01 16:43:27.935 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.HomeController.Index (BoxApp.Host)'
+2020-12-01 16:43:27.968 +08:00 [INF] Request finished in 1429.2966ms 302 
+2020-12-01 16:43:27.976 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/index.html  
+2020-12-01 16:43:28.021 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:43:28.085 +08:00 [INF] Request finished in 109.6815ms 200 text/html;charset=utf-8
+2020-12-01 16:43:28.384 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/v1/swagger.json  
+2020-12-01 16:43:28.388 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-01 16:43:28.635 +08:00 [INF] Request finished in 251.5379ms 200 application/json;charset=utf-8
+2020-12-01 16:43:45.479 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/api/boxApp/test?SkipCount=0&MaxResultCount=10  0
+2020-12-01 16:43:45.487 +08:00 [INF] CORS policy execution successful.
+2020-12-01 16:43:46.519 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-01 16:43:46.607 +08:00 [INF] BearerIdentityServerAuthenticationJwt was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:43:46.609 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:43:46.621 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:43:46.628 +08:00 [INF] Route matched with {area = "BoxApp", action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAsync() on controller BoxApp.Controllers.TestController (BoxApp.HttpApi).
+2020-12-01 16:43:53.034 +08:00 [INF] Authorization failed.
+2020-12-01 16:43:53.251 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:43:53.265 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "Authorization failed! Given policy has not granted.",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-12-01 16:43:53.266 +08:00 [WRN] Authorization failed! Given policy has not granted.
+Volo.Abp.Authorization.AbpAuthorizationException: Authorization failed! Given policy has not granted.
+   at Microsoft.AspNetCore.Authorization.AbpAuthorizationServiceExtensions.CheckAsync(IAuthorizationService authorizationService, AuthorizationPolicy policy)
+   at Volo.Abp.Authorization.MethodInvocationAuthorizationService.CheckAsync(MethodInvocationAuthorizationContext context)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.AuthorizeAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at BoxApp.Controllers.TestController.GetAsync() in F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\Controllers\TestController.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-12-01 16:43:53.318 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-12-01 16:43:53.354 +08:00 [INF] Executed action BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) in 6725.9229ms
+2020-12-01 16:43:53.354 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:43:53.726 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'AbpAuditLoggingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:43:54.220 +08:00 [INF] Executed DbCommand (285ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 96), @p2='?' (Size = 512), @p3='?' (Size = 64), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (Size = 256), @p7='?' (Size = 40), @p8='?' (Size = 64), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime2), @p12='?' (Size = 4000), @p13='?' (Size = 16), @p14='?' (DbType = Int32), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (Size = 4000), @p19='?' (Size = 256), @p20='?' (DbType = Guid), @p21='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([Id], [ApplicationName], [BrowserInfo], [ClientId], [ClientIpAddress], [ClientName], [Comments], [ConcurrencyStamp], [CorrelationId], [Exceptions], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [HttpMethod], [HttpStatusCode], [ImpersonatorTenantId], [ImpersonatorUserId], [TenantId], [TenantName], [Url], [UserId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2020-12-01 16:43:54.625 +08:00 [INF] Executed DbCommand (79ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:43:54.674 +08:00 [INF] Executed DbCommand (48ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:43:54.733 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:43:54.734 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:43:54.744 +08:00 [INF] Request finished in 9265.6778ms 401 application/json; charset=utf-8
+2020-12-01 16:43:54.746 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/api/boxApp/test?SkipCount=0&MaxResultCount=10  0
+2020-12-01 16:43:54.747 +08:00 [INF] CORS policy execution successful.
+2020-12-01 16:43:54.748 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidAudienceException: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateAudience(IEnumerable`1 audiences, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateAudience(IEnumerable`1 audiences, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-01 16:43:54.749 +08:00 [INF] BearerIdentityServerAuthenticationJwt was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:43:54.749 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10214: Audience validation failed. Audiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Did not match: validationParameters.ValidAudience: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' or validationParameters.ValidAudiences: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2020-12-01 16:43:54.752 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:43:54.754 +08:00 [INF] Route matched with {area = "BoxApp", action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] GetAsync() on controller BoxApp.Controllers.TestController (BoxApp.HttpApi).
+2020-12-01 16:44:01.126 +08:00 [INF] Authorization failed.
+2020-12-01 16:44:01.248 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": null,
+  "message": "Authorization failed! Given policy has not granted.",
+  "details": null,
+  "validationErrors": null
+}
+
+2020-12-01 16:44:01.248 +08:00 [WRN] Authorization failed! Given policy has not granted.
+Volo.Abp.Authorization.AbpAuthorizationException: Authorization failed! Given policy has not granted.
+   at Microsoft.AspNetCore.Authorization.AbpAuthorizationServiceExtensions.CheckAsync(IAuthorizationService authorizationService, AuthorizationPolicy policy)
+   at Volo.Abp.Authorization.MethodInvocationAuthorizationService.CheckAsync(MethodInvocationAuthorizationContext context)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.AuthorizeAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Authorization.AuthorizationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Validation.ValidationInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Auditing.AuditingInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpMethodInvocationAdapterWithReturnValue`1.ProceedAsync()
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation)
+   at Volo.Abp.Castle.DynamicProxy.CastleAsyncAbpInterceptorAdapter`1.InterceptAsync[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo, Func`3 proceed)
+   at BoxApp.Controllers.TestController.GetAsync() in F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\Controllers\TestController.cs:line 24
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-12-01 16:44:01.250 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-12-01 16:44:01.251 +08:00 [INF] Executed action BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi) in 6496.922ms
+2020-12-01 16:44:01.251 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.TestController.GetAsync (BoxApp.HttpApi)'
+2020-12-01 16:44:01.258 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'AbpAuditLoggingDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-01 16:44:01.272 +08:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 96), @p2='?' (Size = 512), @p3='?' (Size = 64), @p4='?' (Size = 64), @p5='?' (Size = 128), @p6='?' (Size = 256), @p7='?' (Size = 40), @p8='?' (Size = 64), @p9='?' (Size = 4000), @p10='?' (DbType = Int32), @p11='?' (DbType = DateTime2), @p12='?' (Size = 4000), @p13='?' (Size = 16), @p14='?' (DbType = Int32), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Guid), @p18='?' (Size = 4000), @p19='?' (Size = 256), @p20='?' (DbType = Guid), @p21='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([Id], [ApplicationName], [BrowserInfo], [ClientId], [ClientIpAddress], [ClientName], [Comments], [ConcurrencyStamp], [CorrelationId], [Exceptions], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [HttpMethod], [HttpStatusCode], [ImpersonatorTenantId], [ImpersonatorUserId], [TenantId], [TenantName], [Url], [UserId], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19, @p20, @p21);
+2020-12-01 16:44:01.275 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:44:01.281 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Int32), @p3='?' (DbType = DateTime2), @p4='?' (Size = 4000), @p5='?' (Size = 128), @p6='?' (Size = 2000), @p7='?' (Size = 256), @p8='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogActions] ([Id], [AuditLogId], [ExecutionDuration], [ExecutionTime], [ExtraProperties], [MethodName], [Parameters], [ServiceName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2020-12-01 16:44:01.285 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:44:01.285 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-01 16:44:01.286 +08:00 [INF] Request finished in 6539.8052ms 401 application/json; charset=utf-8
+2020-12-01 16:44:23.257 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:44:53.263 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:45:23.284 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:45:53.290 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:46:23.295 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:46:53.301 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:47:23.308 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:47:53.313 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:48:23.142 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-12-01 16:48:23.329 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:48:53.386 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:49:23.395 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:49:53.402 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:50:23.422 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:50:53.427 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:51:23.437 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:51:53.442 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:52:23.447 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:52:53.453 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent
+2020-12-01 16:53:23.153 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-12-01 16:53:23.460 +08:00 [DBG] Server win-g69a0gokhhj:9636:386407c9 heartbeat successfully sent

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>pest.Business.HttpApi</id>
+    <version>1.1.8</version>
+    <authors>cmtthe</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Pest.Business.Application.Contracts" version="1.1.8" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.AspNetCore.Mvc" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="XCZ.FormManagement.HttpApi" version="1.0.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\VNextProject\ABP-MicroService\MicroServices\Business\Business.HttpApi\bin\Debug\netcoreapp3.1\Business.HttpApi.dll" target="lib\netcoreapp3.1\Business.HttpApi.dll" />
+  </files>
+</package>

@@ -16,6 +16,11 @@ namespace Business.Permissions
         {
             var business = context.AddGroup(BusinessPermissions.Business, L("Business"), MultiTenancySides.Tenant);
 
+            var job = business.AddPermission(BusinessPermissions.BusinessCrudPm.Default, L("Business"));
+            job.AddChild(BusinessPermissions.BusinessCrudPm.Update, L("Edit"));
+            job.AddChild(BusinessPermissions.BusinessCrudPm.Delete, L("Delete"));
+            job.AddChild(BusinessPermissions.BusinessCrudPm.Create, L("Create"));
+
         }
 
         private static LocalizableString L(string name)

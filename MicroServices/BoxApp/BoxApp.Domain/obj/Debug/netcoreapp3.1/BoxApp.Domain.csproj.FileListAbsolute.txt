@@ -1,0 +1,9 @@
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Domain\bin\Debug\netcoreapp3.1\BoxApp.Domain.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Domain\bin\Debug\netcoreapp3.1\BoxApp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Domain\bin\Debug\netcoreapp3.1\BoxApp.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Domain\obj\Debug\netcoreapp3.1\BoxApp.Domain.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Domain\obj\Debug\netcoreapp3.1\BoxApp.Domain.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Domain\obj\Debug\netcoreapp3.1\BoxApp.Domain.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Domain\obj\Debug\netcoreapp3.1\BoxApp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Domain\obj\Debug\netcoreapp3.1\BoxApp.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Domain\obj\Debug\netcoreapp3.1\BoxApp.Domain.csprojAssemblyReference.cache

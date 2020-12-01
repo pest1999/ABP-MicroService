@@ -1,0 +1,14 @@
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\bin\Debug\netcoreapp3.1\BoxApp.Application.deps.json
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\bin\Debug\netcoreapp3.1\BoxApp.Application.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\bin\Debug\netcoreapp3.1\BoxApp.Application.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\bin\Debug\netcoreapp3.1\BoxApp.Application.Contracts.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\bin\Debug\netcoreapp3.1\BoxApp.Domain.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\bin\Debug\netcoreapp3.1\BoxApp.Application.Contracts.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\bin\Debug\netcoreapp3.1\BoxApp.Domain.pdb
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\obj\Debug\netcoreapp3.1\BoxApp.Application.csprojAssemblyReference.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\obj\Debug\netcoreapp3.1\BoxApp.Application.AssemblyInfoInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\obj\Debug\netcoreapp3.1\BoxApp.Application.AssemblyInfo.cs
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\obj\Debug\netcoreapp3.1\BoxApp.Application.csproj.CoreCompileInputs.cache
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\obj\Debug\netcoreapp3.1\BoxApp.Application.csproj.CopyComplete
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\obj\Debug\netcoreapp3.1\BoxApp.Application.dll
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Application\obj\Debug\netcoreapp3.1\BoxApp.Application.pdb
