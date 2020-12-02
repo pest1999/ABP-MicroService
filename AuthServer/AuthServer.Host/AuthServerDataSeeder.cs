@@ -132,7 +132,7 @@ namespace AuthServer.Host
 
             await CreateClientAsync(
                 "BoxApp-app",
-                new[] { "InternalGateway", "IdentityService", "WebAppGateway", "BoxAppService", "TenantService" },
+                new[] { "InternalGateway", "IdentityService"},
                 new[] { "client_credentials" },
                 "1q2w3e*".Sha256(),
                 permissions: new[] { IdentityPermissions.Users.Default }

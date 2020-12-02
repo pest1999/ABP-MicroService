@@ -3216,3 +3216,303 @@ WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([b].[IsDeleted] <> CAST(1 AS bit
 2020-12-02 10:24:38.287 +08:00 [DBG] Server win-g69a0gokhhj:19576:5ad6d6a3 heartbeat successfully sent
 2020-12-02 10:25:08.340 +08:00 [DBG] Server win-g69a0gokhhj:19576:5ad6d6a3 heartbeat successfully sent
 2020-12-02 10:25:38.363 +08:00 [DBG] Server win-g69a0gokhhj:19576:5ad6d6a3 heartbeat successfully sent
+2020-12-02 11:32:16.025 +08:00 [INF] Starting BoxApp.Host
+2020-12-02 11:32:22.000 +08:00 [INF] User profile is available. Using 'C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-02 11:32:22.153 +08:00 [INF] Loaded ABP modules:
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.SqlServer.AbpEntityFrameworkCoreSqlServerModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2020-12-02 11:32:22.153 +08:00 [INF] - BoxApp.BoxAppDomainModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-12-02 11:32:22.153 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2020-12-02 11:32:22.154 +08:00 [INF] - BoxApp.BoxAppApplicationContractsModule
+2020-12-02 11:32:22.154 +08:00 [INF] - XCZ.FormDomainModule
+2020-12-02 11:32:22.154 +08:00 [INF] - XCZ.FormApplicationContractsModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-12-02 11:32:22.154 +08:00 [INF] - XCZ.FormHttpApiModule
+2020-12-02 11:32:22.154 +08:00 [INF] - BoxApp.BoxAppHttpApiModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2020-12-02 11:32:22.154 +08:00 [INF] - XCZ.FormApplicationModule
+2020-12-02 11:32:22.154 +08:00 [INF] - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.Hangfire.AbpHangfireModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.BackgroundJobs.Hangfire.AbpBackgroundJobsHangfireModule
+2020-12-02 11:32:22.155 +08:00 [INF] - BoxApp.BoxAppApplicationModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2020-12-02 11:32:22.155 +08:00 [INF] - XCZ.EntityFrameworkCore.FormEntityFrameworkCoreModule
+2020-12-02 11:32:22.155 +08:00 [INF] - BoxApp.EntityFrameworkCore.BoxAppEntityFrameworkCoreModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2020-12-02 11:32:22.155 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-12-02 11:32:22.155 +08:00 [INF] - BoxApp.BoxAppHostModule
+2020-12-02 11:32:22.511 +08:00 [INF] Start installing Hangfire SQL objects...
+2020-12-02 11:32:22.820 +08:00 [INF] Hangfire SQL objects installed.
+2020-12-02 11:32:22.841 +08:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: 192.168.168.177,1433@BoxApp'
+2020-12-02 11:32:22.841 +08:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2020-12-02 11:32:22.841 +08:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-12-02 11:32:22.990 +08:00 [DBG] Execution loop BackgroundServerProcess:fb6f76b8 has started in 51.1972 ms
+2020-12-02 11:32:23.403 +08:00 [INF] Server win-g69a0gokhhj:11840:6a38750a successfully announced in 348.792 ms
+2020-12-02 11:32:23.443 +08:00 [DBG] Execution loop ServerHeartbeatProcess:91f95fad has started in 38.9656 ms
+2020-12-02 11:32:23.457 +08:00 [INF] Server win-g69a0gokhhj:11840:6a38750a is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-12-02 11:32:23.534 +08:00 [DBG] Execution loop ServerWatchdog:3a130179 has started in 76.6964 ms
+2020-12-02 11:32:23.570 +08:00 [INF] 2 servers were removed due to timeout
+2020-12-02 11:32:23.573 +08:00 [DBG] Execution loop ServerJobCancellationWatcher:d25a681b has started in 38.3913 ms
+2020-12-02 11:32:23.595 +08:00 [DBG] Execution loop ExpirationManager:c61dc43c has started in 17.801 ms
+2020-12-02 11:32:23.606 +08:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2020-12-02 11:32:23.614 +08:00 [DBG] Execution loop CountersAggregator:28d97584 has started in 19.2169 ms
+2020-12-02 11:32:23.615 +08:00 [DBG] Aggregating records in 'Counter' table...
+2020-12-02 11:32:23.672 +08:00 [DBG] Execution loop Worker:ed46ce79 has started in 68.3599 ms
+2020-12-02 11:32:23.681 +08:00 [DBG] Execution loop Worker:ea461f7b has started in 77.57 ms
+2020-12-02 11:32:23.716 +08:00 [DBG] Execution loop Worker:59ed0f88 has started in 112.2848 ms
+2020-12-02 11:32:23.776 +08:00 [DBG] Execution loop Worker:7106d3dc has started in 171.387 ms
+2020-12-02 11:32:23.798 +08:00 [DBG] Execution loop Worker:0834af14 has started in 194.3542 ms
+2020-12-02 11:32:23.831 +08:00 [DBG] Execution loop Worker:802234b4 has started in 227.2293 ms
+2020-12-02 11:32:23.863 +08:00 [DBG] Execution loop Worker:3beabc3b has started in 259.3384 ms
+2020-12-02 11:32:23.911 +08:00 [DBG] Removing outdated records from the 'Job' table...
+2020-12-02 11:32:23.964 +08:00 [DBG] Execution loop Worker:06186f35 has started in 361.0395 ms
+2020-12-02 11:32:23.994 +08:00 [DBG] Execution loop Worker:488c7e33 has started in 391.0202 ms
+2020-12-02 11:32:24.002 +08:00 [DBG] Execution loop Worker:28b9c574 has started in 399.0634 ms
+2020-12-02 11:32:24.016 +08:00 [DBG] Execution loop Worker:973eb8a5 has started in 412.4341 ms
+2020-12-02 11:32:24.036 +08:00 [DBG] Execution loop Worker:92524ae3 has started in 432.6191 ms
+2020-12-02 11:32:24.054 +08:00 [DBG] Execution loop Worker:7b270c6d has started in 450.5545 ms
+2020-12-02 11:32:24.064 +08:00 [DBG] Execution loop Worker:8ba47410 has started in 458.5173 ms
+2020-12-02 11:32:24.139 +08:00 [DBG] Removing outdated records from the 'List' table...
+2020-12-02 11:32:24.268 +08:00 [DBG] Removing outdated records from the 'Set' table...
+2020-12-02 11:32:24.307 +08:00 [DBG] Execution loop Worker:79f0b452 has started in 703.5926 ms
+2020-12-02 11:32:24.335 +08:00 [DBG] Execution loop Worker:2567c011 has started in 730.8366 ms
+2020-12-02 11:32:24.342 +08:00 [DBG] Execution loop Worker:ce055e9f has started in 738.8742 ms
+2020-12-02 11:32:24.385 +08:00 [DBG] Removing outdated records from the 'Hash' table...
+2020-12-02 11:32:24.449 +08:00 [DBG] Execution loop Worker:258995a8 has started in 845.2131 ms
+2020-12-02 11:32:24.482 +08:00 [DBG] Execution loop Worker:7079bc00 has started in 878.3392 ms
+2020-12-02 11:32:24.502 +08:00 [DBG] Execution loop Worker:9dae6907 has started in 898.7385 ms
+2020-12-02 11:32:24.517 +08:00 [INF] Server win-g69a0gokhhj:11840:6a38750a all the dispatchers started
+2020-12-02 11:32:24.518 +08:00 [DBG] Execution loop DelayedJobScheduler:45ae33b7 has started in 45.2104 ms
+2020-12-02 11:32:24.557 +08:00 [DBG] Execution loop RecurringJobScheduler:0efe7323 has started in 53.0944 ms
+2020-12-02 11:32:26.299 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-02 11:32:27.130 +08:00 [INF] Executed DbCommand (111ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.288 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.291 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.293 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.295 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.296 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.298 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.300 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.302 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.303 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.305 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.307 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.310 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.312 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__name_0='?' (Size = 128), @__providerName_1='?' (Size = 64), @__providerKey_2='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND ((([a].[Name] = @__name_0) AND ([a].[ProviderName] = @__providerName_1)) AND ([a].[ProviderKey] = @__providerKey_2))
+2020-12-02 11:32:27.403 +08:00 [INF] Initialized all ABP modules.
+2020-12-02 11:32:27.427 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-02 11:32:27.427 +08:00 [INF] Hosting environment: Development
+2020-12-02 11:32:27.427 +08:00 [INF] Content root path: F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host
+2020-12-02 11:32:27.473 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/  
+2020-12-02 11:32:27.551 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-02 11:32:28.417 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'SettingManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-02 11:32:28.435 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__providerName_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ([a].[ProviderName] = @__providerName_0) AND [a].[ProviderKey] IS NULL
+2020-12-02 11:32:28.531 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'SettingManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-02 11:32:28.534 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[@__providerName_0='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE ([a].[ProviderName] = @__providerName_0) AND [a].[ProviderKey] IS NULL
+2020-12-02 11:32:28.614 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.HomeController.Index (BoxApp.Host)'
+2020-12-02 11:32:28.712 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BoxApp.Controllers.HomeController (BoxApp.Host).
+2020-12-02 11:32:28.841 +08:00 [INF] Executing action method BoxApp.Controllers.HomeController.Index (BoxApp.Host) - Validation state: "Valid"
+2020-12-02 11:32:28.848 +08:00 [INF] Executed action method BoxApp.Controllers.HomeController.Index (BoxApp.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.7995ms.
+2020-12-02 11:32:28.858 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2020-12-02 11:32:28.865 +08:00 [INF] Executed action BoxApp.Controllers.HomeController.Index (BoxApp.Host) in 146.9421ms
+2020-12-02 11:32:28.865 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.HomeController.Index (BoxApp.Host)'
+2020-12-02 11:32:28.896 +08:00 [INF] Request finished in 1424.0671ms 302 
+2020-12-02 11:32:28.909 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/index.html  
+2020-12-02 11:32:28.946 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-02 11:32:29.015 +08:00 [INF] Request finished in 106.6284ms 200 text/html;charset=utf-8
+2020-12-02 11:32:29.211 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/swagger/v1/swagger.json  
+2020-12-02 11:32:29.227 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2020-12-02 11:32:29.506 +08:00 [INF] Request finished in 295.7885ms 200 application/json;charset=utf-8
+2020-12-02 11:32:42.882 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/api/boxApp/box?SkipCount=0&MaxResultCount=10  0
+2020-12-02 11:32:42.910 +08:00 [INF] CORS policy execution successful.
+2020-12-02 11:32:43.894 +08:00 [INF] Successfully validated the token.
+2020-12-02 11:32:43.899 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2020-12-02 11:32:43.912 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.BoxController.GetAll (BoxApp.HttpApi)'
+2020-12-02 11:32:43.934 +08:00 [INF] Route matched with {area = "BoxApp", action = "GetAll", controller = "Box"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[BoxApp.BoxManagement.Dto.BoxDto]] GetAll(BoxApp.Models.Boxes.GetBoxInputModel) on controller BoxApp.Controllers.BoxController (BoxApp.HttpApi).
+2020-12-02 11:32:44.550 +08:00 [INF] Executing action method BoxApp.Controllers.BoxController.GetAll (BoxApp.HttpApi) - Validation state: "Valid"
+2020-12-02 11:32:46.763 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:U,pk:da00d4a8-3101-a780-7bb2-39f92f4c1685,n:BoxApp.BoxApp
+2020-12-02 11:32:46.785 +08:00 [DBG] Not found in the cache: pn:U,pk:da00d4a8-3101-a780-7bb2-39f92f4c1685,n:BoxApp.BoxApp
+2020-12-02 11:32:46.790 +08:00 [DBG] Getting all granted permissions from the repository for this provider name,key: U,da00d4a8-3101-a780-7bb2-39f92f4c1685
+2020-12-02 11:32:46.796 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'PermissionManagementDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-02 11:32:46.807 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__providerName_0='?' (Size = 64), @__providerKey_1='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND (([a].[ProviderName] = @__providerName_0) AND ([a].[ProviderKey] = @__providerKey_1))
+2020-12-02 11:32:46.813 +08:00 [DBG] Setting the cache items. Count: 15
+2020-12-02 11:32:46.832 +08:00 [DBG] Finished setting the cache items. Count: 15
+2020-12-02 11:32:46.839 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:admin,n:BoxApp.BoxApp
+2020-12-02 11:32:46.840 +08:00 [DBG] Not found in the cache: pn:R,pk:admin,n:BoxApp.BoxApp
+2020-12-02 11:32:46.840 +08:00 [DBG] Getting all granted permissions from the repository for this provider name,key: R,admin
+2020-12-02 11:32:46.885 +08:00 [INF] Executed DbCommand (44ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__providerName_0='?' (Size = 64), @__providerKey_1='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND (([a].[ProviderName] = @__providerName_0) AND ([a].[ProviderKey] = @__providerKey_1))
+2020-12-02 11:32:46.887 +08:00 [DBG] Setting the cache items. Count: 15
+2020-12-02 11:32:46.900 +08:00 [DBG] Finished setting the cache items. Count: 15
+2020-12-02 11:32:46.904 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:C,pk:basic-web,n:BoxApp.BoxApp
+2020-12-02 11:32:46.926 +08:00 [DBG] Not found in the cache: pn:C,pk:basic-web,n:BoxApp.BoxApp
+2020-12-02 11:32:46.926 +08:00 [DBG] Getting all granted permissions from the repository for this provider name,key: C,basic-web
+2020-12-02 11:32:46.928 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__providerName_0='?' (Size = 64), @__providerKey_1='?' (Size = 64)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Name], [a].[ProviderKey], [a].[ProviderName], [a].[TenantId]
+FROM [AbpPermissionGrants] AS [a]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR [a].[TenantId] IS NULL) AND (([a].[ProviderName] = @__providerName_0) AND ([a].[ProviderKey] = @__providerKey_1))
+2020-12-02 11:32:46.928 +08:00 [DBG] Setting the cache items. Count: 15
+2020-12-02 11:32:46.956 +08:00 [DBG] Finished setting the cache items. Count: 15
+2020-12-02 11:32:46.961 +08:00 [INF] Authorization was successful.
+2020-12-02 11:32:48.581 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'BoxAppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-02 11:32:49.006 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[ConcurrencyStamp], [b].[CreationTime], [b].[CreatorId], [b].[Description], [b].[ExtraProperties], [b].[IsDeleted], [b].[LastModificationTime], [b].[LastModifierId], [b].[Name], [b].[TenantId]
+FROM [Boxes] AS [b]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([b].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [b].[TenantId] IS NULL)
+ORDER BY [b].[Name]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2020-12-02 11:32:49.031 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Boxes] AS [b]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([b].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [b].[TenantId] IS NULL)
+2020-12-02 11:32:49.063 +08:00 [INF] Executed action method BoxApp.Controllers.BoxController.GetAll (BoxApp.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4512.1418ms.
+2020-12-02 11:32:49.071 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-02 11:32:49.071 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-02 11:32:49.085 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[BoxApp.BoxManagement.Dto.BoxDto, BoxApp.Application.Contracts, Version=1.0.1.2, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-02 11:32:49.114 +08:00 [INF] Executed action BoxApp.Controllers.BoxController.GetAll (BoxApp.HttpApi) in 5180.0946ms
+2020-12-02 11:32:49.115 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.BoxController.GetAll (BoxApp.HttpApi)'
+2020-12-02 11:32:49.118 +08:00 [INF] Request finished in 6236.7596ms 200 application/json; charset=utf-8
+2020-12-02 11:32:53.499 +08:00 [DBG] Server win-g69a0gokhhj:11840:6a38750a heartbeat successfully sent
+2020-12-02 11:33:08.940 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51286/api/boxApp/box?SkipCount=0&MaxResultCount=10  0
+2020-12-02 11:33:08.945 +08:00 [INF] CORS policy execution successful.
+2020-12-02 11:33:08.948 +08:00 [INF] Successfully validated the token.
+2020-12-02 11:33:08.948 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2020-12-02 11:33:08.952 +08:00 [INF] Executing endpoint 'BoxApp.Controllers.BoxController.GetAll (BoxApp.HttpApi)'
+2020-12-02 11:33:08.955 +08:00 [INF] Route matched with {area = "BoxApp", action = "GetAll", controller = "Box"}. Executing controller action with signature System.Threading.Tasks.Task`1[Volo.Abp.Application.Dtos.PagedResultDto`1[BoxApp.BoxManagement.Dto.BoxDto]] GetAll(BoxApp.Models.Boxes.GetBoxInputModel) on controller BoxApp.Controllers.BoxController (BoxApp.HttpApi).
+2020-12-02 11:33:09.006 +08:00 [INF] Executing action method BoxApp.Controllers.BoxController.GetAll (BoxApp.HttpApi) - Validation state: "Valid"
+2020-12-02 11:33:10.217 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:U,pk:da00d4a8-3101-a780-7bb2-39f92f4c1685,n:BoxApp.BoxApp
+2020-12-02 11:33:10.987 +08:00 [DBG] Found in the cache: pn:U,pk:da00d4a8-3101-a780-7bb2-39f92f4c1685,n:BoxApp.BoxApp
+2020-12-02 11:33:10.987 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:R,pk:admin,n:BoxApp.BoxApp
+2020-12-02 11:33:10.989 +08:00 [DBG] Found in the cache: pn:R,pk:admin,n:BoxApp.BoxApp
+2020-12-02 11:33:10.989 +08:00 [DBG] PermissionStore.GetCacheItemAsync: pn:C,pk:basic-web,n:BoxApp.BoxApp
+2020-12-02 11:33:10.991 +08:00 [DBG] Found in the cache: pn:C,pk:basic-web,n:BoxApp.BoxApp
+2020-12-02 11:33:10.991 +08:00 [INF] Authorization was successful.
+2020-12-02 11:33:11.890 +08:00 [INF] Entity Framework Core 3.1.6 initialized 'BoxAppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2020-12-02 11:33:11.898 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean), @__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [b].[Id], [b].[ConcurrencyStamp], [b].[CreationTime], [b].[CreatorId], [b].[Description], [b].[ExtraProperties], [b].[IsDeleted], [b].[LastModificationTime], [b].[LastModifierId], [b].[Name], [b].[TenantId]
+FROM [Boxes] AS [b]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([b].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [b].[TenantId] IS NULL)
+ORDER BY [b].[Name]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2020-12-02 11:33:11.913 +08:00 [INF] Executed DbCommand (14ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Boxes] AS [b]
+WHERE ((@__ef_filter__p_0 = CAST(1 AS bit)) OR ([b].[IsDeleted] <> CAST(1 AS bit))) AND ((@__ef_filter__p_1 = CAST(1 AS bit)) OR [b].[TenantId] IS NULL)
+2020-12-02 11:33:11.916 +08:00 [INF] Executed action method BoxApp.Controllers.BoxController.GetAll (BoxApp.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2909.3054ms.
+2020-12-02 11:33:11.917 +08:00 [DBG] Added 0 entity changes to the current audit log
+2020-12-02 11:33:11.918 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.PagedResultDto`1[[BoxApp.BoxManagement.Dto.BoxDto, BoxApp.Application.Contracts, Version=1.0.1.2, Culture=neutral, PublicKeyToken=null]]'.
+2020-12-02 11:33:11.920 +08:00 [INF] Executed action BoxApp.Controllers.BoxController.GetAll (BoxApp.HttpApi) in 2964.6762ms
+2020-12-02 11:33:11.920 +08:00 [INF] Executed endpoint 'BoxApp.Controllers.BoxController.GetAll (BoxApp.HttpApi)'
+2020-12-02 11:33:11.920 +08:00 [INF] Request finished in 2980.6475ms 200 application/json; charset=utf-8
+2020-12-02 11:33:23.532 +08:00 [DBG] Server win-g69a0gokhhj:11840:6a38750a heartbeat successfully sent
