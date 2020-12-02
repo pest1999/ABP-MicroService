@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "BoxApp.Domain/1.0.1.1": {
+      "BoxApp.Domain/1.0.1.2": {
         "dependencies": {
           "Volo.Abp.AuditLogging.Domain": "3.1.0",
           "Volo.Abp.Ddd.Domain": "3.1.0",
@@ -1003,7 +1003,7 @@
     }
   },
   "libraries": {
-    "BoxApp.Domain/1.0.1.1": {
+    "BoxApp.Domain/1.0.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

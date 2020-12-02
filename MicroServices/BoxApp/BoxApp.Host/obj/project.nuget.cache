@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rRul8+yF2mbd1TrvLJFYf450BufmcBCXayKlGckFmTmdqf703yJG2z8CUTtlN+LxCrmQ2npezvVERDUD6pOB4Q==",
+  "dgSpecHash": "YE1WpAz4FJxjwnoMZ4RScTuhlTMldlvSlebT9aE4QtT1yKkf6Q7Xd5ACURPI5uPFLgmPpPt8yew9R5PMgeiT7w==",
   "success": true,
   "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.Host\\BoxApp.Host.csproj",
   "expectedPackageFiles": [

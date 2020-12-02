@@ -6,9 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "BoxApp.Application.Contracts/1.0.1.1": {
+      "BoxApp.Application.Contracts/1.0.1.2": {
         "dependencies": {
-          "Pest.BoxApp.Domain": "1.0.1.1",
+          "Pest.BoxApp.Domain": "1.0.1.2",
           "Volo.Abp.Ddd.Application": "3.1.0",
           "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
@@ -1113,7 +1113,7 @@
           }
         }
       },
-      "Pest.BoxApp.Domain/1.0.1.1": {
+      "Pest.BoxApp.Domain/1.0.1.2": {
         "dependencies": {
           "Volo.Abp.AuditLogging.Domain": "3.1.0",
           "Volo.Abp.Ddd.Domain": "3.1.0",
@@ -1129,7 +1129,7 @@
     }
   },
   "libraries": {
-    "BoxApp.Application.Contracts/1.0.1.1": {
+    "BoxApp.Application.Contracts/1.0.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1855,7 +1855,7 @@
       "path": "volo.abp.virtualfilesystem/3.1.0",
       "hashPath": "volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
     },
-    "Pest.BoxApp.Domain/1.0.1.1": {
+    "Pest.BoxApp.Domain/1.0.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

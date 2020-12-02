@@ -18,7 +18,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="3.1.6" />
-    <PackageReference Include="Pest.BoxApp.HttpApi" Version="1.0.1.1" />
+    <PackageReference Include="Pest.BoxApp.HttpApi" Version="1.0.1.2" />
     <PackageReference Include="Pest.Business.HttpApi" Version="1.0.1.1" />
     <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
     <PackageReference Include="Serilog.Sinks.Async" Version="1.4.0" />
@@ -46,6 +46,6 @@
     <ProjectReference Include="..\BaseService.HttpApi\BaseService.HttpApi.csproj" />
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 
 </Project>

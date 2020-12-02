@@ -1335,7 +1335,7 @@
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
-      "Pest.BoxApp.Domain/1.0.1.1": {
+      "Pest.BoxApp.Domain/1.0.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -4167,7 +4167,7 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
-    "Pest.BoxApp.Domain/1.0.1.1": {
+    "Pest.BoxApp.Domain/1.0.1.2": {
       "type": "project",
       "path": "../BoxApp.Domain/BoxApp.Domain.csproj",
       "msbuildProject": "../BoxApp.Domain/BoxApp.Domain.csproj"
@@ -4175,7 +4175,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Pest.BoxApp.Domain >= 1.0.1.1",
+      "Pest.BoxApp.Domain >= 1.0.1.2",
       "Volo.Abp.Ddd.Application >= 3.1.0",
       "Volo.Abp.PermissionManagement.Application.Contracts >= 3.1.0"
     ]
@@ -4185,7 +4185,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1.1",
+    "version": "1.0.1.2",
     "restore": {
       "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.Application.Contracts\\BoxApp.Application.Contracts.csproj",
       "projectName": "Pest.BoxApp.Application.Contracts",

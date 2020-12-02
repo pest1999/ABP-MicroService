@@ -2293,7 +2293,7 @@
           "lib/netstandard2.0/XCZ.FormManagement.EntityFrameworkCore.dll": {}
         }
       },
-      "Pest.BoxApp.Domain/1.0.1.1": {
+      "Pest.BoxApp.Domain/1.0.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -7423,7 +7423,7 @@
         "xcz.formmanagement.entityframeworkcore.nuspec"
       ]
     },
-    "Pest.BoxApp.Domain/1.0.1.1": {
+    "Pest.BoxApp.Domain/1.0.1.2": {
       "type": "project",
       "path": "../BoxApp.Domain/BoxApp.Domain.csproj",
       "msbuildProject": "../BoxApp.Domain/BoxApp.Domain.csproj"
@@ -7433,7 +7433,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Hangfire.SqlServer >= 1.7.11",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.6",
-      "Pest.BoxApp.Domain >= 1.0.1.1",
+      "Pest.BoxApp.Domain >= 1.0.1.2",
       "Volo.Abp.AuditLogging.EntityFrameworkCore >= 3.1.0",
       "Volo.Abp.EntityFrameworkCore.SqlServer >= 3.1.0",
       "Volo.Abp.PermissionManagement.EntityFrameworkCore >= 3.1.0",

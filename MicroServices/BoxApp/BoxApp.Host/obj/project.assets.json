@@ -4542,7 +4542,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Pest.BoxApp.Application.Contracts": "1.0.1.1",
+          "Pest.BoxApp.Application.Contracts": "1.0.1.2",
           "Volo.Abp.AutoMapper": "3.1.0",
           "Volo.Abp.BackgroundJobs.HangFire": "3.1.0",
           "Volo.Abp.Http.Client.IdentityModel": "3.1.0",
@@ -4564,7 +4564,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Hangfire.SqlServer": "1.7.11",
-          "Pest.BoxApp.Domain": "1.0.1.1",
+          "Pest.BoxApp.Domain": "1.0.1.2",
           "Volo.Abp.AuditLogging.EntityFrameworkCore": "3.1.0",
           "Volo.Abp.EntityFrameworkCore.SqlServer": "3.1.0",
           "Volo.Abp.PermissionManagement.EntityFrameworkCore": "3.1.0",
@@ -4579,11 +4579,11 @@
           "bin/placeholder/BoxApp.EntityFrameworkCore.dll": {}
         }
       },
-      "Pest.BoxApp.Application.Contracts/1.0.1.1": {
+      "Pest.BoxApp.Application.Contracts/1.0.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Pest.BoxApp.Domain": "1.0.1.1",
+          "Pest.BoxApp.Domain": "1.0.1.2",
           "Volo.Abp.Ddd.Application": "3.1.0",
           "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
@@ -4594,7 +4594,7 @@
           "bin/placeholder/Pest.BoxApp.Application.Contracts.dll": {}
         }
       },
-      "Pest.BoxApp.Domain/1.0.1.1": {
+      "Pest.BoxApp.Domain/1.0.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -4612,11 +4612,11 @@
           "bin/placeholder/Pest.BoxApp.Domain.dll": {}
         }
       },
-      "Pest.BoxApp.HttpApi/1.0.1.1": {
+      "Pest.BoxApp.HttpApi/1.0.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Pest.BoxApp.Application.Contracts": "1.0.1.1",
+          "Pest.BoxApp.Application.Contracts": "1.0.1.2",
           "Volo.Abp.AspNetCore.Mvc": "3.1.0",
           "XCZ.FormManagement.HttpApi": "1.0.6"
         },
@@ -12880,17 +12880,17 @@
       "path": "../BoxApp.EntityFrameworkCore/BoxApp.EntityFrameworkCore.csproj",
       "msbuildProject": "../BoxApp.EntityFrameworkCore/BoxApp.EntityFrameworkCore.csproj"
     },
-    "Pest.BoxApp.Application.Contracts/1.0.1.1": {
+    "Pest.BoxApp.Application.Contracts/1.0.1.2": {
       "type": "project",
       "path": "../BoxApp.Application.Contracts/BoxApp.Application.Contracts.csproj",
       "msbuildProject": "../BoxApp.Application.Contracts/BoxApp.Application.Contracts.csproj"
     },
-    "Pest.BoxApp.Domain/1.0.1.1": {
+    "Pest.BoxApp.Domain/1.0.1.2": {
       "type": "project",
       "path": "../BoxApp.Domain/BoxApp.Domain.csproj",
       "msbuildProject": "../BoxApp.Domain/BoxApp.Domain.csproj"
     },
-    "Pest.BoxApp.HttpApi/1.0.1.1": {
+    "Pest.BoxApp.HttpApi/1.0.1.2": {
       "type": "project",
       "path": "../BoxApp.HttpApi/BoxApp.HttpApi.csproj",
       "msbuildProject": "../BoxApp.HttpApi/BoxApp.HttpApi.csproj"
@@ -12904,7 +12904,7 @@
       "Microsoft.AspNetCore.DataProtection.StackExchangeRedis >= 3.1.6",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.6",
       "Microsoft.Extensions.Caching.StackExchangeRedis >= 3.1.6",
-      "Pest.BoxApp.HttpApi >= 1.0.1.1",
+      "Pest.BoxApp.HttpApi >= 1.0.1.2",
       "Serilog.AspNetCore >= 3.2.0",
       "Serilog.Sinks.Async >= 1.4.0",
       "Serilog.Sinks.Elasticsearch >= 8.2.0",

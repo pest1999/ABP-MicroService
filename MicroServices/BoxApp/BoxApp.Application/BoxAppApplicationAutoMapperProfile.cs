@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using BoxApp.Boxes;
+using BoxApp.BoxManagement.Dto;
 
 namespace BoxApp
 {
@@ -6,6 +8,7 @@ namespace BoxApp
     {
         public BoxAppApplicationAutoMapperProfile()
         {
+            CreateMap<Box, BoxDto>();
         }
     }
 }

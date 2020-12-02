@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eWs+nsw8ipgZl87P7UGR7u6LNdR3P+hydx+qhtpysScV7PbwS5uxnCTi1cWu2eNP7L2IiKN1ZD8q77n+GsF3TA==",
+  "dgSpecHash": "kfc0OuD1ByNTKbTbWDhHFRA57qzqNY2rG0j0f/9Gtb8r2tB0OhY6g2ri+GvUIgA1UbzFrkTWefL4XqoQzPFlkw==",
   "success": true,
   "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.EntityFrameworkCore\\BoxApp.EntityFrameworkCore.csproj",
   "expectedPackageFiles": [

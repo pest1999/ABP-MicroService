@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "BoxApp.Application/1.0.0": {
         "dependencies": {
-          "Pest.BoxApp.Application.Contracts": "1.0.1.1",
+          "Pest.BoxApp.Application.Contracts": "1.0.1.2",
           "Volo.Abp.AutoMapper": "3.1.0",
           "Volo.Abp.BackgroundJobs.HangFire": "3.1.0",
           "Volo.Abp.Http.Client.IdentityModel": "3.1.0",
@@ -2093,9 +2093,9 @@
           }
         }
       },
-      "Pest.BoxApp.Application.Contracts/1.0.1.1": {
+      "Pest.BoxApp.Application.Contracts/1.0.1.2": {
         "dependencies": {
-          "Pest.BoxApp.Domain": "1.0.1.1",
+          "Pest.BoxApp.Domain": "1.0.1.2",
           "Volo.Abp.Ddd.Application": "3.1.0",
           "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
@@ -2103,7 +2103,7 @@
           "BoxApp.Application.Contracts.dll": {}
         }
       },
-      "Pest.BoxApp.Domain/1.0.1.1": {
+      "Pest.BoxApp.Domain/1.0.1.2": {
         "dependencies": {
           "Volo.Abp.AuditLogging.Domain": "3.1.0",
           "Volo.Abp.Ddd.Domain": "3.1.0",
@@ -3475,12 +3475,12 @@
       "path": "xcz.formmanagement.domain/1.0.6",
       "hashPath": "xcz.formmanagement.domain.1.0.6.nupkg.sha512"
     },
-    "Pest.BoxApp.Application.Contracts/1.0.1.1": {
+    "Pest.BoxApp.Application.Contracts/1.0.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Pest.BoxApp.Domain/1.0.1.1": {
+    "Pest.BoxApp.Domain/1.0.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

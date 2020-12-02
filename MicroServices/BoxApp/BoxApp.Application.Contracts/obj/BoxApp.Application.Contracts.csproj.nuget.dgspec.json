@@ -5,7 +5,7 @@
   },
   "projects": {
     "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.Application.Contracts\\BoxApp.Application.Contracts.csproj": {
-      "version": "1.0.1.1",
+      "version": "1.0.1.2",
       "restore": {
         "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.Application.Contracts\\BoxApp.Application.Contracts.csproj",
         "projectName": "Pest.BoxApp.Application.Contracts",
@@ -78,7 +78,7 @@
       }
     },
     "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.Domain\\BoxApp.Domain.csproj": {
-      "version": "1.0.1.1",
+      "version": "1.0.1.2",
       "restore": {
         "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.Domain\\BoxApp.Domain.csproj",
         "projectName": "Pest.BoxApp.Domain",

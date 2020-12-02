@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RD5TgDlpRRDqbLLGElBksojzudDFjR9ULkgPqhADcwjfz+9iyR8dzS9t/0pQeySoIJu6jd3xCAlGgYYAkhACiQ==",
+  "dgSpecHash": "hvcTSEiv3mSoOcVh20enR200wgW6pVH/PIQpVcr2CENBWRQuCZpfuWrxHjzoboTjVZW9NhFefAwlzst1Q8uykw==",
   "success": true,
   "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.HttpApi.Client\\BoxApp.HttpApi.Client.csproj",
   "expectedPackageFiles": [

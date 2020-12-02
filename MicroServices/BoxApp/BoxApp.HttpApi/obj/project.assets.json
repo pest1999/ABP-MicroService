@@ -1849,11 +1849,11 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Pest.BoxApp.Application.Contracts/1.0.1.1": {
+      "Pest.BoxApp.Application.Contracts/1.0.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Pest.BoxApp.Domain": "1.0.1.1",
+          "Pest.BoxApp.Domain": "1.0.1.2",
           "Volo.Abp.Ddd.Application": "3.1.0",
           "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
@@ -1864,7 +1864,7 @@
           "bin/placeholder/Pest.BoxApp.Application.Contracts.dll": {}
         }
       },
-      "Pest.BoxApp.Domain/1.0.1.1": {
+      "Pest.BoxApp.Domain/1.0.1.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -5398,12 +5398,12 @@
         "xcz.formmanagement.httpapi.nuspec"
       ]
     },
-    "Pest.BoxApp.Application.Contracts/1.0.1.1": {
+    "Pest.BoxApp.Application.Contracts/1.0.1.2": {
       "type": "project",
       "path": "../BoxApp.Application.Contracts/BoxApp.Application.Contracts.csproj",
       "msbuildProject": "../BoxApp.Application.Contracts/BoxApp.Application.Contracts.csproj"
     },
-    "Pest.BoxApp.Domain/1.0.1.1": {
+    "Pest.BoxApp.Domain/1.0.1.2": {
       "type": "project",
       "path": "../BoxApp.Domain/BoxApp.Domain.csproj",
       "msbuildProject": "../BoxApp.Domain/BoxApp.Domain.csproj"
@@ -5411,7 +5411,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Pest.BoxApp.Application.Contracts >= 1.0.1.1",
+      "Pest.BoxApp.Application.Contracts >= 1.0.1.2",
       "Volo.Abp.AspNetCore.Mvc >= 3.1.0",
       "XCZ.FormManagement.HttpApi >= 1.0.6"
     ]
@@ -5421,7 +5421,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1.1",
+    "version": "1.0.1.2",
     "restore": {
       "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.HttpApi\\BoxApp.HttpApi.csproj",
       "projectName": "Pest.BoxApp.HttpApi",

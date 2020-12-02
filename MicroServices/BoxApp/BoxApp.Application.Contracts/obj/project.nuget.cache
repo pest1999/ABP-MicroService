@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HMI7S+n8tJqPdV+vW2CQJ1fy19FHlDnkGwrg5oC5FbC2CeGU67xcVe6in4Ld2Hvn+rwI5YmhUnuQLy1P86mG3w==",
+  "dgSpecHash": "GfJsAH0ArG8PdhcRIAESGm3aecxfPAQJN0zYTwNqtN+h1p4AvC3pxdp+73xuPPO3C8USy2CtTj4X3gSnwIZ8HQ==",
   "success": true,
   "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.Application.Contracts\\BoxApp.Application.Contracts.csproj",
   "expectedPackageFiles": [

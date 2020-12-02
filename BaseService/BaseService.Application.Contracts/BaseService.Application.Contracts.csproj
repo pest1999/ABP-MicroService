@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Pest.BoxApp.Application.Contracts" Version="1.0.1.1" />
+    <PackageReference Include="Pest.BoxApp.Application.Contracts" Version="1.0.1.2" />
     <PackageReference Include="Pest.Business.Application.Contracts" Version="1.0.1" />
     <PackageReference Include="Volo.Abp.Ddd.Application" Version="3.1.0" />
     <PackageReference Include="Volo.Abp.PermissionManagement.Application.Contracts" Version="3.1.0" />

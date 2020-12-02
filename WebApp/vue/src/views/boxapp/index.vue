@@ -81,7 +81,7 @@ export default {
         //       element.lastModificationTime = element.creationTime;
         //     }
         //   });
-        .gets("/api/boxapp/test", this.listQuery)
+        .gets("/api/boxapp/box", this.listQuery)
         .then((response) => {
           response.items.forEach((element) => {
             if (!element.lastModificationTime) {

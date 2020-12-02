@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "BoxApp.HttpApi.Client/1.0.1": {
         "dependencies": {
-          "Pest.BoxApp.Application.Contracts": "1.0.1",
+          "Pest.BoxApp.Application.Contracts": "1.0.1.2",
           "Volo.Abp.Http.Client": "3.1.0"
         },
         "runtime": {
@@ -1837,9 +1837,9 @@
           }
         }
       },
-      "Pest.BoxApp.Application.Contracts/1.0.1": {
+      "Pest.BoxApp.Application.Contracts/1.0.1.2": {
         "dependencies": {
-          "Pest.BoxApp.Domain": "1.0.1",
+          "Pest.BoxApp.Domain": "1.0.1.2",
           "Volo.Abp.Ddd.Application": "3.1.0",
           "Volo.Abp.PermissionManagement.Application.Contracts": "3.1.0"
         },
@@ -1847,7 +1847,7 @@
           "BoxApp.Application.Contracts.dll": {}
         }
       },
-      "Pest.BoxApp.Domain/1.0.1": {
+      "Pest.BoxApp.Domain/1.0.1.2": {
         "dependencies": {
           "Volo.Abp.AuditLogging.Domain": "3.1.0",
           "Volo.Abp.Ddd.Domain": "3.1.0",
@@ -3072,12 +3072,12 @@
       "path": "volo.abp.virtualfilesystem/3.1.0",
       "hashPath": "volo.abp.virtualfilesystem.3.1.0.nupkg.sha512"
     },
-    "Pest.BoxApp.Application.Contracts/1.0.1": {
+    "Pest.BoxApp.Application.Contracts/1.0.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Pest.BoxApp.Domain/1.0.1": {
+    "Pest.BoxApp.Domain/1.0.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -10,7 +10,7 @@
         "dependencies": {
           "Hangfire.SqlServer": "1.7.11",
           "Microsoft.EntityFrameworkCore.Design": "3.1.6",
-          "Pest.BoxApp.Domain": "1.0.1.1",
+          "Pest.BoxApp.Domain": "1.0.1.2",
           "Volo.Abp.AuditLogging.EntityFrameworkCore": "3.1.0",
           "Volo.Abp.EntityFrameworkCore.SqlServer": "3.1.0",
           "Volo.Abp.PermissionManagement.EntityFrameworkCore": "3.1.0",
@@ -1789,7 +1789,7 @@
           }
         }
       },
-      "Pest.BoxApp.Domain/1.0.1.1": {
+      "Pest.BoxApp.Domain/1.0.1.2": {
         "dependencies": {
           "Volo.Abp.AuditLogging.Domain": "3.1.0",
           "Volo.Abp.Ddd.Domain": "3.1.0",
@@ -2930,7 +2930,7 @@
       "path": "xcz.formmanagement.entityframeworkcore/1.0.6",
       "hashPath": "xcz.formmanagement.entityframeworkcore.1.0.6.nupkg.sha512"
     },
-    "Pest.BoxApp.Domain/1.0.1.1": {
+    "Pest.BoxApp.Domain/1.0.1.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

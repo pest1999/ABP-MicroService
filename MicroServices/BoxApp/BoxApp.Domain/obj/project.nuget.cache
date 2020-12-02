@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dRC+OF/IGaPfhsCwTTOR1jWHoq4gRMDBfoeqkWMPocbgXckzaRVA9EAHuLGjsC62HtMow1u+s572NAi8MmbZuw==",
+  "dgSpecHash": "XO/tZ4YhVDR+5M6mT2L5EpIuTNxwTeDNwA3JnJdeSLfa8qzO9IsU7/6N6T1616nXT1kXn++8wTm4ccIEZ01XbA==",
   "success": true,
   "projectFilePath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.Domain\\BoxApp.Domain.csproj",
   "expectedPackageFiles": [
