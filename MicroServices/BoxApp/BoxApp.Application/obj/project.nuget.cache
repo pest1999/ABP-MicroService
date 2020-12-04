@@ -196,7 +196,9 @@
     "E:\\Program Files\\.nuget\\packages\\xcz.formmanagement.application\\1.0.6\\xcz.formmanagement.application.1.0.6.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\xcz.formmanagement.application.contracts\\1.0.6\\xcz.formmanagement.application.contracts.1.0.6.nupkg.sha512",
     "E:\\Program Files\\.nuget\\packages\\xcz.formmanagement.core\\1.0.0\\xcz.formmanagement.core.1.0.0.nupkg.sha512",
-    "E:\\Program Files\\.nuget\\packages\\xcz.formmanagement.domain\\1.0.6\\xcz.formmanagement.domain.1.0.6.nupkg.sha512"
+    "E:\\Program Files\\.nuget\\packages\\xcz.formmanagement.domain\\1.0.6\\xcz.formmanagement.domain.1.0.6.nupkg.sha512",
+    "E:\\Program Files\\.nuget\\packages\\pest.boxapp.application.contracts\\1.0.1.2\\pest.boxapp.application.contracts.1.0.1.2.nupkg.sha512",
+    "E:\\Program Files\\.nuget\\packages\\pest.boxapp.domain\\1.0.1.2\\pest.boxapp.domain.1.0.1.2.nupkg.sha512"
   ],
   "logs": []
 }

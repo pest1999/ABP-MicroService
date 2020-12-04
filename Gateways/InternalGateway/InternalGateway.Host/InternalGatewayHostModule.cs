@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using BoxApp;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -27,7 +28,8 @@ namespace InternalGateway
         typeof(AbpAutofacModule),
         typeof(AbpIdentityHttpApiModule),
         typeof(AbpEntityFrameworkCoreSqlServerModule),
-        typeof(AbpAspNetCoreSerilogModule)
+        typeof(AbpAspNetCoreSerilogModule),
+        typeof(BoxAppHttpApiModule)
     )]
     public class InternalGatewayHostModule : AbpModule
     {
@@ -78,7 +80,8 @@ namespace InternalGateway
 
             app.MapWhen(
                 ctx => ctx.Request.Path.ToString().StartsWith("/api/abp/") ||
-                       ctx.Request.Path.ToString().StartsWith("/Abp/"),
+                       ctx.Request.Path.ToString().StartsWith("/Abp/") ||
+                       ctx.Request.Path.ToString().StartsWith("/api/app/"),
                 app2 =>
                 {
                     app2.UseRouting();

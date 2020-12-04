@@ -1,13 +1,14 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Volo.Abp.AspNetCore.Mvc;
+using Volo.Abp.Http.Client;
 using Volo.Abp.Modularity;
+
 
 namespace BoxApp
 {
     [DependsOn(
-        typeof(BoxAppApplicationContractsModule)
+        typeof(BoxAppApplicationContractsModule),
+        typeof(AbpHttpClientModule)
     )]
     public class BoxAppHttpApiClientModule : AbpModule
     {
@@ -20,5 +21,8 @@ namespace BoxApp
                 RemoteServiceName
             );
         }
+
+        
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using BoxApp;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
@@ -22,9 +23,10 @@ namespace WebAppGateway
 {
     [DependsOn(
     typeof(AbpAutofacModule),
-    typeof(AbpAspNetCoreSerilogModule)
+    typeof(AbpAspNetCoreSerilogModule),
+        typeof(BoxAppHttpApiModule)
     )]
-    public class WebAppGatewayHostModule: AbpModule
+    public class WebAppGatewayHostModule : AbpModule
     {
         private const string DefaultCorsPolicyName = "Default";
 

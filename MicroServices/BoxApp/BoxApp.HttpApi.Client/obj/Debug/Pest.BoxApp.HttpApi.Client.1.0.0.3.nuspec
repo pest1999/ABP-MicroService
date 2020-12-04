@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Pest.BoxApp.HttpApi.Client</id>
+    <version>1.0.0.3</version>
+    <authors>Cmtthe</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Pest.BoxApp.Application.Contracts" version="1.0.1.2" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.AspNetCore.Mvc" version="3.1.0" exclude="Build,Analyzers" />
+        <dependency id="Volo.Abp.Http.Client" version="3.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi.Client\bin\Debug\netcoreapp3.1\BoxApp.HttpApi.Client.dll" target="lib\netcoreapp3.1\BoxApp.HttpApi.Client.dll" />
+  </files>
+</package>

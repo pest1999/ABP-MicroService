@@ -1,3 +1,4 @@
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.pdb
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\bin\Debug\netcoreapp3.1\BoxApp.HttpApi.deps.json
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\bin\Debug\netcoreapp3.1\BoxApp.HttpApi.dll
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\bin\Debug\netcoreapp3.1\BoxApp.HttpApi.pdb
@@ -263,4 +264,3 @@ F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\obj\Debug\n
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.csproj.CoreCompileInputs.cache
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.csproj.CopyComplete
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.dll
-F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.HttpApi\obj\Debug\netcoreapp3.1\BoxApp.HttpApi.pdb

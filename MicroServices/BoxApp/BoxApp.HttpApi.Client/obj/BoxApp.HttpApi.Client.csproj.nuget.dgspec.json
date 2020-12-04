@@ -163,10 +163,10 @@
       }
     },
     "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.HttpApi.Client\\BoxApp.HttpApi.Client.csproj": {
-      "version": "1.0.1",
+      "version": "1.0.0.4",
       "restore": {
         "projectUniqueName": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.HttpApi.Client\\BoxApp.HttpApi.Client.csproj",
-        "projectName": "BoxApp.HttpApi.Client",
+        "projectName": "Pest.BoxApp.HttpApi.Client",
         "projectPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.HttpApi.Client\\BoxApp.HttpApi.Client.csproj",
         "packagesPath": "E:\\Program Files\\.nuget\\packages",
         "outputPath": "F:\\VNextProject\\ABP-MicroService\\MicroServices\\BoxApp\\BoxApp.HttpApi.Client\\obj\\",
@@ -207,6 +207,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Volo.Abp.Http.Client": {
               "target": "Package",
               "version": "[3.1.0, )"
@@ -223,6 +227,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

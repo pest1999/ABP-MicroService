@@ -1,6 +1,6 @@
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host\bin\Debug\netcoreapp3.1\appsettings.Development.json
-F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host\bin\Debug\netcoreapp3.1\appsettings.json
+F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host\bin\Debug\netcoreapp3.1\BoxApp.Host.exe
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host\bin\Debug\netcoreapp3.1\BoxApp.Host.deps.json
 F:\VNextProject\ABP-MicroService\MicroServices\BoxApp\BoxApp.Host\bin\Debug\netcoreapp3.1\BoxApp.Host.runtimeconfig.json

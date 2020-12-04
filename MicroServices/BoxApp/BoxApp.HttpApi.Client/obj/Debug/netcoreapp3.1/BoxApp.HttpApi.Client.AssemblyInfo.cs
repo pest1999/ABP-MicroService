@@ -11,13 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("BoxApp.HttpApi.Client")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Cmtthe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
-[assembly: System.Reflection.AssemblyProductAttribute("BoxApp.HttpApi.Client")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.4")]
+[assembly: System.Reflection.AssemblyProductAttribute("BoxApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoxApp.HttpApi.Client")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.4")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

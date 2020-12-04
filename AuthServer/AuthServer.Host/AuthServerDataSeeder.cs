@@ -116,7 +116,7 @@ namespace AuthServer.Host
 
             await CreateClientAsync(
                 "business-app",
-                new[] { "InternalGateway", "IdentityService" },
+                new[] { "InternalGateway", "IdentityService", "BoxAppService" },
                 new[] { "client_credentials" },
                 "1q2w3e*".Sha256(),
                 permissions: new[] { IdentityPermissions.Users.Default }
@@ -132,7 +132,7 @@ namespace AuthServer.Host
 
             await CreateClientAsync(
                 "BoxApp-app",
-                new[] { "InternalGateway", "IdentityService"},
+                new[] { "InternalGateway", "IdentityService", "BusinessService" },
                 new[] { "client_credentials" },
                 "1q2w3e*".Sha256(),
                 permissions: new[] { IdentityPermissions.Users.Default }

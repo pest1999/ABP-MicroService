@@ -1,4 +1,5 @@
-﻿using Business.EntityFrameworkCore;
+﻿using BoxApp;
+using Business.EntityFrameworkCore;
 using Business.MultiTenancy;
 using Hangfire;
 using Microsoft.AspNetCore.Builder;
@@ -35,7 +36,9 @@ namespace Business
         typeof(BusinessApplicationModule),
         typeof(BusinessEntityFrameworkCoreModule),
         typeof(AbpAspNetCoreMultiTenancyModule),
-        typeof(AbpAspNetCoreSerilogModule)
+        typeof(AbpAspNetCoreSerilogModule),
+        typeof(BoxAppHttpApiClientModule),
+        typeof(BoxAppApplicationContractsModule)
     )]
     public class BusinessHostModule : AbpModule
     {

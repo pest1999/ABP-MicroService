@@ -12,6 +12,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Pest.BoxApp.HttpApi" Version="1.0.1.2" />
+    <PackageReference Include="Pest.BoxApp.HttpApi.Client" Version="1.0.0.4" />
     <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="3.1.0" />
     <PackageReference Include="XCZ.FormManagement.HttpApi" Version="1.0.6" />
   </ItemGroup>

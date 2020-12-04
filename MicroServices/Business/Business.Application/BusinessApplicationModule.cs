@@ -1,4 +1,5 @@
-﻿using Volo.Abp.AutoMapper;
+﻿using BoxApp;
+using Volo.Abp.AutoMapper;
 using Volo.Abp.BackgroundJobs.Hangfire;
 using Volo.Abp.Http.Client.IdentityModel;
 using Volo.Abp.Identity;
@@ -13,7 +14,8 @@ namespace Business
         typeof(AbpIdentityHttpApiClientModule),
         typeof(FormApplicationModule),
         typeof(AbpAutoMapperModule),
-        typeof(AbpBackgroundJobsHangfireModule)
+        typeof(AbpBackgroundJobsHangfireModule),
+        typeof(BoxAppApplicationContractsModule)
     )]
     public class BusinessApplicationModule : AbpModule
     {

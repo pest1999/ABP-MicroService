@@ -15,6 +15,7 @@ using System.IO;
 using System.Linq;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.MultiTenancy;
+using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.AspNetCore.Serilog;
 using Volo.Abp.Autofac;
 using Volo.Abp.Caching;
@@ -55,6 +56,17 @@ namespace BoxApp
             ConfigureCors(context, configuration);
             ConfigureSwaggerServices(context);
             ConfigureHangfire(context, configuration);
+
+            //AppServices自动转换成Api
+            ConfigureConventionalControllers();
+        }
+
+        private void ConfigureConventionalControllers()
+        {
+            Configure<AbpAspNetCoreMvcOptions>(options =>
+            {
+                options.ConventionalControllers.Create(typeof(BoxAppApplicationModule).Assembly);
+            });
         }
 
         private void ConfigureMultiTenancy()

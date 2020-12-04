@@ -1,7 +1,10 @@
-﻿using Business.Test;
+﻿using BoxApp.BoxManagement;
+using BoxApp.BoxManagement.Dto;
+using Business.Test;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Reflection;
 using System.Threading.Tasks;
 
@@ -13,14 +16,26 @@ namespace Business.Controllers
     {
         private readonly ITestAppService _testAppService;
 
-        public TestController(ITestAppService testAppService)
+        private readonly IBoxAppService _appService;
+
+        public TestController(ITestAppService testAppService
+            , IBoxAppService appService
+            )
         {
             _testAppService = testAppService;
+            _appService = appService;
         }
 
         [HttpGet]
         public async Task<string> GetAsync()
         {
+            //HttpClient client = new HttpClient();
+            //string token = Request.Headers["Authorization"];
+            //client.DefaultRequestHeaders.Add("Authorization", token);
+            //var result = await client.GetAsync("http://localhost:62162" + "/api/BoxApp/box");
+
+            var dto = await _appService.GetAll(new GetBoxInputDto());
+
             return await _testAppService.TestApi("1");
         }
 
