@@ -1,0 +1,17 @@
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\bin\Debug\net5.0\Business.HttpApi.Client.deps.json
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\bin\Debug\net5.0\Business.HttpApi.Client.dll
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\bin\Debug\net5.0\ref\Business.HttpApi.Client.dll
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\bin\Debug\net5.0\Business.HttpApi.Client.pdb
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\bin\Debug\net5.0\Business.Application.Contracts.dll
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\bin\Debug\net5.0\Business.Domain.dll
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\bin\Debug\net5.0\Business.Application.Contracts.pdb
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\bin\Debug\net5.0\Business.Domain.pdb
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\obj\Debug\net5.0\Business.HttpApi.Client.csprojAssemblyReference.cache
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\obj\Debug\net5.0\Business.HttpApi.Client.GeneratedMSBuildEditorConfig.editorconfig
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\obj\Debug\net5.0\Business.HttpApi.Client.AssemblyInfoInputs.cache
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\obj\Debug\net5.0\Business.HttpApi.Client.AssemblyInfo.cs
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\obj\Debug\net5.0\Business.HttpApi.Client.csproj.CoreCompileInputs.cache
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\obj\Debug\net5.0\Business.HttpApi.Client.csproj.CopyComplete
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\obj\Debug\net5.0\Business.HttpApi.Client.dll
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\obj\Debug\net5.0\ref\Business.HttpApi.Client.dll
+F:\VNextProject\MicroService\ABP-MicroService\MicroServices\Business\Business.HttpApi.Client\obj\Debug\net5.0\Business.HttpApi.Client.pdb

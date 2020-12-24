@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.EntityFrameworkCore\\Business.EntityFrameworkCore.csproj": {}
+  },
+  "projects": {
+    "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.Domain\\Business.Domain.csproj": {
+      "version": "1.4.0",
+      "restore": {
+        "projectUniqueName": "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.Domain\\Business.Domain.csproj",
+        "projectName": "XCZ.Business.Domain",
+        "projectPath": "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.Domain\\Business.Domain.csproj",
+        "packagesPath": "E:\\Program Files\\.nuget\\packages",
+        "outputPath": "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.168.177:8081/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Volo.Abp.AuditLogging.Domain": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Volo.Abp.Ddd.Domain": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Volo.Abp.Localization": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Volo.Abp.SettingManagement.Domain": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Volo.Abp.Validation": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.EntityFrameworkCore\\Business.EntityFrameworkCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.EntityFrameworkCore\\Business.EntityFrameworkCore.csproj",
+        "projectName": "Business.EntityFrameworkCore",
+        "projectPath": "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.EntityFrameworkCore\\Business.EntityFrameworkCore.csproj",
+        "packagesPath": "E:\\Program Files\\.nuget\\packages",
+        "outputPath": "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.EntityFrameworkCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.168.177:8081/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cdn.azure.cn/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.Domain\\Business.Domain.csproj": {
+                "projectPath": "F:\\VNextProject\\MicroService\\V4.0\\MicroServices\\Business\\Business.Domain\\Business.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Volo.Abp.TenantManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "XCZ.FormManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

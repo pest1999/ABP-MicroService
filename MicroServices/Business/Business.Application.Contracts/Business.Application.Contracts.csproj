@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Business</RootNamespace>
-    <Version>1.4</Version>
+    <Version>1.0.1.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>WilliamXu</Authors>
     <Company>WilliamXu</Company>
     <Product>ABC</Product>
-    <PackageId>XCZ.Business.Application.Contracts</PackageId>
+    <PackageId>Pest.Business.Application.Contracts</PackageId>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

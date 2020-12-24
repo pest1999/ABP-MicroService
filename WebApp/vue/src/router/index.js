@@ -261,6 +261,27 @@ export const asyncRoutes = [{
       }
     ]
   },
+  {
+    path: '/service-test',
+    component: Layout,
+    redirect: '/service-test/index',
+    alwaysShow: true,
+    name: 'Business',
+    meta: {
+      title: '业务',
+      icon: 'tool',
+    },
+    children: [{
+        path: 'index',
+        component: () => import('@/views/service-test/index'),
+        name: 'Business',
+        meta: {
+          title: 'Business',
+          icon: 'control'
+        }
+      },
+    ]
+  },
 
   /** when your routing map is too long, you can split it into small modules **/
   componentsRouter,

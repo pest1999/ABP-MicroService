@@ -12,3 +12,6 @@ start dotnet run
 
 cd ../../../Gateways/WebAppGateway/WebAppGateway.Host
 start dotnet run
+
+cd ../../../Gateways/InternalGateway/InternalGateway.Host
+start dotnet run
